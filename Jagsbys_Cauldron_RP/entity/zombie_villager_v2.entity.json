@@ -1,0 +1,212 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:zombie_villager_v2",
+      "materials": {
+        "default": "zombie_villager_v2",
+        "masked": "zombie_villager_v2_masked"
+      },
+      "textures": {
+        "default": "textures/entity/zombie_villager2/zombie-villager",
+        "desert": "textures/entity/zombie_villager2/biomes/biome_desert",
+        "jungle": "textures/entity/zombie_villager2/biomes/biome-jungle-zombie",
+        "plains": "textures/entity/zombie_villager2/biomes/biome-plains-zombie",
+        "savanna": "textures/entity/zombie_villager2/biomes/biome-savanna-zombie",
+        "snow": "textures/entity/zombie_villager2/biomes/biome-snow-zombie",
+        "swamp": "textures/entity/zombie_villager2/biomes/biome-swamp-zombie",
+        "taiga": "textures/entity/zombie_villager2/biomes/biome-taiga-zombie",
+        "badlands": "textures/entity/zombie_villager2/biomes/biome_badlands",
+        "wooded_badlands": "textures/entity/zombie_villager2/biomes/biome_wooded_badlands",
+        "sparse_jungle": "textures/entity/zombie_villager2/biomes/biome_sparse_jungle",
+        "bamboo": "textures/entity/zombie_villager2/biomes/biome_bamboo",
+        "stony_peaks": "textures/entity/zombie_villager2/biomes/biome_stony_peaks",
+        "mangrove": "textures/entity/zombie_villager2/biomes/biome_mangrove",
+        "deep_lukewarm_ocean": "textures/entity/zombie_villager2/biomes/biome_deep_lukewarm_ocean",
+        "warm_ocean": "textures/entity/zombie_villager2/biomes/biome_warm_ocean",
+        "roofed_forest": "textures/entity/zombie_villager2/biomes/biome_roofed_forest",
+        "pale": "textures/entity/zombie_villager2/biomes/biome_pale",
+        "forest": "textures/entity/zombie_villager2/biomes/biome_forest",
+        "flower":"textures/entity/zombie_villager2/biomes/biome_flower",
+        "birch": "textures/entity/zombie_villager2/biomes/biome_birch",
+        "old_growth": "textures/entity/zombie_villager2/biomes/biome_old_growth",
+        "sunflower": "textures/entity/zombie_villager2/biomes/biome_sunflower",
+        "meadow": "textures/entity/zombie_villager2/biomes/biome_meadow",
+        "cherry": "textures/entity/zombie_villager2/biomes/biome_cherry",
+        "windswept": "textures/entity/zombie_villager2/biomes/biome_windswept",
+        "river": "textures/entity/zombie_villager2/biomes/biome_river",
+        "deep_ocean": "textures/entity/zombie_villager2/biomes/biome_deep_ocean",
+        "mushroom": "textures/entity/zombie_villager2/biomes/biome_mushroom",
+        "coast": "textures/entity/zombie_villager2/biomes/biome_coast",
+        "ice_spikes": "textures/entity/zombie_villager2/biomes/biome_ice_spikes",
+        "snowy_taiga": "textures/entity/zombie_villager2/biomes/biome_snowy_taiga",
+        "mountainside": "textures/entity/zombie_villager2/biomes/biome_mountainside",
+        "jagged_peaks": "textures/entity/zombie_villager2/biomes/biome_jagged_peaks",
+        "frozen_peaks": "textures/entity/zombie_villager2/biomes/biome_frozen_peaks",
+        "frozen_river": "textures/entity/zombie_villager2/biomes/biome_frozen_river",
+        "frozen_coast": "textures/entity/zombie_villager2/biomes/biome_frozen_coast",
+        "deep_frozen_ocean": "textures/entity/zombie_villager2/biomes/biome_deep_frozen_ocean",
+        "lush_caves": "textures/entity/zombie_villager2/biomes/biome_lush_caves",
+        "dripstone_caves": "textures/entity/zombie_villager2/biomes/biome_dripstone_caves",
+        "deep_dark": "textures/entity/zombie_villager2/biomes/biome_deep_dark",
+        "end": "textures/entity/zombie_villager2/biomes/biome_end",
+        "nether": "textures/entity/zombie_villager2/biomes/biome_nether",
+        "crimson_forest": "textures/entity/zombie_villager2/biomes/biome_crimson_forest",
+        "warped_forest": "textures/entity/zombie_villager2/biomes/biome_warped_forest",
+        "soulsand_valley": "textures/entity/zombie_villager2/biomes/biome_soulsand_valley",
+        "basalt_deltas": "textures/entity/zombie_villager2/biomes/biome_basalt_deltas",
+        "sulfur": "textures/entity/zombie_villager2/biomes/biome_sulfur",
+        "dappled": "textures/entity/zombie_villager2/biomes/biome_dappled",
+        "armorer": "textures/entity/zombie_villager2/professions/armorer",
+        "butcher": "textures/entity/zombie_villager2/professions/butcher",
+        "cartographer": "textures/entity/zombie_villager2/professions/cartographer",
+        "cleric": "textures/entity/zombie_villager2/professions/cleric",
+        "farmer": "textures/entity/zombie_villager2/professions/farmer",
+        "fisherman": "textures/entity/zombie_villager2/professions/fisherman",
+        "fletcher": "textures/entity/zombie_villager2/professions/fletcher",
+        "leatherworker": "textures/entity/zombie_villager2/professions/leatherworker",
+        "librarian": "textures/entity/zombie_villager2/professions/librarian",
+        "shepherd": "textures/entity/zombie_villager2/professions/shepherd",
+        "tool_smith": "textures/entity/zombie_villager2/professions/toolsmith",
+        "weapon_smith": "textures/entity/zombie_villager2/professions/weaponsmith",
+        "stonemason": "textures/entity/zombie_villager2/professions/stonemason",
+        "nitwit": "textures/entity/zombie_villager2/professions/nitwit",
+        "unskilled": "textures/entity/zombie_villager2/professions/unskilled",
+        "baby_default": "textures/entity/zombie_villager2/zombie-villager_baby",
+        "baby_desert": "textures/entity/zombie_villager2/babybiomes/biome_desert",
+        "baby_jungle": "textures/entity/zombie_villager2/babybiomes/biome_jungle",
+        "baby_plains": "textures/entity/zombie_villager2/babybiomes/biome_plains",
+        "baby_savanna": "textures/entity/zombie_villager2/babybiomes/biome_savanna",
+        "baby_snow": "textures/entity/zombie_villager2/babybiomes/biome_snow",
+        "baby_swamp": "textures/entity/zombie_villager2/babybiomes/biome_swamp",
+        "baby_taiga": "textures/entity/zombie_villager2/babybiomes/biome_taiga",
+        "baby_badlands": "textures/entity/zombie_villager2/babybiomes/biome_badlands",
+        "baby_wooded_badlands": "textures/entity/zombie_villager2/babybiomes/biome_wooded_badlands",
+        "baby_sparse_jungle": "textures/entity/zombie_villager2/babybiomes/biome_sparse_jungle",
+        "baby_bamboo": "textures/entity/zombie_villager2/babybiomes/biome_bamboo",
+        "baby_stony_peaks": "textures/entity/zombie_villager2/babybiomes/biome_stony_peaks",
+        "baby_mangrove": "textures/entity/zombie_villager2/babybiomes/biome_mangrove",
+        "baby_deep_lukewarm_ocean": "textures/entity/zombie_villager2/babybiomes/biome_deep_lukewarm_ocean",
+        "baby_warm_ocean": "textures/entity/zombie_villager2/babybiomes/biome_warm_ocean",
+        "baby_roofed_forest": "textures/entity/zombie_villager2/babybiomes/biome_roofed_forest",
+        "baby_pale": "textures/entity/zombie_villager2/babybiomes/biome_pale",
+        "baby_forest": "textures/entity/zombie_villager2/babybiomes/biome_forest",
+        "baby_flower":"textures/entity/zombie_villager2/babybiomes/biome_flower",
+        "baby_birch": "textures/entity/zombie_villager2/babybiomes/biome_birch",
+        "baby_old_growth": "textures/entity/zombie_villager2/babybiomes/biome_old_growth",
+        "baby_sunflower": "textures/entity/zombie_villager2/babybiomes/biome_sunflower",
+        "baby_meadow": "textures/entity/zombie_villager2/babybiomes/biome_meadow",
+        "baby_cherry": "textures/entity/zombie_villager2/babybiomes/biome_cherry",
+        "baby_windswept": "textures/entity/zombie_villager2/babybiomes/biome_windswept",
+        "baby_river": "textures/entity/zombie_villager2/babybiomes/biome_river",
+        "baby_deep_ocean": "textures/entity/zombie_villager2/babybiomes/biome_deep_ocean",
+        "baby_mushroom": "textures/entity/zombie_villager2/babybiomes/biome_mushroom",
+        "baby_coast": "textures/entity/zombie_villager2/babybiomes/biome_coast",
+        "baby_ice_spikes": "textures/entity/zombie_villager2/babybiomes/biome_ice_spikes",
+        "baby_snowy_taiga": "textures/entity/zombie_villager2/babybiomes/biome_snowy_taiga",
+        "baby_mountainside": "textures/entity/zombie_villager2/babybiomes/biome_mountainside",
+        "baby_jagged_peaks": "textures/entity/zombie_villager2/babybiomes/biome_jagged_peaks",
+        "baby_frozen_peaks": "textures/entity/zombie_villager2/babybiomes/biome_frozen_peaks",
+        "baby_frozen_river": "textures/entity/zombie_villager2/babybiomes/biome_frozen_river",
+        "baby_frozen_coast": "textures/entity/zombie_villager2/babybiomes/biome_frozen_coast",
+        "baby_deep_frozen_ocean": "textures/entity/zombie_villager2/babybiomes/biome_deep_frozen_ocean",
+        "baby_lush_caves": "textures/entity/zombie_villager2/babybiomes/biome_lush_caves",
+        "baby_dripstone_caves": "textures/entity/zombie_villager2/babybiomes/biome_dripstone_caves",
+        "baby_deep_dark": "textures/entity/zombie_villager2/babybiomes/biome_deep_dark",
+        "baby_end": "textures/entity/zombie_villager2/babybiomes/biome_end",
+        "baby_nether": "textures/entity/zombie_villager2/babybiomes/biome_nether",
+        "baby_crimson_forest": "textures/entity/zombie_villager2/babybiomes/biome_crimson_forest",
+        "baby_warped_forest": "textures/entity/zombie_villager2/babybiomes/biome_warped_forest",
+        "baby_soulsand_valley": "textures/entity/zombie_villager2/babybiomes/biome_soulsand_valley",
+        "baby_basalt_deltas": "textures/entity/zombie_villager2/babybiomes/biome_basalt_deltas",
+        "baby_sulfur": "textures/entity/zombie_villager2/babybiomes/biome_sulfur",
+        "baby_dappled": "textures/entity/zombie_villager2/babybiomes/biome_dappled"
+      },
+      "geometry": {
+        "default": "geometry.zombie.villager_v2"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.num_professions = 15;",
+          "variable.profession_index = ((query.variant < variable.num_professions) ? query.variant : 0);",
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "animations": {
+        "humanoid_base_pose": "animation.humanoid.base_pose",
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+        "move": "animation.humanoid.move",
+        "riding.arms": "animation.humanoid.riding.arms",
+        "riding.legs": "animation.humanoid.riding.legs",
+        "holding": "animation.humanoid.holding",
+        "brandish_spear": "animation.humanoid.brandish_spear",
+        "charging": "animation.humanoid.charging",
+        "attack.rotations": "animation.humanoid.attack.rotations",
+        "sneaking": "animation.humanoid.sneaking",
+        "bob": "animation.humanoid.bob",
+        "damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
+        "bow_and_arrow": "animation.humanoid.bow_and_arrow",
+        "use_item_progress": "animation.humanoid.use_item_progress",
+        "zombie_attack_bare_hand": "animation.zombie.attack_bare_hand",
+        "swimming": "animation.zombie.swimming"
+      },
+      "animation_controllers": [
+        {
+          "humanoid_base_pose": "controller.animation.humanoid.base_pose"
+        },
+        {
+          "look_at_target": "controller.animation.humanoid.look_at_target"
+        },
+        {
+          "move": "controller.animation.humanoid.move"
+        },
+        {
+          "riding": "controller.animation.humanoid.riding"
+        },
+        {
+          "holding": "controller.animation.humanoid.holding"
+        },
+        {
+          "brandish_spear": "controller.animation.humanoid.brandish_spear"
+        },
+        {
+          "charging": "controller.animation.humanoid.charging"
+        },
+        {
+          "attack": "controller.animation.humanoid.attack"
+        },
+        {
+          "sneaking": "controller.animation.humanoid.sneaking"
+        },
+        {
+          "bob": "controller.animation.humanoid.bob"
+        },
+        {
+          "damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs"
+        },
+        {
+          "bow_and_arrow": "controller.animation.humanoid.bow_and_arrow"
+        },
+        {
+          "use_item_progress": "controller.animation.humanoid.use_item_progress"
+        },
+        {
+          "zombie_attack_bare_hand": "controller.animation.zombie.attack_bare_hand"
+        },
+        {
+          "swimming": "controller.animation.zombie.swimming"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.zombie_villager_v3_base",
+        "controller.render.zombie_villager_v3_masked"
+      ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg_zombie_villager"
+      }
+    }
+  }
+}

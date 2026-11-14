@@ -1,0 +1,69 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "concom:wild_carrot_rule",
+            "places_feature": "concom:wild_carrot_scatter"
+        },
+        "conditions": {
+            "placement_pass": "after_surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "all_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "forest"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "extreme_hills"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "taiga"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "dappled_forest"
+                        }
+                    ]
+                }
+            ],
+            "minecraft:block_filter": [
+                {
+                "test": "block_neighbor",
+                "operator": "==",
+                "value": "minecraft:air",
+                "face": "up"
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 1,
+            "x": {
+                "extent": [
+                    0,
+                    8
+                ],
+                "distribution": "uniform"
+            },
+            "y": 0,
+            "z": {
+                "extent": [
+                    0,
+                    16
+                ],
+                "distribution": "uniform"
+            },
+            "scatter_chance": {
+                //Chance of the blob generating each chunk
+                "numerator": 1,
+                "denominator": 18
+            }
+        }
+    }
+}

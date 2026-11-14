@@ -1,0 +1,117 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "concom:preserved_stonecutter",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.glazedTerracotta"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+				  "enabled_states": ["minecraft:cardinal_direction"], // Can be used in queries e.g. `q.block_state('minecraft:cardinal_direction') == 'north'`
+				  "y_rotation_offset": 180 // Face towards player
+				}
+			  }
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 9, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 9, 16]
+			},
+			"minecraft:crafting_table": {
+				"table_name": "Stonecutter",
+				"crafting_tags": [
+					"stonecutter"
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 7.5,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+						},
+						"destroy_speed": 1.15
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+						},
+						"destroy_speed": 0.6
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+						},
+						"destroy_speed": 0.4
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+						},
+						"destroy_speed": 0.2
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+						},
+						"destroy_speed": 0.3
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+						},
+						"destroy_speed": 0.25
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.preserved_stonecutter",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "preserved_stonecutter",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#393939",
+			"minecraft:loot": "loot_tables/blocks/preserved_stonecutter.json"
+		},
+		"permutations": [
+  // Facing north
+  {
+    "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 0, 0] }
+    }
+  },
+  // Facing west
+  {
+    "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 90, 0] }
+    }
+  },
+  // Facing south
+  {
+    "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 180, 0] }
+    }
+  },
+  // Facing east
+  {
+    "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, -90, 0] }
+    }
+  }
+]
+	}
+}

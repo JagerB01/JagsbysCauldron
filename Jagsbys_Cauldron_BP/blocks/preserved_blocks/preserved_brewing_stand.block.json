@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "concom:preserved_brewing_stand",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.glazedTerracotta"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"origin": [-4, 0, -4],
+				"size": [8, 16, 8]
+			},
+			"minecraft:selection_box": {
+				"origin": [-4, 0, -4],
+				"size": [8, 16, 8]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 8.44,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+						},
+						"destroy_speed": 1.29
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+						},
+						"destroy_speed": 0.68
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+						},
+						"destroy_speed": 0.45
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+						},
+						"destroy_speed": 0.23
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+						},
+						"destroy_speed": 0.34
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+						},
+						"destroy_speed": 0.28
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.preserved_brewing_stand",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "preserved_brewing_stand",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#e5b037",
+			"minecraft:loot": "loot_tables/blocks/preserved_brewing_stand.json"
+		}
+	}
+}

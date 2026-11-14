@@ -1,0 +1,51 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "concom:wild_beetroot_rule_beach",
+            "places_feature": "concom:wild_beetroot_beach_scatter"
+        },
+        "conditions": {
+            "placement_pass": "after_surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "all_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "beach"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "cold"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 1,
+            "x": {
+                "extent": [
+                    0,
+                    16
+                ],
+                "distribution": "uniform"
+            },
+            "y": 0,
+            "z": {
+                "extent": [
+                    0,
+                    16
+                ],
+                "distribution": "uniform"
+            },
+            "scatter_chance": {
+                //Chance of the blob generating each chunk
+                "numerator": 1,
+                "denominator": 6
+            }
+        }
+    }
+}

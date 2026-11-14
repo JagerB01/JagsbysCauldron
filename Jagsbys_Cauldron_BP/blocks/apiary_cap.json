@@ -1,0 +1,74 @@
+{
+  "format_version": "1.26.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "apiary:cap",
+      "menu_category": {
+        "category": "items"
+      },
+      "states": {
+        "apiary:has_honey": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.apiary_cap",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "apiary_cap",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          10,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          10,
+          16
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:loot": "loot_tables/blocks/apiary_cap.json",
+      "minecraft:map_color": "#9B6A37",
+      "apiary:cap_logic": {},
+      "minecraft:tick": {
+        "interval_range": [
+          20,
+          40
+        ],
+        "looping": true
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('apiary:has_honey') == true",
+        "components": {
+          "minecraft:geometry": "geometry.apiary_cap_honey"
+        }
+      }
+    ]
+  }
+}

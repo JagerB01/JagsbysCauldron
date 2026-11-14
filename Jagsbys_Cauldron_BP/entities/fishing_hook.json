@@ -1,0 +1,272 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:fishing_hook",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+    
+    "component_groups": {
+      "loot_lukewarm": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/lukewarm_fishing.json"
+        }
+      },
+      "loot_frozen": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/frozen_fishing.json"
+        }
+      },
+      "loot_warm": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/warm_fishing.json"
+        }
+      },
+      "loot_taiga": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/taiga_fishing.json"
+        }
+      },
+      "loot_swamp": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/swamp_fishing.json"
+        }
+      },
+      "loot_mangrove": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/mangrove_fishing.json"
+        }
+      },
+      "loot_river": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/river_fishing.json"
+        }
+      },
+      "loot_sulfur": {
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/sulfur_fishing.json"
+        }
+      }
+    },
+
+      "components": {
+        "minecraft:collision_box": {
+          "width": 0.15,
+          "height": 0.15
+        },
+        "minecraft:projectile": {
+          "on_hit": { "stick_in_ground": {} }
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/gameplay/fishing.json"
+        },
+        "minecraft:physics": {
+        },
+        "minecraft:pushable": {
+          "is_pushable": false,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:conditional_bandwidth_optimization": {
+          "default_values": {
+            "max_optimized_distance": 80.0,
+            "max_dropped_ticks": 7,
+            "use_motion_prediction_hints": true
+          }
+        }
+      },
+
+      "events": {
+        "minecraft:entity_spawned": {
+          "sequence": [
+            {
+              "filters": {
+              "any_of": [
+                {
+                  "test": "is_biome",
+                  "value": "taiga"
+                },
+                {
+                  "test": "is_biome",
+                  "value": "extreme_hills"
+                }
+              ]
+              },
+              "add": { "component_groups": [ "loot_taiga" ] }
+            },
+            {
+              "filters": {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "value": "swamp"
+                }
+              ]
+              },
+              "add": { "component_groups": [ "loot_swamp" ] }
+            },
+            {
+              "filters": {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "value": "mangrove_swamp"
+                }
+              ]
+              },
+              "add": { "component_groups": [ "loot_mangrove" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "!=",
+                    "value": "frozen"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "value": "river"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_river" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "frozen"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "value": "river"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_frozen" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "frozen"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "value": "ocean"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_frozen" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "warm"
+                  },
+                  {
+                    "test": "has_biome_tag",
+                    "value": "ocean"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_warm" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "desert"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_warm" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "mesa"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_warm" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "jungle"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_lukewarm" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "savanna"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_lukewarm" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "lush_caves"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_lukewarm" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "lukewarm"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_lukewarm" ] }
+            },
+            {
+              "filters": {
+              "all_of":[
+                  {
+                    "test": "has_biome_tag",
+                    "operator": "=",
+                    "value": "sulfur_caves"
+                  }
+                ] 
+              },
+              "add": { "component_groups": [ "loot_sulfur" ] }
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,71 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "concom:wild_potato_rule",
+            "places_feature": "concom:wild_potato_scatter"
+        },
+        "conditions": {
+            "placement_pass": "after_surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "any_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "extreme_hills"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "taiga"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "mega"
+                        }
+                    ],
+                    "all_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "!=",
+                            "value": "cold"
+                        }
+                    ]
+                }
+            ],
+            "minecraft:block_filter": [
+                {
+                "test": "block_neighbor",
+                "operator": "==",
+                "value": "minecraft:air",
+                "face": "up"
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": 1,
+            "x": {
+                "extent": [
+                    0,
+                    10
+                ],
+                "distribution": "uniform"
+            },
+            "y": 0,
+            "z": {
+                "extent": [
+                    0,
+                    10
+                ],
+                "distribution": "uniform"
+            },
+            "scatter_chance": {
+                //Chance of the blob generating each chunk
+                "numerator": 1,
+                "denominator": 18
+            }
+        }
+    }
+}

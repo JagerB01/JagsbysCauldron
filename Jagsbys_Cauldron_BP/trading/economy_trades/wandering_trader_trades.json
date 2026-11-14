@@ -1,0 +1,1173 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        { 
+          "num_to_select": 13,
+          "trades": [
+                  { //classy crop sell
+                    "max_uses": 12,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:wheat","quantity": {"min":8,"max":20}},
+                          {"item":"minecraft:carrot","quantity": {"min":8,"max":22}},
+                          {"item":"minecraft:potato","quantity": {"min":8,"max":22}},
+                          {"item":"minecraft:beetroot","quantity": {"min":5,"max":16}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //pumpkin/melon/apple/reed sell
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:pumpkin","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:melon_block","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:reeds","quantity": {"min":12,"max":22}},
+                          {"item":"minecraft:apple","quantity": {"min":1,"max":6}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //berries/shrooms/kelp sell
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:sweet_berries","quantity": {"min":4,"max":15}},
+                          {"item":"minecraft:glow_berries","quantity": {"min":6,"max":15}},
+                          {"item":"minecraft:dried_kelp_block","quantity": {"min":5,"max":9}},
+                          {"item":"minecraft:shelf_mushroom","quantity": {"min":8,"max":18}},
+                          {"item":"minecraft:red_mushroom","quantity": {"min":7,"max":21}},
+                          {"item":"minecraft:brown_mushroom","quantity": {"min":7,"max":21}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //classy crop sell 2
+                    "max_uses": 12,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:wheat","quantity": {"min":8,"max":20}},
+                          {"item":"minecraft:carrot","quantity": {"min":8,"max":22}},
+                          {"item":"minecraft:potato","quantity": {"min":8,"max":22}},
+                          {"item":"minecraft:beetroot","quantity": {"min":5,"max":16}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //pumpkin/melon/apple/reed sell 2
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:pumpkin","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:melon_block","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:reeds","quantity": {"min":12,"max":22}},
+                          {"item":"minecraft:apple","quantity": {"min":1,"max":6}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  { //classy crop buy
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:wheat","quantity": {"min":8,"max":20}},
+                          {"item":"minecraft:carrot","quantity": {"min":8,"max":22}},
+                          {"item":"minecraft:potato","quantity": {"min":8,"max":22}},
+                          {"item":"minecraft:beetroot","quantity": {"min":5,"max":16}},
+                          {"item":"minecraft:wheat_seeds","quantity": {"min":8,"max":20}},
+                          {"item":"minecraft:beetroot_seeds","quantity": {"min":5,"max":16}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //pumpkin/melon/apple/reed buy
+                    "max_uses": 6,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:pumpkin","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:melon_block","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:reeds","quantity": {"min":12,"max":22}},
+                          {"item":"minecraft:apple","quantity": {"min":1,"max":6}},
+                          {"item":"minecraft:pumpkin_seeds","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:melon_seeds","quantity": {"min":1,"max":7}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //berries/shrooms/kelp buy
+                    "max_uses": 6,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:sweet_berries","quantity": {"min":4,"max":15}},
+                          {"item":"minecraft:glow_berries","quantity": {"min":6,"max":15}},
+                          {"item":"minecraft:dried_kelp_block","quantity": {"min":5,"max":9}},
+                          {"item":"minecraft:shelf_mushroom","quantity": {"min":8,"max":18}},
+                          {"item":"minecraft:red_mushroom","quantity": {"min":7,"max":21}},
+                          {"item":"minecraft:brown_mushroom","quantity": {"min":7,"max":21}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //shrubbery buy
+                    "max_uses": 16,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:vine","quantity": {"min":6,"max":9}},
+                          {"item":"minecraft:pale_hanging_moss","quantity": {"min":2,"max":4}},
+                          {"item":"minecraft:tall_dry_grass","quantity": {"min":4,"max":7}},
+                          {"item":"minecraft:firefly_bush","quantity": {"min":1,"max":3}},
+                          {"item":"minecraft:fern","quantity": {"min":5,"max":9}},
+                          {"item":"minecraft:waterlily","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:small_dripleaf_block","quantity": {"min":1,"max":4}},
+                          {"item":"minecraft:moss_block","quantity": {"min":1,"max":4}},
+                          {"item":"minecraft:red_shrub","quantity": {"min":1,"max":4}},
+                          {"item":"minecraft:pale_moss_block","quantity": {"min":1,"max":1}}
+
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  { //big meat sell
+                    "max_uses": 12,
+                    "wants": [
+                      {
+                        "choice": [
+                        {"item":"minecraft:beef","quantity": {"min":3,"max":11}},
+                        {"item":"minecraft:porkchop","quantity": {"min":3,"max":11}},
+                        {"item":"minecraft:chicken","quantity": {"min":5,"max":14}},
+                        {"item":"minecraft:mutton","quantity": {"min":3,"max":9}},
+                        {"item":"minecraft:salmon","quantity": {"min":6,"max":15}},
+                        {"item":"minecraft:fish","quantity": {"min":7,"max":17}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //lil meat and milk sell
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:rabbit","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:clownfish","quantity": {"min":3,"max":10}},
+                          {"item":"minecraft:pufferfish","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:bucket:1","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //eggy/honey sell
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:brown_egg","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:egg","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:blue_egg","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:honey_bottle","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:honeycomb","quantity": {"min":2,"max":10}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  { //big meat buy
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:beef","quantity": {"min":3,"max":11}},
+                          {"item":"minecraft:porkchop","quantity": {"min":3,"max":11}},
+                          {"item":"minecraft:chicken","quantity": {"min":5,"max":14}},
+                          {"item":"minecraft:mutton","quantity": {"min":3,"max":9}},
+                          {"item":"minecraft:salmon","quantity": {"min":6,"max":15}},
+                          {"item":"minecraft:fish","quantity": {"min":7,"max":17}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //lil meat and milk buy
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:rabbit","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:clownfish","quantity": {"min":3,"max":10}},
+                          {"item":"minecraft:pufferfish","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:bucket:1","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:bucket:4","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:bucket:5","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //eggy/honey buy
+                    "max_uses": 7,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:brown_egg","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:egg","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:blue_egg","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:honey_bottle","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:honeycomb","quantity": {"min":2,"max":10}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //hidey hole sell
+                    "max_uses": 16,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:gunpowder","quantity": {"min":1,"max":4}},
+                          {"item":"minecraft:leather","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:feather","quantity": {"min":7,"max":17}},
+                          {"item":"minecraft:rabbit_hide","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:rotten_flesh","quantity": {"min":19,"max":27}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //wool sell
+                    "max_uses": 12,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:wool:0","quantity": {"min":8,"max":19}},
+                          {"item":"minecraft:wool:15","quantity": {"min":8,"max":19}},
+                          {"item":"minecraft:wool:12","quantity": {"min":8,"max":19}},
+                          {"item":"minecraft:wool:7","quantity": {"min":8,"max":19}},
+                          {"item":"minecraft:wool:8","quantity": {"min":8,"max":19}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //special parts sell
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:dye:0","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:glow_ink_sac","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:slime_ball","quantity": {"min":4,"max":10}},
+                          {"item":"minecraft:nautilus_shell","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:turtle_scute","quantity": {"min":1,"max":4}},
+                          {"item":"minecraft:armadillo_scute","quantity": {"min":1,"max":9}},
+                          {"item":"minecraft:phantom_membrane","quantity": {"min":2,"max":4}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  { //gunpowder buy
+                    "max_uses": 15,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:gunpowder","quantity": {"min":1,"max":4}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //hidey hole/parts buy
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:leather","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:feather","quantity": {"min":7,"max":17}},
+                          {"item":"minecraft:rabbit_hide","quantity": {"min":1,"max":5}},
+                          {"item":"minecraft:rotten_flesh","quantity": {"min":19,"max":27}},
+                          {"item":"minecraft:dye:0","quantity": {"min":1,"max":7}},
+                          {"item":"minecraft:nautilus_shell","quantity": {"min":1,"max":4}},
+                          {"item":"minecraft:slime_ball","quantity": {"min":1,"max":4}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //wool buy
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:wool:0","quantity": {"min":8,"max":19}},
+                          {"item":"minecraft:wool:15","quantity": {"min":8,"max":19}},
+                          {"item":"minecraft:wool:12","quantity": {"min":8,"max":19}},
+                          {"item":"minecraft:wool:7","quantity": {"min":8,"max":19}},
+                          {"item":"minecraft:wool:8","quantity": {"min":8,"max":19}}
+                        ]
+                      }
+                    ]
+                  },
+                
+                  { //wud sell
+                    "max_uses": 12,
+                    "wants": [
+                      {
+                        "choice": [
+                        {"item":"minecraft:oak_log","quantity": {"min":4,"max":13}},
+                        {"item":"minecraft:birch_log","quantity": {"min":4,"max":13}},
+                        {"item":"minecraft:spruce_log","quantity": {"min":8,"max":17}},
+                        {"item":"minecraft:jungle_log","quantity": {"min":8,"max":17}},
+                        {"item":"minecraft:cherry_log","quantity": {"min":4,"max":11}},
+                        {"item":"minecraft:dark_oak_log","quantity": {"min":8,"max":17}},
+                        {"item":"minecraft:pale_oak_log","quantity": {"min":6,"max":16}},
+                        {"item":"minecraft:acacia_log","quantity": {"min":4,"max":11}},
+                        {"item":"minecraft:mangrove_log","quantity": {"min":4,"max":11}},
+                          {"item":"minecraft:poplar_log","quantity": {"min":4,"max":11}},
+                        {"item":"minecraft:bamboo_block","quantity": {"min":8,"max":17}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  { //wud buy
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:oak_log","quantity": {"min":4,"max":13}},
+                          {"item":"minecraft:birch_log","quantity": {"min":4,"max":13}},
+                          {"item":"minecraft:spruce_log","quantity": {"min":8,"max":17}},
+                          {"item":"minecraft:jungle_log","quantity": {"min":8,"max":17}},
+                          {"item":"minecraft:cherry_log","quantity": {"min":4,"max":11}},
+                          {"item":"minecraft:dark_oak_log","quantity": {"min":8,"max":17}},
+                          {"item":"minecraft:pale_oak_log","quantity": {"min":6,"max":16}},
+                          {"item":"minecraft:acacia_log","quantity": {"min":4,"max":11}},
+                          {"item":"minecraft:mangrove_log","quantity": {"min":4,"max":11}},
+                          {"item":"minecraft:poplar_log","quantity": {"min":4,"max":11}},
+                          {"item":"minecraft:bamboo_block","quantity": {"min":8,"max":17}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //sapling buy
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":15,"max":21}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:oak_sapling","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:birch_sapling","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:spruce_sapling","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:jungle_sapling","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:acacia_sapling","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:dark_oak_sapling","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:cherry_sapling","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:mangrove_propagule","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:pale_oak_sapling","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:poplar_sapling","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:bamboo","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:azalea","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  { //stone sell
+                    "max_uses": 12,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:stone","quantity": {"min":13,"max":28}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //kinda stone buy
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                        {"item":"minecraft:granite","quantity": {"min":9,"max":17}},
+                        {"item":"minecraft:andesite","quantity": {"min":9,"max":17}},
+                        {"item":"minecraft:diorite","quantity": {"min":9,"max":17}},
+                        {"item":"minecraft:mossy_cobblestone","quantity": {"min":9,"max":17}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //dirty stone buy
+                    "max_uses": 9,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:hardened_clay","quantity": {"min":7,"max":13}},
+                          {"item":"minecraft:sandstone","quantity": {"min":7,"max":13}},
+                          {"item":"minecraft:red_sandstone","quantity": {"min":7,"max":13}},
+                          {"item":"minecraft:packed_mud","quantity": {"min":7,"max":13}},
+                          {"item":"minecraft:dripstone_block","quantity": {"min":7,"max":13}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //deep stone/icy buy
+                    "max_uses": 7,
+                    "wants": [
+                      {
+                        "choice": [
+                      {"item":"minecraft:deepslate","quantity": {"min":8,"max":18}},
+                      {"item":"minecraft:tuff","quantity": {"min":8,"max":18}},
+                      {"item":"minecraft:smooth_basalt","quantity": {"min":8,"max":18}},
+                      {"item":"minecraft:packed_ice","quantity": {"min":8,"max":18}},
+                      {"item":"minecraft:blue_ice","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:calcite","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  
+                  { //stone/sand sell
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:stone","quantity": {"min":13,"max":28}},
+                          {"item":"minecraft:sand","quantity": {"min":12,"max":20}},
+                          {"item":"minecraft:red_sand","quantity": {"min":10,"max":18}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //kinda stone buy
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:granite","quantity": {"min":9,"max":17}},
+                          {"item":"minecraft:andesite","quantity": {"min":9,"max":17}},
+                          {"item":"minecraft:diorite","quantity": {"min":9,"max":17}},
+                          {"item":"minecraft:mossy_cobblestone","quantity": {"min":9,"max":17}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //dirty stone buy
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:hardened_clay","quantity": {"min":7,"max":13}},
+                          {"item":"minecraft:sandstone","quantity": {"min":7,"max":13}},
+                          {"item":"minecraft:red_sandstone","quantity": {"min":7,"max":13}},
+                          {"item":"minecraft:packed_mud","quantity": {"min":7,"max":13}},
+                          {"item":"minecraft:dripstone_block","quantity": {"min":7,"max":14}},
+                          {"item":"minecraft:sulfur_spike","quantity": {"min":7,"max":14}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //coral/icy buy
+                    "max_uses": 8,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:tube_coral_block","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:brain_coral_block","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:bubble_coral_block","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:fire_coral_block","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:horn_coral_block","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:blue_ice","quantity": {"min":1,"max":1}},
+                          {"item":"minecraft:packed_ice","quantity": {"min":8,"max":18}}
+                        ]
+                      }
+                    ]
+                  },
+
+                { //flower sell
+                    "max_uses": 12,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:open_eyeblossom","quantity": {"min":4,"max":15}},
+                          {"item":"minecraft:lily_of_the_valley","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:cornflower","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:oxeye_daisy","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:pink_tulip","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:white_tulip","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:orange_tulip","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:red_tulip","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:azure_bluet","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:allium","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:blue_orchid","quantity": {"min":4,"max":15}},
+                          {"item":"minecraft:poppy","quantity": {"min":14,"max":24}},
+                          {"item":"minecraft:dandelion","quantity": {"min":14,"max":24}},
+                          {"item":"minecraft:golden_dandelion","quantity": {"min":14,"max":24}},
+                          {"item":"minecraft:rose_bush","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:peony","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:lilac","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:sunflower","quantity": {"min":4,"max":15}},
+                          {"item":"minecraft:wither_rose","quantity": {"min":1,"max":6}},
+                          {"item":"minecraft:torchflower","quantity": {"min":1,"max":6}},
+                          {"item":"minecraft:pitcher_plant","quantity": {"min":1,"max":6}},
+                          {"item":"minecraft:sea_pickle","quantity": {"min":3,"max":6}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //dye sell
+                    "max_uses": 12,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:red_dye","quantity": {"min":10,"max":26}},
+                          {"item":"minecraft:white_dye","quantity": {"min":12,"max":27}},
+                          {"item":"minecraft:blue_dye","quantity": {"min":12,"max":23}},
+                          {"item":"minecraft:pink_dye","quantity": {"min":13,"max":23}},
+                          {"item":"minecraft:black_dye","quantity": {"min":3,"max":11}},
+                          {"item":"minecraft:green_dye","quantity": {"min":5,"max":15}},
+                          {"item":"minecraft:light_gray_dye","quantity": {"min":10,"max":21}},
+                          {"item":"minecraft:magenta_dye","quantity": {"min":12,"max":20}},
+                          {"item":"minecraft:yellow_dye","quantity": {"min":10,"max":26}},
+                          {"item":"minecraft:gray_dye","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:purple_dye","quantity": {"min":10,"max":22}},
+                          {"item":"minecraft:light_blue_dye","quantity": {"min":8,"max":18}},
+                          {"item":"minecraft:lime_dye","quantity": {"min":5,"max":15}},
+                          {"item":"minecraft:orange_dye","quantity": {"min":8,"max":23}},
+                          {"item":"minecraft:brown_dye","quantity": {"min":6,"max":17}},
+                          {"item":"minecraft:cyan_dye","quantity": {"min":4,"max":13}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //flower buy
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:open_eyeblossom","quantity": {"min":4,"max":15}},
+                          {"item":"minecraft:lily_of_the_valley","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:cornflower","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:oxeye_daisy","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:pink_tulip","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:white_tulip","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:orange_tulip","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:red_tulip","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:azure_bluet","quantity": {"min":10,"max":20}},
+                          {"item":"minecraft:allium","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:blue_orchid","quantity": {"min":4,"max":15}},
+                          {"item":"minecraft:poppy","quantity": {"min":14,"max":24}},
+                          {"item":"minecraft:dandelion","quantity": {"min":14,"max":24}},
+                          {"item":"minecraft:sunflower","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:rose_bush","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:peony","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:lilac","quantity": {"min":4,"max":15}},
+                          {"item":"minecraft:sea_pickle","quantity": {"min":3,"max":6}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //dye buy
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:red_dye","quantity": {"min":10,"max":26}},
+                          {"item":"minecraft:white_dye","quantity": {"min":12,"max":27}},
+                          {"item":"minecraft:blue_dye","quantity": {"min":12,"max":23}},
+                          {"item":"minecraft:pink_dye","quantity": {"min":13,"max":23}},
+                          {"item":"minecraft:black_dye","quantity": {"min":3,"max":11}},
+                          {"item":"minecraft:green_dye","quantity": {"min":5,"max":15}},
+                          {"item":"minecraft:light_gray_dye","quantity": {"min":10,"max":21}},
+                          {"item":"minecraft:magenta_dye","quantity": {"min":12,"max":20}},
+                          {"item":"minecraft:yellow_dye","quantity": {"min":10,"max":26}},
+                          {"item":"minecraft:gray_dye","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:purple_dye","quantity": {"min":10,"max":22}},
+                          {"item":"minecraft:light_blue_dye","quantity": {"min":8,"max":18}},
+                          {"item":"minecraft:lime_dye","quantity": {"min":5,"max":15}},
+                          {"item":"minecraft:orange_dye","quantity": {"min":8,"max":23}},
+                          {"item":"minecraft:brown_dye","quantity": {"min":6,"max":17}},
+                          {"item":"minecraft:cyan_dye","quantity": {"min":4,"max":13}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //dye sell 2
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:red_dye","quantity": {"min":10,"max":26}},
+                          {"item":"minecraft:white_dye","quantity": {"min":12,"max":27}},
+                          {"item":"minecraft:blue_dye","quantity": {"min":12,"max":23}},
+                          {"item":"minecraft:pink_dye","quantity": {"min":13,"max":23}},
+                          {"item":"minecraft:black_dye","quantity": {"min":3,"max":11}},
+                          {"item":"minecraft:green_dye","quantity": {"min":5,"max":15}},
+                          {"item":"minecraft:light_gray_dye","quantity": {"min":10,"max":21}},
+                          {"item":"minecraft:magenta_dye","quantity": {"min":12,"max":20}},
+                          {"item":"minecraft:yellow_dye","quantity": {"min":10,"max":26}},
+                          {"item":"minecraft:gray_dye","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:purple_dye","quantity": {"min":10,"max":22}},
+                          {"item":"minecraft:light_blue_dye","quantity": {"min":8,"max":18}},
+                          {"item":"minecraft:lime_dye","quantity": {"min":5,"max":15}},
+                          {"item":"minecraft:orange_dye","quantity": {"min":8,"max":23}},
+                          {"item":"minecraft:brown_dye","quantity": {"min":6,"max":17}},
+                          {"item":"minecraft:cyan_dye","quantity": {"min":4,"max":13}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ]
+                  },
+                  { //dye buy 2
+                    "max_uses": 10,
+                    "wants": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:emerald","quantity": {"min":1,"max":1}}
+                        ]
+                      }
+                    ],
+                    "gives": [
+                      {
+                        "choice": [
+                          {"item":"minecraft:red_dye","quantity": {"min":10,"max":26}},
+                          {"item":"minecraft:white_dye","quantity": {"min":12,"max":27}},
+                          {"item":"minecraft:blue_dye","quantity": {"min":12,"max":23}},
+                          {"item":"minecraft:pink_dye","quantity": {"min":13,"max":23}},
+                          {"item":"minecraft:black_dye","quantity": {"min":3,"max":11}},
+                          {"item":"minecraft:green_dye","quantity": {"min":5,"max":15}},
+                          {"item":"minecraft:light_gray_dye","quantity": {"min":10,"max":21}},
+                          {"item":"minecraft:magenta_dye","quantity": {"min":12,"max":20}},
+                          {"item":"minecraft:yellow_dye","quantity": {"min":10,"max":26}},
+                          {"item":"minecraft:gray_dye","quantity": {"min":7,"max":18}},
+                          {"item":"minecraft:purple_dye","quantity": {"min":10,"max":22}},
+                          {"item":"minecraft:light_blue_dye","quantity": {"min":8,"max":18}},
+                          {"item":"minecraft:lime_dye","quantity": {"min":5,"max":15}},
+                          {"item":"minecraft:orange_dye","quantity": {"min":8,"max":23}},
+                          {"item":"minecraft:brown_dye","quantity": {"min":6,"max":17}},
+                          {"item":"minecraft:cyan_dye","quantity": {"min":4,"max":13}}
+                        ]
+                      }
+                    ]
+                  }
+          ]
+        },
+        { //rare buy
+          "num_to_select": 1,
+          "trades": [
+		    { //gapple/sponge sell
+              "max_uses": 6,
+              "wants": [
+                {
+                  "choice": [
+                    {"item":"minecraft:golden_apple","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:sponge","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald","quantity": {"min":8,"max":16}}
+                  ]
+                }
+              ]
+            },
+            { //sniffturt egg sell
+              "max_uses": 6,
+              "wants": [
+                {
+                  "choice": [
+                      {"item":"minecraft:turtle_egg","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:sniffer_egg","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald","quantity": {"min":24,"max":32}}
+                  ]
+                }
+              ]
+            },
+            { //horned up sell
+              "max_uses": 4,
+              "wants": [
+                {
+                  "choice": [
+                    {"item":"minecraft:goat_horn:0","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:goat_horn:1","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:goat_horn:2","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:goat_horn:3","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald","quantity": {"min":18,"max":32}}
+                  ]
+                }
+              ]
+            },
+            { //animal armor sell
+              "max_uses": 4,
+              "wants": [
+                {
+                  "choice": [
+                    {"item":"minecraft:copper_nautilus_armor","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:golden_nautilus_armor","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:iron_nautilus_armor","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:diamond_nautilus_armor","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:horsearmorgold","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:horsearmoriron","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:horsearmordiamond","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:copper_horse_armor","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald","quantity": {"min":25,"max":43}}
+                  ]
+                }
+              ]
+            },
+            { //deep dark stuff sell
+              "max_uses": 8,
+              "wants": [
+                {
+                  "choice": [
+	                  {"item":"minecraft:echo_shard","quantity": {"min":1,"max":1}},
+	                  {"item":"minecraft:sculk_catalyst","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald","quantity": {"min":10,"max":18}}
+                  ]
+                }
+              ]
+            },
+            { //book/crying obsidian sell
+              "max_uses": 10,
+              "wants": [
+                {
+                  "choice": [
+                    {"item":"minecraft:crying_obsidian","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:enchanted_book","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:written_book","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald","quantity": {"min":3,"max":5}}
+                  ]
+                }
+              ]
+            },
+            { //sherd shell shea shells shy she shea shore
+              "max_uses": 6,
+              "wants": [
+                {
+                  "choice": [
+                      {"item":"minecraft:plenty_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:shelter_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:arms_up_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:brewer_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:miner_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:danger_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:snort_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:skull_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:heart_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:heartbreak_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:archer_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:scrape_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:sheaf_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:friend_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:blade_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:angler_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:howl_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:explorer_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:prize_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:guster_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:mourner_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:flow_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"minecraft:burn_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"concom:deal_pottery_sherd","quantity": {"min":1,"max":1}},
+                      {"item":"concom:testificate_pottery_sherd","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald","quantity": {"min":60,"max":65}}
+                  ]
+                }
+              ]
+            },
+            { //Music is powerful man. It speaks to a primal pit in our brains. It makes anyone wanna get up and get their knees goin
+              "max_uses": 4,
+              "wants": [
+                {
+                  "choice": [
+                    {"item":"minecraft:music_disc_mall","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_ward","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_blocks","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_otherside","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_stal","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_cat","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_mellohi","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_13","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_strad","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_chirp","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_far","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_wait","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_11","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_pigstep","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_tears","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_lava_chicken","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_relic","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_creator","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_creator_music_box","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_precipice","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_5","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:music_disc_bounce","quantity": {"min":1,"max":1}},
+                    {"item":"concom:music_disc_midnight","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald","quantity": {"min":48,"max":65}}
+                  ]
+                }
+              ]
+            },
+            { //big brain sell
+              "max_uses": 4,
+              "wants": [
+                {
+                  "choice": [
+                    {"item":"minecraft:skull:0","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:skull:1","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:skull:2","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:skull:4","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald","quantity": {"min":55,"max":65}}
+                  ]
+                }
+              ]
+            },
+            { //nice trim sell
+              "max_uses": 3,
+              "wants": [
+                {
+                  "choice": [
+                    {"item":"minecraft:vex_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:sentry_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:wild_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:coast_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:dune_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:wayfinder_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:raiser_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:shaper_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:host_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:ward_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:silence_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:tide_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:snout_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:rib_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:eye_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:spire_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:flow_armor_trim_smithing_template","quantity": {"min":1,"max":1}},
+                    {"item":"minecraft:bolt_armor_trim_smithing_template","quantity": {"min":1,"max":1}}
+                  ]
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {"item":"minecraft:emerald_block","quantity": {"min":10,"max":16}}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

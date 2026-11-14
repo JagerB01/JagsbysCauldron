@@ -1,0 +1,8 @@
+// Do not copy this file directly into your resource pack as a starter; instead, use this file as a reference or to copy specific JSON snippets.
+[
+  {
+    "flipbook_texture": "textures/blocks/settling_campfire",
+    "atlas_tile": "fire",
+    "ticks_per_frame": 2
+  }
+]

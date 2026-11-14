@@ -1,0 +1,198 @@
+{
+  "resource_pack_name": "diplomacy",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "realm_sigil": {
+      "textures": "textures/items/realm_sigil"
+    },
+    "diplomacy_settlement_outpost": {
+      "textures": "textures/items/diplomacy/settlement_outpost"
+    },
+    "diplomacy_settlement_hamlet": {
+      "textures": "textures/items/diplomacy/settlement_hamlet"
+    },
+    "diplomacy_settlement_village": {
+      "textures": "textures/items/diplomacy/settlement_village"
+    },
+    "diplomacy_settlement_town": {
+      "textures": "textures/items/diplomacy/settlement_town"
+    },
+    "diplomacy_settlement_city": {
+      "textures": "textures/items/diplomacy/settlement_city"
+    },
+    "diplomacy_stance_neutral": {
+      "textures": "textures/items/diplomacy/stance_neutral"
+    },
+    "diplomacy_stance_friendly": {
+      "textures": "textures/items/diplomacy/stance_friendly"
+    },
+    "diplomacy_stance_trade_agreement": {
+      "textures": "textures/items/diplomacy/stance_trade_agreement"
+    },
+    "diplomacy_stance_non_aggression_pact": {
+      "textures": "textures/items/diplomacy/stance_non_aggression_pact"
+    },
+    "diplomacy_stance_alliance": {
+      "textures": "textures/items/diplomacy/stance_alliance"
+    },
+    "diplomacy_stance_vassalage": {
+      "textures": "textures/items/diplomacy/stance_vassalage"
+    },
+    "diplomacy_stance_rivalry": {
+      "textures": "textures/items/diplomacy/stance_rivalry"
+    },
+    "diplomacy_stance_war": {
+      "textures": "textures/items/diplomacy/stance_war"
+    },
+    "diplomacy_rank_unlanded": {
+      "textures": "textures/items/diplomacy/rank_unlanded"
+    },
+    "diplomacy_rank_commoner": {
+      "textures": "textures/items/diplomacy/rank_commoner"
+    },
+    "diplomacy_rank_noble": {
+      "textures": "textures/items/diplomacy/rank_noble"
+    },
+    "diplomacy_rank_lord": {
+      "textures": "textures/items/diplomacy/rank_lord"
+    },
+    "diplomacy_rank_baron": {
+      "textures": "textures/items/diplomacy/rank_baron"
+    },
+    "diplomacy_rank_count": {
+      "textures": "textures/items/diplomacy/rank_count"
+    },
+    "diplomacy_rank_duke": {
+      "textures": "textures/items/diplomacy/rank_duke"
+    },
+    "diplomacy_rank_king": {
+      "textures": "textures/items/diplomacy/rank_king"
+    },
+    "diplomacy_rank_emperor": {
+      "textures": "textures/items/diplomacy/rank_emperor"
+    },
+    "diplomacy_shop_armorer": {
+      "textures": "textures/items/diplomacy/shops/armorer"
+    },
+    "diplomacy_shop_butcher": {
+      "textures": "textures/items/diplomacy/shops/butcher"
+    },
+    "diplomacy_shop_cartographer": {
+      "textures": "textures/items/diplomacy/shops/cartographer"
+    },
+    "diplomacy_shop_cleric": {
+      "textures": "textures/items/diplomacy/shops/cleric"
+    },
+    "diplomacy_shop_farmer": {
+      "textures": "textures/items/diplomacy/shops/farmer"
+    },
+    "diplomacy_shop_fisherman": {
+      "textures": "textures/items/diplomacy/shops/fisherman"
+    },
+    "diplomacy_shop_fletcher": {
+      "textures": "textures/items/diplomacy/shops/fletcher"
+    },
+    "diplomacy_shop_leatherworker": {
+      "textures": "textures/items/diplomacy/shops/leatherworker"
+    },
+    "diplomacy_shop_librarian": {
+      "textures": "textures/items/diplomacy/shops/librarian"
+    },
+    "diplomacy_shop_mason": {
+      "textures": "textures/items/diplomacy/shops/mason"
+    },
+    "diplomacy_shop_shepherd": {
+      "textures": "textures/items/diplomacy/shops/shepherd"
+    },
+    "diplomacy_shop_toolsmith": {
+      "textures": "textures/items/diplomacy/shops/toolsmith"
+    },
+    "diplomacy_shop_weaponsmith": {
+      "textures": "textures/items/diplomacy/shops/weaponsmith"
+    },
+    "jagsbys_cauldron": {
+      "textures": "textures/items/jagsbys_cauldron"
+    },
+    "jagsby_hen_house": {
+      "textures": "textures/items/hen_house"
+    },
+    "music_disc_midnight": {
+      "textures": "textures/items/music_disc_midnight.png"
+    },
+    "carrot_seeds": {
+      "textures": "textures/items/wheat_seeds.png"
+    },
+    "potato_sprout": {
+      "textures": "textures/items/beetroot_seeds.png"
+    },
+    "wild_carrot": {
+      "textures": "textures/items/wild_carrot.png"
+    },
+    "wild_potato": {
+      "textures": "textures/items/wild_potato.png"
+    },
+    "wild_beetroot": {
+      "textures": "textures/items/wild_beetroot.png"
+    },
+    "cooked_eggs": {
+      "textures": "textures/items/cooked_eggs.png"
+    },
+    "raw_eggs": {
+      "textures": "textures/items/raw_eggs.png"
+    },
+    "rush_pottery_sherd": {
+      "textures": "textures/items/rush_pottery_sherd.png"
+    },
+    "steel_compound": {
+      "textures": "textures/items/steel_compound.png"
+    },
+    "cooked_mackerel": {
+      "textures": "textures/items/cooked_mackerel.png"
+    },
+    "raw_mackerel": {
+      "textures": "textures/items/raw_mackerel.png"
+    },
+    "carving_of_unyielding": {
+      "textures": "textures/items/carving_of_unyielding.png"
+    },
+    "steel_boots": {
+      "textures": "textures/items/steel_boots.png"
+    },
+    "raw_steel": {
+      "textures": "textures/items/raw_steel.png"
+    },
+    "steel_hoe": {
+      "textures": "textures/items/steel_hoe.png"
+    },
+    "steel_shovel": {
+      "textures": "textures/items/steel_shovel.png"
+    },
+    "steel_axe": {
+      "textures": "textures/items/steel_axe.png"
+    },
+    "steel_pickaxe": {
+      "textures": "textures/items/steel_pickaxe.png"
+    },
+    "steel_sword": {
+      "textures": "textures/items/steel_sword.png"
+    },
+    "steel_leggings": {
+      "textures": "textures/items/steel_leggings.png"
+    },
+    "steel_chestplate": {
+      "textures": "textures/items/steel_chestplate.png"
+    },
+    "steel_helmet": {
+      "textures": "textures/items/steel_helmet.png"
+    },
+    "steel_ingot": {
+      "textures": "textures/items/steel_ingot.png"
+    },
+    "deal_pottery_sherd": {
+      "textures": "textures/items/deal_pottery_sherd"
+    },
+    "testificate_pottery_sherd": {
+      "textures": "textures/items/testificate_pottery_sherd"
+    }
+  }
+}

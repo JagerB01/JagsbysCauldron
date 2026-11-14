@@ -1,0 +1,110 @@
+{
+  "resource_pack_name": "apiary_cap",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "apiary_cap": {
+      "textures": "textures/blocks/apiary_cap"
+    },
+    "jagsby_hen_house": {
+      "textures": "textures/blocks/hen_house"
+    },
+    "amethyst_ore": {
+      "textures": "textures/blocks/amethyst_ore"
+    },
+    "ward_stone": {
+      "textures": "textures/blocks/ward_stone.png"
+    },
+    "the_nitwit_noggin": {
+      "textures": "textures/blocks/the_nitwit_noggin.png"
+    },
+    "steak_block": {
+      "textures": "textures/blocks/steak_block.png"
+    },
+    "preserved_fletching_table": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_fletching_table.png"
+    },
+    "silk_block": {
+      "textures": "textures/blocks/silk_block.png"
+    },
+    "animated_test": {
+      "textures": "textures/blocks/animated_test.png"
+    },
+    "settling_post": {
+      "textures": [
+        "textures/blocks/settling_post.png",
+        "textures/blocks/settling_campfire.png"
+      ]
+    },
+    "steel_bulb": {
+      "textures": "textures/blocks/steel_bulb.png"
+    },
+    "carpenter_table": {
+      "textures": "textures/blocks/carpenter_table.png"
+    },
+    "steel_plate": {
+      "textures": "textures/blocks/steel_plate.png"
+    },
+    "steel_grate": {
+      "textures": "textures/blocks/steel_grate.png"
+    },
+    "chiseled_steel": {
+      "textures": "textures/blocks/chiseled_steel.png"
+    },
+    "cut_steel": {
+      "textures": "textures/blocks/cut_steel.png"
+    },
+    "preserved_lectern": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_lectern.png"
+    },
+    "preserved_brewing_stand": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_brewing_stand.png"
+    },
+    "preserved_cauldron": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_cauldron.png"
+    },
+    "preserved_grindstone": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_grindstone.png"
+    },
+    "preserved_stonecutter": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_stonecutter.png"
+    },
+    "preserved_smoker": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_smoker.png"
+    },
+    "preserved_blast_furnace": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_blast_furnace.png"
+    },
+    "preserved_composter": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_composter.png"
+    },
+    "preserved_loom": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_loom.png"
+    },
+    "preserved_cartography_table": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_cartography_table.png"
+    },
+    "preserved_smithing_table": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_smithing_table.png"
+    },
+    "preserved_barrel": {
+      "textures": "textures/blocks/preserved_job_blocks/preserved_barrel.png"
+    },
+    "loam_soil": {
+      "textures": "textures/blocks/loam_soil.png"
+    },
+    "steel_block": {
+      "textures": "textures/blocks/steel_block.png"
+    },
+    "wild_beet": {
+      "textures": "textures/blocks/wild_beet.png"
+    },
+    "wild_potato": {
+      "textures": "textures/blocks/wild_potato.png"
+    },
+    "wild_carrot": {
+      "textures": "textures/blocks/wild_carrot.png"
+    }
+  },
+  "padding": 8,
+  "num_mip_levels": 4
+}

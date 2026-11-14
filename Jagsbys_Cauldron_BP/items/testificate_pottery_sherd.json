@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "concom:testificate_pottery_sherd",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.potterySherds"
+			}
+		},
+		"components": {
+			"minecraft:icon": "testificate_pottery_sherd",
+			"minecraft:display_name": {
+				"value": "item.concom:testificate_pottery_sherd.name"
+			},
+			"minecraft:rarity": "uncommon",
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:decorated_pot_sherds"
+				]
+			}
+		}
+	}
+}

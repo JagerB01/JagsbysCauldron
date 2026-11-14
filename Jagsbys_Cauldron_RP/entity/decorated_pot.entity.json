@@ -1,0 +1,12 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:decorated_pot",
+			"textures": {
+				"deal_pottery_sherd": "textures/blocks/deal_pottery_pattern",
+				"testificate_pottery_sherd": "textures/blocks/testificate_pottery_pattern"
+			}
+		}
+	}
+}

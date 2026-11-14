@@ -1,0 +1,65 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Jagsby's Cauldron v0.0.14 - Behavior Pack",
+    "description": "Diplomacy, Croft, Mob Far Scaling, and Conquest & Commerce in one shared add-on.",
+    "uuid": "1d8f989a-d378-4d22-a589-7f0b9c02fd95",
+    "version": [
+      0,
+      0,
+      14
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      40
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "e561d8bc-5795-4b7c-a923-21c754f1ef2e",
+      "version": [
+        0,
+        0,
+        14
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "de02e5a9-c11e-4a55-8117-592bb36d9fea",
+      "version": [
+        0,
+        0,
+        14
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.9.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0"
+    },
+    {
+      "uuid": "cc27cb5a-d47d-49af-b636-23cbc939a681",
+      "version": [
+        0,
+        0,
+        14
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "JagerB01",
+      "Kaleo5 (Conquest & Commerce)",
+      "IsraOrbit (Mob Far Scaling)"
+    ]
+  }
+}

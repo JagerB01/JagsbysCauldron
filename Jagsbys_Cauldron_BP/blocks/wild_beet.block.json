@@ -1,0 +1,73 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "concom:wild_beetroot_ground",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:replaceable": {},
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					8,
+					8
+				]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							{
+								"tags": "query.any_tag('dirt')"
+							},
+							{
+								"tags": "query.any_tag('mud')"
+							},
+							{
+								"tags": "query.any_tag('sand')"
+							}
+						]
+					}
+				]
+			},
+			"minecraft:geometry": "geometry.wild_beet",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wild_beet",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#32a852",
+			"minecraft:loot": "loot_tables/blocks/wild_beetroot_ground.json",
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"on_liquid_touches": "popped"
+					}
+				]
+			}
+		}
+	}
+}

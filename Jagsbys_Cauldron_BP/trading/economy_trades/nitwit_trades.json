@@ -1,0 +1,2987 @@
+{
+  "format_version": "1.18.10",
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 5,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:stick",
+                  "quantity": {
+                    "min": 60,
+                    "max": 64
+                  },
+                  "price_multiplier": 0.05,
+                  "filters": {
+                    "test": "is_mark_variant",
+                    "subject": "self",
+                    "value": 0,
+                    "operator": "="
+                  }
+                },
+                {
+                  "item": "minecraft:stick",
+                  "quantity": {
+                    "min": 1,
+                    "max": 16
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 18,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:sea_pickle",
+                  "quantity": {
+                    "min": 3,
+                    "max": 5
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:wheat_seeds",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:copper_nugget",
+                  "quantity": {
+                    "min": 12,
+                    "max": 16
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:fish",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:beetroot",
+                  "quantity": {
+                    "min": 3,
+                    "max": 5
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:apple",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": {
+                    "min": 9,
+                    "max": 9
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald_block",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald_block",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": {
+                    "min": 8,
+                    "max": 8
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond_ore",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:glow_lichen",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:oak_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:cake",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stripped_oak_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:spruce_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:cake",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stripped_spruce_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:birch_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:rabbit_stew",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stripped_birch_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:jungle_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:cake",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stripped_jungle_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:dark_oak_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:beetroot_soup",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stripped_dark_oak_log",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bucket:3",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:salmon",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:potato",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:poisonous_potato",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:sugar",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:paper",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:raw_iron",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:gold_ingot",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:raw_gold",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:copper_ingot",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:raw_copper",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:egg",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:dye:17",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:brown_egg",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:egg",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:dye:18",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:blue_egg",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:torchflower",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:torch",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:tallgrass:0",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:sealantern",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:seagrass",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:lily_of_the_valley",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:waterlily",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:double_plant:4",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:skull:1",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:wither_rose",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:dye:18",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:dye:11",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:dye:2",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:potion",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:bucket:1",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:potion:3",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bush",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:deadbush",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:coral_block:0",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:coral_block:8",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:coral_block:1",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:coral_block:9",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:coral_block:2",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:coral_block:10",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:coral_block:3",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:coral_block:11",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:coral_block:4",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:coral_block:12",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:cookie",
+                  "quantity": {
+                    "min": 24,
+                    "max": 24
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:waxed_weathered_cut_copper_stairs",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:muddy_mangrove_roots",
+                  "quantity": {
+                    "min": 10,
+                    "max": 10
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:brush",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:mangrove_roots",
+                  "quantity": {
+                    "min": 10,
+                    "max": 10
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:dandelion",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:cookie",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:grass_block",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:dirt",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:grass_block",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:potato",
+                  "quantity": {
+                    "min": 3,
+                    "max": 3
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:brick",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:stone",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:iron_pickaxe",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:cobblestone",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:wet_sponge",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:anvil",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:sponge",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:leather_leggings",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:cookie",
+                  "quantity": {
+                    "min": 9,
+                    "max": 9
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:wildflowers",
+                  "quantity": {
+                    "min": 8,
+                    "max": 8
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:dye:8",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:pink_petals",
+                  "quantity": {
+                    "min": 8,
+                    "max": 8
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:oak_planks",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:dye:19",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:pale_oak_planks",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:oak_planks",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:dye:17",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:dark_oak_planks",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bucket:10",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:chicken",
+                  "quantity": {
+                    "min": 14,
+                    "max": 18
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:music_disc_lava_chicken",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:heart_of_the_sea",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:pale_oak_log",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:creaking_heart",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:web",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:string",
+                  "quantity": {
+                    "min": 9,
+                    "max": 9
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:clownfish",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:spider_eye",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:string",
+                  "quantity": {
+                    "min": 3,
+                    "max": 3
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:rabbit",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:suspicious_sand",
+                  "quantity": {
+                    "min": 4,
+                    "max": 4
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:sandstone",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§rSuspicious Sandstone"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:suspicious_gravel",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:flint",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§rSuspicious Flint"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:dirt",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:suspicious_gravel",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:coarse_dirt",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§rCoarser Dirt"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:fire",
+                  "quantity": {
+                    "min": 8,
+                    "max": 8
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:chainmail_chestplate",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:stone_pickaxe",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:crafting_table",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:grass_block",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§rMinecraft"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 1,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:sand",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:suspicious_stew:0",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:suspicious_sand",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:sand",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:suspicious_stew:0",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:suspicious_sand",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:gravel",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:suspicious_stew:5",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:suspicious_gravel",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:tallgrass:0",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:string",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:double_plant:2",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:tallgrass:2",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:string",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:double_plant:3",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:tallgrass:2",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:string",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:double_plant:3",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:cooked_chicken",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:copper_nugget",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§rChicken Nugget"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 4,
+                    "max": 4
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:skull:2",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:appleenchanted",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:skull:3",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:honey_bottle",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:resin_clump",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:lingering_potion:2",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:snow_layer",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:slime_ball",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:snowball",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:stick",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:pointed_dripstone",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stone_sword",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:clay_ball",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stone_button",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:air",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:infested_chiseled_stone_bricks",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 1,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:clay_ball",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:string",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:light_gray_candle",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 8,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bowl",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:leather_helmet",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 4,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:coal",
+                  "quantity": {
+                    "min": 4,
+                    "max": 4
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:stone",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:coal_ore",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 8,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:dirt",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:iron_shovel",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:grass_path",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:dirt",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:iron_hoe",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:farmland",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:netherstar",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:gunpowder",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:fireworkscharge",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 1,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bee_nest",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:bamboo_planks",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 10,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:kelp",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:fish",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:sea_pickle",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§rSushi Roll"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 4,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:netherite_block",
+                  "quantity": {
+                    "min": 3,
+                    "max": 3
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": {
+                    "min": 4,
+                    "max": 4
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:anvil",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§d§rNetherite Anvil"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 1,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:stone_bricks",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:cracked_stone_bricks",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:wooden_hoe",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:enchanting_table",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:wooden_hoe",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "functions": [
+                    {
+                      "function": "specific_enchants",
+                      "enchants": [
+                        {
+                          "id": "mending",
+                          "level": [
+                            1,
+                            1
+                          ]
+                        },
+                        {
+                          "id": "efficiency",
+                          "level": [
+                            5,
+                            5
+                          ]
+                        },
+                        {
+                          "id": "silk_touch",
+                          "level": [
+                            1,
+                            1
+                          ]
+                        },
+                        {
+                          "id": "unbreaking",
+                          "level": [
+                            3,
+                            3
+                          ]
+                        },
+                        {
+                          "id": "vanishing",
+                          "level": [
+                            1,
+                            1
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 1,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:golden_hoe",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:gold_ingot",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:golden_pickaxe",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 3,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond_pickaxe",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:netherite_ingot",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stone_pickaxe",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§rNetherwrong Pickaxe"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 3,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:minecart",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:purple_cushion",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:minecart",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§rCozy Minecart"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 3,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bed:4",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:wheat",
+                  "quantity": {
+                    "min": 6,
+                    "max": 6
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:straw_bed",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 3,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:oak_shelf",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:brown_mushroom",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:shelf_mushroom",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 3,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:cinnabar",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:bread",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:bread",
+                  "functions": [
+                    {
+                        "function": "set_name",
+
+                        "name": "§rCinnamon Bun"
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 3,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:spruce_slab",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:written_book",
+                  "functions": [
+                    {
+                      "function": "set_book_contents",
+
+                      "title": "A Nitwit's Tale",
+                      "author": "A Nitwit",
+
+                      "pages": ["§lHur Herh Hurr: Hurr hur hur§r", "Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.",
+                      "§lHur Herh Hurr: Hurr hur hur§r", "Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.",
+                      "§lHur Herh Hurr: Hurr hur hur§r", "Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.",
+                      "§lHur Herh Hurr: Hurr hur hur§r", "Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.",
+                      "§lHur Herh Hurr: Hurr hur hur§r", "Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh. Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh.","Herhherh Hur, hur hur hurherh hur hur hur hur! Hurh hurh hur hur hur herh herh herh hurh hurh hurh huhr hurhhur hurhur herherh hur herh herh. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.","Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Heh Hurr hurr heh hurr hur hurhur hur hurhurher hur hurh herh hur hurh hur hurh hur hur hurh herh.", "Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur! Hurh hurh herh herh! Herh herh, hurherhherhheh herh hurh, hurh herh hurh huhr hur hur hur herh hurh hehr herhurh hurheh: Hurherehehr, hurh hurh hurh hurhherherh hurh hurh hurh hurrrr. Hur? Hurhurh! Hurherh hurh herh hur hur herh hurh hurhuhr herh, herh herh hur. Hurr hur hurr hurherhr hur herh herh.. Hurh? Herh herh herh herh hurh huhr hur hur hur hur hur hur. Hur hur hur hurr hur hur hur hurr hur hur, hurhur hur hur hurhur hurr hurr hur hur hur hur hurr hurr herh hur hurh hurh hurr hur.",
+                      "This §othrilling§r tale shall continue in §knever"]
+                    }
+                  ],
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 1,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:carrotonastick",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:fishing_rod",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 10,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:beetroot_soup",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:bowl",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:rabbit_stew",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:bowl",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:mushroom_stew",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:bowl",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:cooked_porkchop",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:porkchop",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 12,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bow",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:stick",
+                  "quantity": {
+                    "min": 2,
+                    "max": 2
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:crossbow",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 2,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:ominous_bottle",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:glass_bottle",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 10,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:potion:25",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:glass_bottle",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 10,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:totem",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:bucket:10",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:bucket:0",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 1,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:brown_mushroom",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:glowstone",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:shroomlight",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 5,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bucket:13",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:egg",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:frog_spawn",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 1,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:egg",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:egg",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 5,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:obsidian",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                },
+                {
+                  "item": "minecraft:ghast_tear",
+                  "quantity": {
+                    "min": 4,
+                    "max": 4
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:crying_obsidian",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 4,
+              "reward_exp": false
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:pumpkin",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  },
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:carved_pumpkin",
+                  "quantity": {
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              ],
+              "trader_exp": 10,
+              "max_uses": 20,
+              "reward_exp": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "concom:preserved_grindstone",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.glazedTerracotta"
+			},
+			"traits": {
+    "minecraft:placement_direction": {
+      "enabled_states": ["minecraft:facing_direction"] // Can be used in queries e.g. `q.block_state('minecraft:facing_direction') == 'north'`
+    }
+  }
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"origin": [-6, 0, -6],
+				"size": [12, 16, 12]
+			},
+			"minecraft:selection_box": {
+				"origin": [-6, 0, -6],
+				"size": [12, 16, 12]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 8.44,
+				"item_specific_speeds": [
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:wooden_tier')"
+						},
+						"destroy_speed": 1.29
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:stone_tier')"
+						},
+						"destroy_speed": 0.68
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:iron_tier')"
+						},
+						"destroy_speed": 0.45
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:golden_tier')"
+						},
+						"destroy_speed": 0.23
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:diamond_tier')"
+						},
+						"destroy_speed": 0.34
+					},
+					{
+						"item": {
+							"tags": "q.all_tags('minecraft:is_pickaxe', 'minecraft:netherite_tier')"
+						},
+						"destroy_speed": 0.28
+					}
+				]
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.preserved_grindstone",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "preserved_grindstone",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#5a5856",
+			"minecraft:loot": "loot_tables/blocks/preserved_grindstone.json"
+		},
+		"permutations": [
+  // Facing down
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'down'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 0, 0] }
+    }
+  },
+  // Facing up
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'up'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 90, 0] }
+    }
+  },
+  // Facing north
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'north'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 0, 180] }
+    }
+  },
+  // Facing west
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'west'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 90, 180] }
+    }
+  },
+  // Facing south
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'south'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 0, 180] }
+    }
+  },
+  // Facing east
+  {
+    "condition": "q.block_state('minecraft:facing_direction') == 'east'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 90, 180] }
+    }
+  }
+]
+
+	}
+}

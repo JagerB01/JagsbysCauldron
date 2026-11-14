@@ -1,0 +1,64 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "concom:temp_andesite_lower_feature",
+      "places_feature": "concom:andesite_temp_feature"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+		            "test": "has_biome_tag",
+		            "operator": "==",
+		            "value": "birch"
+		          },
+		          {
+		            "test": "has_biome_tag",
+		            "operator": "==",
+		            "value": "flower_forest"
+		          },
+		          {
+		            "test": "has_biome_tag",
+		            "operator": "==",
+		            "value": "plains"
+		          },
+		          {
+		            "test": "has_biome_tag",
+		            "operator": "==",
+		            "value": "roofed"
+		          },
+		          {
+		            "test": "has_biome_tag",
+		            "operator": "==",
+		            "value": "swamp"
+		          },
+		          {
+		            "test": "has_biome_tag",
+		            "operator": "==",
+		            "value": "pale_garden"
+		          }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 2,
+      "coordinate_eval_order": "zyx",
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [ 0, 60 ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

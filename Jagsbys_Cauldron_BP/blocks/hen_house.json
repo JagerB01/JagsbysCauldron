@@ -1,0 +1,123 @@
+{
+  "format_version": "1.26.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "jagsby:hen_house",
+      "states": {
+        "jagsby:half": [
+          "front",
+          "back"
+        ],
+        "jagsby:facing": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.jagsby_hen_house_front",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "jagsby_hen_house",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          14,
+          16
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          14,
+          16
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.4
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:map_color": "#B58A52",
+      "minecraft:loot": "loot_tables/blocks/hen_house.json"
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('jagsby:half') == 'back'",
+        "components": {
+          "minecraft:geometry": "geometry.jagsby_hen_house_back"
+        }
+      },
+      {
+        "condition": "query.block_state('jagsby:half') == 'back'",
+        "components": {
+          "minecraft:loot": "loot_tables/blocks/hen_house_empty.json"
+        }
+      },
+      {
+        "condition": "query.block_state('jagsby:facing') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('jagsby:facing') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('jagsby:facing') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('jagsby:facing') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              270,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

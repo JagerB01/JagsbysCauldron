@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "concom:wild_potato_single"
+    },
+    "places_block": "concom:wild_potato_ground",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true,
+    "may_replace": [
+      "minecraft:air",
+      "minecraft:leaf_litter",
+      "minecraft:snow_layer"
+    ]
+  }
+}

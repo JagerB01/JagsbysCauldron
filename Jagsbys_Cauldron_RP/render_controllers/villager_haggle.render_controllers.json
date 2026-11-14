@@ -1,0 +1,172 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.villager_haggle_base": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.base",
+            "Texture.base2",
+            "Texture.base3",
+            "Texture.base4",
+            "Texture.base5",
+            "Texture.base6",
+            "Texture.base7",
+            "Texture.base8",
+            "Texture.base9", 
+            "Texture.base10",
+            "Texture.base11",
+            "Texture.base12",
+            "Texture.base13",
+            "Texture.base14",
+            "Texture.base15",
+            "Texture.base16",
+            "Texture.base17",
+            "Texture.base18",
+            "Texture.base19",
+            "Texture.base20",
+            "Texture.base21",
+            "Texture.base22",
+            "Texture.base23",
+            "Texture.base24",
+            "Texture.base25", 
+            "Texture.base26", 
+            "Texture.base27",
+            "Texture.base28",
+            "Texture.base29",
+            "Texture.base30",
+            "Texture.base31",
+            "Texture.base32",
+            "Texture.base33",
+            "Texture.base34",
+            "Texture.base35",
+            "Texture.base36",
+            "Texture.base37",
+            "Texture.base38",
+            "Texture.base39",
+            "Texture.base40",
+            "Texture.base41",
+            "Texture.base42",
+            "Texture.base43",
+            "Texture.base44",
+            "Texture.base45",
+            "Texture.base46",
+            "Texture.base47" 
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.skins[query.skin_id]"
+      ]
+    },
+    "controller.render.villager_haggle_masked": {
+      "arrays": {
+        "textures": {
+          "Array.biomes": [ 
+            "Texture.plains",
+            "Texture.desert",
+            "Texture.jungle",
+            "Texture.savanna",
+            "Texture.snow",
+            "Texture.swamp",
+            "Texture.taiga",
+            "Texture.badlands",
+            "Texture.wooded_badlands",
+            "Texture.sparse_jungle",
+            "Texture.bamboo",
+            "Texture.stony_peaks",
+            "Texture.mangrove",
+            "Texture.deep_lukewarm_ocean",
+            "Texture.warm_ocean",
+            "Texture.roofed_forest",
+            "Texture.pale",
+            "Texture.forest",
+            "Texture.flower",
+            "Texture.birch",
+            "Texture.old_growth",
+            "Texture.sunflower",
+            "Texture.meadow",
+            "Texture.cherry",
+            "Texture.windswept",
+            "Texture.river",
+            "Texture.deep_ocean",
+            "Texture.mushroom",
+            "Texture.coast",
+            "Texture.ice_spikes",
+            "Texture.snowy_taiga",
+            "Texture.mountainside",
+            "Texture.jagged_peaks",
+            "Texture.frozen_peaks",
+            "Texture.frozen_river",
+            "Texture.frozen_coast",
+            "Texture.deep_frozen_ocean",
+            "Texture.lush_caves",
+            "Texture.dripstone_caves",
+            "Texture.deep_dark",
+            "Texture.end",
+            "Texture.nether",
+            "Texture.crimson_forest",
+            "Texture.warped_forest",
+            "Texture.soulsand_valley",
+            "Texture.basalt_deltas",
+            "Texture.sulfur",
+            "Texture.dappled"
+
+          ],
+          "Array.professions": [
+            "Texture.unskilled",
+            "Texture.farmer",
+            "Texture.fisherman",
+            "Texture.shepherd",
+            "Texture.fletcher",
+            "Texture.librarian",
+            "Texture.cartographer",
+            "Texture.cleric",
+            "Texture.armorer",
+            "Texture.weapon_smith",
+            "Texture.tool_smith",
+            "Texture.butcher",
+            "Texture.leatherworker",
+            "Texture.stonemason",
+            "Texture.nitwit"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "(query.is_baby || variable.profession_index == 0) ? Material.default : Material.masked" }
+      ],
+      "textures": [
+        "Array.biomes[query.mark_variant]",
+        "Array.professions[variable.profession_index]"
+      ]
+    },
+    "controller.render.villager_haggle_level": {
+      "arrays": {
+        "textures": {
+          "Array.levels": [
+            "Texture.level_stone",
+            "Texture.level_iron",
+            "Texture.level_gold",
+            "Texture.level_emerald",
+            "Texture.level_diamond"
+          ]
+        }
+      },
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.default",
+      // If we are not babies, unskilled, or nitwits we can have a job level
+      "part_visibility": [ { "*": "!query.is_baby && variable.profession_index != 0 && variable.profession_index != 14" } ],
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.levels[variable.level_index]"
+      ]
+    }
+  }
+}

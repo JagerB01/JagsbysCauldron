@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.0",
+	"the_nitwit_noggin": {
+		"sound": "honey_block"
+	},
+	"preserved_fletching_table": {
+		"sound": "wood"
+	},
+	"preserved_lectern": {
+		"sound": "wood"
+	},
+	"preserved_brewing_stand": {
+		"sound": "stone"
+	},
+	"preserved_cauldron": {
+		"sound": "stone"
+	},
+	"preserved_grindstone": {
+		"sound": "stone"
+	},
+	"preserved_stonecutter": {
+		"sound": "stone"
+	},
+	"preserved_smoker": {
+		"sound": "stone"
+	},
+	"preserved_blast_furnace": {
+		"sound": "stone"
+	},
+	"preserved_composter": {
+		"sound": "wood"
+	},
+	"preserved_loom": {
+		"sound": "wood"
+	},
+	"preserved_cartography_table": {
+		"sound": "wood"
+	},
+	"preserved_smithing_table": {
+		"sound": "wood"
+	},
+	"preserved_barrel": {
+		"sound": "wood"
+	},
+	"wild_beetroot_ground": {
+		"sound": "hanging_roots"
+	},
+	"wild_potato_ground": {
+		"sound": "hanging_roots"
+	},
+	"wild_carrot_ground": {
+		"sound": "hanging_roots"
+	}
+}

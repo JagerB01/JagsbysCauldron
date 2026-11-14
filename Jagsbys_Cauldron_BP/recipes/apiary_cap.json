@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "apiary:apiary_cap_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PHP",
+      "CSC",
+      "PBP"
+    ],
+    "key": {
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "H": {
+        "item": "minecraft:honeycomb"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "S": {
+        "item": "minecraft:shears"
+      },
+      "B": {
+        "item": "minecraft:chest"
+      }
+    },
+    "result": {
+      "item": "apiary:cap",
+      "count": 1
+    },
+    "group": "apiary_cap"
+  }
+}
