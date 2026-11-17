@@ -19,13 +19,7 @@ system.runInterval(() => {
     const dimension = world.getDimension(dimName);
 
     for (const player of world.getPlayers({ dimension })) {
-      const emeraldDrops = dimension.getEntities({
-        type: "minecraft:item",
-        location: player.location,
-        maxDistance: 4,
-      });
-
-     const villagers = dimension.getEntities({
+      const villagers = dimension.getEntities({
         type: "minecraft:villager_v2",
         location: player.location,
         maxDistance: 4,
@@ -35,6 +29,15 @@ system.runInterval(() => {
         const variant = variantComp?.value ?? 0;
 
         return (!isBaby || !isBaby.value) && variant !== 0;
+      });
+
+      // Avoid querying dropped items when no eligible villager is in range.
+      if (villagers.length === 0) continue;
+
+      const emeraldDrops = dimension.getEntities({
+        type: "minecraft:item",
+        location: player.location,
+        maxDistance: 4,
       });
 
       for (const item of emeraldDrops) {

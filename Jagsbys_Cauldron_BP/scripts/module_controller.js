@@ -1,7 +1,7 @@
 import { world, system } from "@minecraft/server";
 
 const KEY = "jagsbys_cauldron:module_settings_v1";
-const DEFAULTS = Object.freeze({ diplomacy: true, croft: true, mfs: true, conquest_commerce: true });
+const DEFAULTS = Object.freeze({ croft: true, mfs: true, conquest_commerce: true });
 let active = { ...DEFAULTS };
 let planned = { ...DEFAULTS };
 let ready = false;

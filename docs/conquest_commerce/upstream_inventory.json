@@ -1,0 +1,710 @@
+{
+  "source_file": "Conquest_Commerce_v1.1.1_SoundFix_Performance_v1.1.3.mcaddon",
+  "source_sha256": "56008aadd38706d53599a5f8f940b2ccf3d9a70e823f36bb6b77c995e9e52a68",
+  "exact_files": {
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_barrel.block.json": "18d097c9b3e59b9346e7b6b2a4d6fdfe69b1467a208b58ebc9b464bcb9ec6c25",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_blast_furnace.block.json": "0b687b6ca3cb393d43c0454fb9df408dcc3cf0f6b5495dfc161c6a284e220778",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_brewing_stand.block.json": "557b5f3976d508bf65a2813f9d6b3c6cc3612e727d983860be568bc3fe29eb2c",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_cartography_table.block.json": "f9ff92e3c7d4b496e253ac2f245e780179679a8e202a03c2c6906b54f7e25d8f",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_cauldron.block.json": "09c70bce3d7354377ca649746b1f7d08b0d301e5ac3deb14c2b7a58248a18b21",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_composter.block.json": "6275a1b5bc3502aaf622661efe138a48160b212bc92d3e070b35959136c4758e",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_fletching_table.block.json": "ecaae25c2294e6579a3647e60a4e273f2fa07a9aae601f2c8761f578f0936e86",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_grindstone.block.json": "364dead33bea8b754f51c46e1941d3744f8aeaf5ce2e18b2124b7448318e0035",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_lectern.block.json": "6a0b4a3edf9fba7f3d9f7c6a34e3cfeb7c9012fee6a5284526ed99d54ee02153",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_loom.block.json": "9b32f29adc711f43b4995cb931d4a0dbac34bfde3250f643d9725c7dc4b9fe82",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_smithing_table.block.json": "3e69b6598109441108166c1d02f74e5c0af914488cb268811203075c474fb1df",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_smoker.block.json": "17fbd1270c4cea5f4a9ae6cdcdda9fb474c23bb24311196bff72eecc4ccd9481",
+    "Jagsbys_Cauldron_BP/blocks/preserved_blocks/preserved_stonecutter.block.json": "ca5971fbec09e6647f0beb6deaef57999c237dc219a8d41703e1172bce80e3a8",
+    "Jagsbys_Cauldron_BP/blocks/the_nitwit_noggin.block.json": "821f74d0ff1e77480733914d0d303256e01daf83fc082eaa7ed4a7b8299053c5",
+    "Jagsbys_Cauldron_BP/blocks/wild_beet.block.json": "be154a1abe6d5c150a77e0dc07924afa36e3702cb59aed7e062e3f9f8769746a",
+    "Jagsbys_Cauldron_BP/blocks/wild_carrot.block.json": "655f4d70c633937cb264f70fea43eae70ac2a69b571545c1b49062099fde8b71",
+    "Jagsbys_Cauldron_BP/blocks/wild_potato.block.json": "311c6ae0b56e8f3d54a79a6e0474ddb19d7524e9ce165edfc56b5e6be0d0530e",
+    "Jagsbys_Cauldron_BP/entities/chicken.json": "d8f7280360f5c76ea650101600fa385bde77d6a82b455433c1ad3fc22cb00736",
+    "Jagsbys_Cauldron_BP/entities/cow.json": "bd78984f26f7250f8cb6dcb3d0950c044e7f4c3f4900a6c1e446486a3ace2408",
+    "Jagsbys_Cauldron_BP/entities/fishing_hook.json": "c96e57cb0d208f99b5b70cdbc11b9dba655db3b129e30ad55cdbae3d254c22f4",
+    "Jagsbys_Cauldron_BP/entities/pig.json": "9667e9f3ce2c78802aa2ab0e3096fe9f0c9ff082c65c8b4bee90b06a84738064",
+    "Jagsbys_Cauldron_BP/entities/sheep.json": "cebbfabeb000d84ef8509cee631749dc4d6584b33322503c6573048dad8b80aa",
+    "Jagsbys_Cauldron_BP/entities/villager_haggle.json": "5287054d46a6cc5eb43644d59daea6b749a051fd0448eddb7bfb3faab5c101c7",
+    "Jagsbys_Cauldron_BP/entities/villager_v2.json": "ca061904224ab685e28c59db877362487baf76cb7cc4871cfb4e78b0d1852063",
+    "Jagsbys_Cauldron_BP/entities/zombie_villager_v2.json": "6be402779d0fff2832b8787805d492586050cc10ce4d11562da7ab612f2ef1c8",
+    "Jagsbys_Cauldron_BP/feature_rules/ores/forest_coal_ore_feature.json": "56a0d2f18d1337f7a676f40a89e421441b07b7f5241b22e327a053e997fb8036",
+    "Jagsbys_Cauldron_BP/feature_rules/ores/ice_spikes_iron_ore_feature.json": "0facc3c6105b088b6a02721cc975907bf4ab5830d469f354afba5bd78d1505ce",
+    "Jagsbys_Cauldron_BP/feature_rules/ores/jungle_amethyst_geode_feature.json": "87b6204ac7708e5ed86eb97af5d4c7e14198b73e5efbb148509836d97b1a28b2",
+    "Jagsbys_Cauldron_BP/feature_rules/ores/savanna_lapis_ore_feature.json": "0a8f1d21f62a01e73a78e1f42bccc06b31de05374ccaa44cb3adc10f12bca7a9",
+    "Jagsbys_Cauldron_BP/feature_rules/ores/swamp_redstone_ore_feature.json": "caef6905eed3fbc1dc18a33c86ba5154a9872f3ce2eeeec4039472bd3a9ccd38",
+    "Jagsbys_Cauldron_BP/feature_rules/ores/taiga_copper_ore_feature.json": "ac9c5f77ef49c718c338ef08d1e141d0337b7be71424f23c196022f692963cb9",
+    "Jagsbys_Cauldron_BP/feature_rules/stone/cold_granite_lower_feature.json": "6967182aa0de322da151e95f3626a1b27fd7846468348d4a72591697a818684e",
+    "Jagsbys_Cauldron_BP/feature_rules/stone/cold_granite_upper_feature.json": "e96ddd6c21baa4b00fac352f436634aaaacc6658e5202c8cc2023810f9e103f2",
+    "Jagsbys_Cauldron_BP/feature_rules/stone/forest_andesite_lower_feature.json": "b298388d7be80e3813a752506843a0ec569be658a90120859fe945d26cfc5757",
+    "Jagsbys_Cauldron_BP/feature_rules/stone/forest_andesite_upper_feature.json": "905cfd9feb0a0bb69512f7550ff5c76d9a635b800b73c722781c2f480552bc7e",
+    "Jagsbys_Cauldron_BP/feature_rules/stone/temp_andesite_lower_feature.json": "93bb77d384ad6222456fe791491fa06d427572df6fbf2cf8aa3227c1cc57fedb",
+    "Jagsbys_Cauldron_BP/feature_rules/stone/temp_andesite_upper_feature.json": "d9721f9466b21e9ff6583a87c234f84bdadd4749b61dc4bde647887487b8d2e3",
+    "Jagsbys_Cauldron_BP/feature_rules/stone/warm_diorite_lower_feature.json": "f2e48add8daec3f954838c3698d8211cd622f1c6f5405c8614b4e1d56702a647",
+    "Jagsbys_Cauldron_BP/feature_rules/stone/warm_diorite_upper_feature.json": "652f82f5b6790c0e5907976e85dfa48a665a136b454891e750f9123c24090d77",
+    "Jagsbys_Cauldron_BP/feature_rules/vegetation/wild_beetroot_rule_beach.json": "70e3fdb33b4f4463452d3d6c5fdcb7176d1d10899fbf5d6d046a43daf3bef797",
+    "Jagsbys_Cauldron_BP/feature_rules/vegetation/wild_beetroot_rule_swamp.json": "9731c63fb1f4abda2ce23e1a607ec57e2e462e68e54b51ddedeca6fcef311873",
+    "Jagsbys_Cauldron_BP/feature_rules/vegetation/wild_carrot_roofed_rule.json": "0353c8f90c803b221f8da44e024d8622f9dd0efef40186f9488fb5f210fa2b32",
+    "Jagsbys_Cauldron_BP/feature_rules/vegetation/wild_carrot_rule.json": "ce8f4f2c522f24711bf5fe7ebc6a22b1b91a7a4f1f264504dcbcbe1596a997d5",
+    "Jagsbys_Cauldron_BP/feature_rules/vegetation/wild_potato_rule.json": "6d3983a24b6ef2a21966e18bf9b30f3449cad173d3de4fd1592b0db5b55257ad",
+    "Jagsbys_Cauldron_BP/features/ore/coal_ore_forest_feature.json": "3786be3dd08bcaf5d42a10baf924ab3f7469cb50aab3f72c611333cf8ba33133",
+    "Jagsbys_Cauldron_BP/features/ore/copper_ore_taiga_feature.json": "8c6cd4bcd8bf35544ed84fa2d0195edd6b722cbb73b05e3dbcaa14f0a7db0ed4",
+    "Jagsbys_Cauldron_BP/features/ore/iron_ore_ice_spikes_feature.json": "56b3b533b0fe0dbbb48441b9db264babe5a376c16b7ecc8923e717d201e085a3",
+    "Jagsbys_Cauldron_BP/features/stone/andesite_temp_feature.json": "2021f21fe3565122ebd013b44c1bae539c14b31af5a49b37609a39e723962dc0",
+    "Jagsbys_Cauldron_BP/features/stone/diorite_warm_feature.json": "1f44750a630cffb40b972140e919e604302c00ea9ffea3a4161715801b76c338",
+    "Jagsbys_Cauldron_BP/features/stone/granite_cold_feature.json": "a1f44f960bf22f420bf6a1d04974807b76f945ddcd6fababa0e4de6818e34262",
+    "Jagsbys_Cauldron_BP/features/vegetation/wild_beetroot_beach_scatter.json": "7f7bed596f59dba9254c9249663e4cbfebd269432986de137330f6c8c766310a",
+    "Jagsbys_Cauldron_BP/features/vegetation/wild_beetroot_scatter.json": "28117a5a389cf7d7e53baf7debdb0c48edd0d2f02fea98354bbad9aee6549fd6",
+    "Jagsbys_Cauldron_BP/features/vegetation/wild_beetroot_single.json": "6119ee5bdcbe4e8dddc5eb2310cd7964678aa9b6229fabb607a73bc693d81c11",
+    "Jagsbys_Cauldron_BP/features/vegetation/wild_carrot_scatter.json": "de3ef391b7cb7718f6601c0b2b4934a21ebfd6bc58bc3bf475f673a7dd055464",
+    "Jagsbys_Cauldron_BP/features/vegetation/wild_carrot_single.json": "1373882caff6209c8412989e49734c230ba6ecdb053d9c2ac9e0d3efea8704bd",
+    "Jagsbys_Cauldron_BP/features/vegetation/wild_potato_scatter.json": "9fe732851d4395fa631e5af5b8ae9d3aa7ed04b6f4d68b107f1ef4e527f00e24",
+    "Jagsbys_Cauldron_BP/features/vegetation/wild_potato_single.json": "423071f8061ce512167c22cb23ec19bdbf156ae176cec4766c545242a690b698",
+    "Jagsbys_Cauldron_BP/items/deal_pottery_sherd.json": "1d413b600ce77efce1af0079a8437a5155f147d10ff9fe6b6ff3a7fe4ac020a7",
+    "Jagsbys_Cauldron_BP/items/food/beetroot_soup.json": "113f2da2f3f9700c97e94294e461b48ceecd1274c253c4690445d0afd3ed3585",
+    "Jagsbys_Cauldron_BP/items/food/mushroom_stew.json": "f7cb3c5620eb5f108cdf18b516fd510a14f33a58b47cb1383421f0068b2aa4e3",
+    "Jagsbys_Cauldron_BP/items/food/rabbit_stew.json": "3ab35eada08802594835db92b0bae7f1cb9d30d9764a4c930ca0b891d6348ecd",
+    "Jagsbys_Cauldron_BP/items/music_disc_midnight.item.json": "a9702d25c5e4bb9a0b13226d14dc5e4120eee51ff2a926858cd23d9ad3d1a8ca",
+    "Jagsbys_Cauldron_BP/items/testificate_pottery_sherd.json": "2f7af2557bd5225dbb70863ed06aa5284fc076610da205e7bda7bdc234ab86fd",
+    "Jagsbys_Cauldron_BP/items/wild_beetroot.item.json": "2946ea9ce6c6e427c69b74264634801d6f7553eb1c99965231628f58ec10a3e9",
+    "Jagsbys_Cauldron_BP/items/wild_carrot.item.json": "6b639368033ca6a63c3205127d7da78567ba28f50abcd8dcc9aff6aeb28f2168",
+    "Jagsbys_Cauldron_BP/items/wild_potato.item.json": "2ce4117f9c05ed3aa03f497e036d9ffdcd6f3aee5a4e0d8fc66197c484112300",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_barrel.json": "1ee08152218e44bda85e83d47a3dcb8f74e36a60aa6ce9a79db8303e1175886a",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_blast_furnace.json": "7a9f89268613a631f1dcc40d36518ede87d53ef74007d2279ad1d210fa5da53f",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_brewing_stand.json": "7bf564f0250d1f41f16a26566a1e834976ac63a0f8ae532615c330f60ca88dcf",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_cartography_table.json": "cc5e4ced91daa8a87d749a11c5ccb36ac7605583b8720c58f25a60d752cb51f2",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_cauldron.json": "9c43ccaafae9b2a7caba19835c170d278dc7225eeed59e1c19801477c3fa4ded",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_composter.json": "78bd0ca6258748cf08da18a4c1f1b1a1ab1c36301b00f0aff71e85e9b1970c8d",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_fletching_table.json": "9c87d768662dc4ac7a4e905b10d91fe35426415e496486d1cb9614a23b0be81d",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_grindstone.json": "a5d435431f4501325ffcbef30e86fa39e2e0801286774cc071d08d3d5e1282be",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_lectern.json": "c5241dc1383bddc56f0803991649be946733a2b80198f2dc56ad1688f1ad1623",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_loom.json": "83d2bb2b767c82d274d3557c0207741b10dd2f3651f073aad89fde3a7c24714b",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_smithing_table.json": "2de4b5aa399734ef4daba27cfade30ee35953427816f1aba8694e85eddcd4320",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_smoker.json": "8b44721aaeda228a3844979ddba8d2de1c46e327a0e5fbe5e27c23228a2c42da",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/preserved_stonecutter.json": "d03a62ae16fb4fe8bc164530f4c2e75c7d3a9529420a8b1f20519e55957589d6",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/wild_beetroot_ground.json": "d8938ed4da9eb7884c4ba0cd3039e50a61c25cf904d3044fdd3a0369a3056a2e",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/wild_carrot_ground.json": "be89836ca81bccf6d8d3d0d79818b104f936855b186b8d65a244f87cf7ba5785",
+    "Jagsbys_Cauldron_BP/loot_tables/blocks/wild_potato_ground.json": "a687cc0d8e302ef59c465765e6d66003a1a306647b588d3b08accb853a49f031",
+    "Jagsbys_Cauldron_BP/loot_tables/chests/woodland_mansion.json": "d69a3e0973bcaf1cff558cf4513fea9f5b237262083bac55beda68cc12cac993",
+    "Jagsbys_Cauldron_BP/loot_tables/entities/cold_chicken.json": "d8e8c2aff37a1f00ba34ecddd9c54df8ce8934f9e54e9833bdc8d3726ee9dac1",
+    "Jagsbys_Cauldron_BP/loot_tables/entities/cold_cow.json": "aa8f8310cb97e331f5fedce5489224225faf45bc8ecf369339a7fbab62ff8340",
+    "Jagsbys_Cauldron_BP/loot_tables/entities/cold_sheep.json": "5b2df24746ccc331f8712d58e970f9a9e3a653b483c3d0463c4a35d075d0cfcb",
+    "Jagsbys_Cauldron_BP/loot_tables/entities/cold_sheep_shear.json": "a27a8d4da058d22a0517e34f1f4f06efff3cb15abe8f4867ca808346e85a3c27",
+    "Jagsbys_Cauldron_BP/loot_tables/entities/cold_sheep_sheared.json": "30fe4fb8c6cdd85e90402ad09923f1fad9bc8ac412ba06f7aed2306c15b42fce",
+    "Jagsbys_Cauldron_BP/loot_tables/entities/warm_cow.json": "0fb1cbbb9a576d100f25635d0351ba61b20d438a7d3e726680260e8beceec555",
+    "Jagsbys_Cauldron_BP/loot_tables/entities/warm_pig.json": "ab1bc0bc1f070571505658488a806ef260e2a6cdff8b6160d44342426ff4c8bc",
+    "Jagsbys_Cauldron_BP/loot_tables/entities/warm_sheep.json": "300b57b0bea07f9a18784383ca02e2219d72e011568905507713ec0110c9e1d9",
+    "Jagsbys_Cauldron_BP/loot_tables/entities/warm_sheep_sheared.json": "ab2e4d8d372c2e6f687e109743fa7ca6b7eca19804e95a346665987a04d129b1",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/fish.json": "20a0aa7ba2b6e006a3b4493c926dbf3419c7b582386782d7507129d329290ef0",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/frozen_fish.json": "c6490beaf37fcd25e9afbfae7bb8c1002ddb92ebf55cc4a4f23dce6991cdeca1",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/frozen_junk.json": "acf0103ff74226da49a0c992ebd43ed77560195250f2ed8066769eaaf6a07198",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/junk.json": "09f9afe1b939f9ade8f243f6ef3c440c2916844c787e583dda1a01122b7fcb23",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/lukewarm_fish.json": "0dc66b7c3d73bb98ef46106cf5d81dcce7e1fd8b5e2d05d3a07c06bfc5c78edc",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/lukewarm_junk.json": "c14c3adb8be3055c3f7f04d412e4eeb576f606f57637aa411a5a40102da73da4",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/mangrove_fish.json": "724594bafd1e9cfc7a29a0eb189edc6a0dea4da83857d40080c4417f7739cbcb",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/river_fish.json": "65b1ea737b4d14e04db2ba70f17bcc53f58a971ef28299448bde03ec43fe07ee",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/sulfur_fish.json": "37f68120556ab00e3a1a4b75aecac2c6d2aad5303769379152dbe6b080a98012",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/swamp_fish.json": "f70448071e5a7e7763eecfe3449ff92628130cc33f704a5f1d4b2fe3c204a4b6",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/swamp_junk.json": "8f88f2eef61d7e028e38407f6d3b23d9516e7df019a77e846c934e3b71648b04",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/taiga_fish.json": "49bd2b40f3f2e68ad117174519e59d39dfabe7c8cf014ccefbc060b501481467",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/treasure.json": "c8e6b55d94109d5b3270a2c64ffff0e402cedb50b1acf74bda97f7200786bf26",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing/warm_fish.json": "8edf036ea4b7581f8d73f893e02012f1e9c24ac670686641620be8ef28dae8b7",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/fishing.json": "fd299c9b0f43c446d76218d51ef738201346c28a93c60d547722cbb3b8230384",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/frozen_fishing.json": "fd841b184477c679aa30ab65ba00e94a7fd05ffafe954f17893c15063e836025",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/lukewarm_fishing.json": "a0af1ca449f3aac5342f2e9b6d195673eb6c69cccb49230100904e71acfc43a0",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/mangrove_fishing.json": "c54129ac0d3460f65dfd940dfcccc6520958c11fdaa419ac9c731a351046b6b0",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/river_fishing.json": "dc0c2abc4e31ab3da0486e1884f18ddeb0cfc37efc666f4ebe91b0421ad7bfe2",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/sulfur_fishing.json": "26e6903feb948a374e1cb0da724ff5dd676e430094a57c16a89b59bbc361b99f",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/swamp_fishing.json": "8272ec5351b0b57dc566092df9cd86738aa3ec5c7d9b141c157a40ee2cf0295d",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/taiga_fishing.json": "dc0c2abc4e31ab3da0486e1884f18ddeb0cfc37efc666f4ebe91b0421ad7bfe2",
+    "Jagsbys_Cauldron_BP/loot_tables/gameplay/warm_fishing.json": "af549c19e0017185c2e6906108eb2f09d78e29b6c2133e5e2de36b794ae69415",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_barrel.json": "7d4aa95cad72b6418c69ab8956f80cd9ce2cd7fab72f3df85227a77f1ce19ce2",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_blast_furnace.json": "942fdda03e96a082be4e1e9fdf11d6febe4c973232f8f9d68a392a4df06c566b",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_brewing_stand.json": "012699021cd0cdf265d3d39389d03d1154ad30ccbac29016cb2ae4e67005cf80",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_cartography_table.json": "38787da6c67af878f440c329ced2b4756055c2ca2b5beb4b50a7e15e76736e0e",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_cauldron.json": "2f962277bbd5ff78b63067267de14200d7df3c32b1eafcc201257595d7bff54c",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_composter.json": "c2af57fe3ff873747c7fcfd81146d8e4090c1050ab34b1f9d50039f06795ead7",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_fletching_table.json": "1ff620bec5e9da9afd7f690f4940cc627f46e919b8bb1f37a7383d7c9243c109",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_grindstone.json": "8b8229fac30e8464e6ed28bc65ced15eab44a2112827510abeeee663c5cf929c",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_lectern.json": "0e82ef78513efa98c37accc0779afe30df43eae90ea4d0ad28d95f035a22fefb",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_loom.json": "d80d1f33d0a1f00db169972842cb2b153970122524a642f2e4284c3115755160",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_smithing_table.json": "1c7105165bf69fc5ee19d2ec6b24fbc717054841c7525f2e614d4e4b2f1c71a9",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_smoker.json": "81230e0b19f74d58d685c4917a78eb6b044ba12ca8be95b4b054853e20bfea48",
+    "Jagsbys_Cauldron_BP/recipes/preserved_job_blocks/preserved_stonecutter.json": "cd3260f48230d25ed5dbb28528f1b93fbebfb608d9f50035fdadac0fe60e0919",
+    "docs/conquest_commerce/original_scripts/main.js": "8d1452c066a57f5319df04f6b6612d9902178c7d872f3856bbf77d8fc434f427",
+    "docs/conquest_commerce/original_scripts/mta/fletch.js": "f143d7b9a75a0028ff78d60bf43b3259d097b1d50b14d7ff821408b425606269",
+    "docs/conquest_commerce/original_scripts/mta/haggle.js": "4785e10348e827925b55bd5202c35e30a4da0ef52c4ed377c7e23bf2d65222ca",
+    "Jagsbys_Cauldron_BP/spawn_rules/chicken.json": "b5f33bc826c889cf2a728151a430391da43e89a3fa7c9f9454ff0a141cb33bf8",
+    "Jagsbys_Cauldron_BP/spawn_rules/cod.json": "05344ac541b86b1d37e251176dd00b28daec77c33282fb6f25f813aa19281737",
+    "Jagsbys_Cauldron_BP/spawn_rules/cow.json": "3e4dbc1e15d5c2165cf2e943a8e96302190415715705fc51e05d6a83c462d07c",
+    "Jagsbys_Cauldron_BP/spawn_rules/creeper.json": "7e9f6885c4893ef05728edb79710c4b4c74bc73d54ec8b8eeaa4b494fbe57951",
+    "Jagsbys_Cauldron_BP/spawn_rules/pig.json": "b3cd376b5b8f8ea876e7dcd3a7269eebd20c68120cf02f55cb2c18d6fb64e5ee",
+    "Jagsbys_Cauldron_BP/spawn_rules/pillager.json": "73bd2b4e55538522a93a34559931687ebcd29e11f33156b4bfc95cbd3285d5c5",
+    "Jagsbys_Cauldron_BP/spawn_rules/salmon.json": "e57af8ea5f181972a7c6f5796da28b092ef4de252742c8528c94ad395ada46d7",
+    "Jagsbys_Cauldron_BP/spawn_rules/sheep.json": "08f19277ce3c1362b11e68de5e65fd70b4144d60466c696408e420994bb3fa50",
+    "Jagsbys_Cauldron_BP/spawn_rules/squid.json": "457689a948e83c9fa71963e04e362f25132bfe1ed0e11e2845c11b4b5c08d66d",
+    "Jagsbys_Cauldron_BP/spawn_rules/zombie.json": "f41c27862fca961d3653753f9232cb89711be4bbf825a7acc518e38e9c8b70ab",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/armorer_trades.json": "6a75d5c6985eb9d6b81d68e90b83be1264fb4be876572dcc357cd877d15a39f1",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/butcher_trades.json": "525f8a7f2e5d33845a08c7c13c6cf8db46bd641d503f6f6d68e22db26e396435",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/cartographer_trades.json": "b74b00b19215bed12ae60ad0191a57d8746b24512fcc74425affc78482e0a55e",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/cleric_trades.json": "6f2c0d842c6a191098ce4c283168e3f1db777252690ef8ce50b63656b413ec6e",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/farmer_trades.json": "759be36e47c94ad79610636c9b2159fcf4bdcf9ba36fb62f4e8b8450ec10db8d",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/fisherman_trades.json": "41881641a066fff795240eb09d56a3d3da41c70fb8955f21136afd217d04e5f4",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/fletcher_trades.json": "e87dbe5e593a28b9b9010d5f634c29e3bd2db837622c2c4b067bc9319cf43539",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/leather_worker_trades.json": "63dc028e8a5139bca41fc272dc755dddd6db4f2a229d4b12a9762511b33b0e1f",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/librarian_trades.json": "10ec76423e882382d7d2d82b53e59432c1aac4565b50375ceb164c39341f5cf6",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/nitwit_trades.json": "fd0cdf2aa43b2426b05df7db56c842caf2bf13906721249fd2aadf2fb7f6742e",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/shepherd_trades.json": "a4a4add7656cb199a4b297a06ebadd61527fe6fc8b8f0a7001779ffaffc8d9d5",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/stone_mason_trades.json": "32aff7a3721f7e1a4f94b84515bc6d05a5e15053f2823517ec973df8c387a996",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/tool_smith_trades.json": "f08748f552032063a2d73f1fb4f1c632034cadd6c4dadb03ffb7c7d08d468b85",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/wandering_trader_trades.json": "584468c7798c54f436e3571e300ab947cff84292d2bec42c06f0ed04798ba55d",
+    "Jagsbys_Cauldron_BP/trading/economy_trades/weapon_smith_trades.json": "c32c32902973ecd24709f86ade04acbfbc7def7b36ab49282569fe9c47fd75c0",
+    "Jagsbys_Cauldron_RP/blocks.json": "e31a07d29da6480319a8c52eb12f64d4d2911a37b54638bd783f3bf607809920",
+    "Jagsbys_Cauldron_RP/entity/decorated_pot.entity.json": "136b491380696ed61030d6d7b300c197f701f8d8fb34cc826a7e3e0bccd81566",
+    "Jagsbys_Cauldron_RP/entity/horse_v3.entity.json": "88dddd5d044aba6c9f97ab97f262bdfd477e040eb63e8cd2e979cdb2b443c5e4",
+    "Jagsbys_Cauldron_RP/entity/villager_haggle.entity.json": "f4df8ca7da023aafd211771d292b5007663c2226483e83d35983146e5d50fb0d",
+    "Jagsbys_Cauldron_RP/entity/villager_v2.entity old.json": "7961e28ae57c8cb72f239cbeb45f643215c7b5b6735de7fe3ef349766528e6ff",
+    "Jagsbys_Cauldron_RP/entity/villager_v2.entity.json": "70e3e54cf0271114fa703aed4f9ebb47a734a3ed4dea9fbf4561fe33ca1b2320",
+    "Jagsbys_Cauldron_RP/entity/zombie_villager_v2.entity.json": "6844aa78bc11ab7fbb5b907e7fd99261f6e655c5066bac6552e3e011e33fc84f",
+    "Jagsbys_Cauldron_RP/models/blocks/amethyst_ore.geo.json": "55ca4d8558cfdcbbed556befa019ee95e7b3deb7bec736ea97d66f5fa682471e",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_barrel.geo.json": "bb8f6c61ebca4f5aa6cc45673b621ffa105131b03422d98d6455ab37aa13fd53",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_blast_furnace.geo.json": "6e11bd0ebeda83e442205c05752c59d9cdfd1d28447ec7f72371bc02ee5225fb",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_brewing_stand.geo.json": "b1f6a86689749731705c67d13d1159a3f35dc9a907fca57bca9b7bac82810c4b",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_cartography_table.geo.json": "93811ab7995cfc3fe8fa3e01bf25a2147d0594048ddbbea0c56d02313af5b8ee",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_cauldron.geo.json": "f06c43ce1b2d489c11995176c8eb33ca546060d234f3f45ba331f0a9d0333e63",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_composter.geo.json": "e7fd45fa4d63dc2c85d8c3602a02da66401ab1e805cc5dd4dd74bfc7a0063376",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_fletching_table.geo.json": "10131bab9766b7312d25cb4af41f4dafa44e6fcc2f3a7f3721191bbbafbb5a7a",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_grindstone.geo.json": "2fbf12fcea67aca3942807498101c1f6555bc644c45fa18e2b1bea4b9fa5720b",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_lectern.geo.json": "3863ea9df724176e635b38d89198bea32802b672e6c54dd628983d70c3da94a5",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_loom.geo.json": "6a71a27c80c45d37cc54cd9c039cd9a92e93ace6d2a60f08d686b53566d2f7d6",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_smithing_table.geo.json": "31c6bc22f0507b3407484c443d78edbcd94d300d3cedfa5bf342b18e27f62302",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_smoker.geo.json": "b9d25a6a88e88ec6a7cccc841f35384201b04e42c42bb05d944c685e5f214628",
+    "Jagsbys_Cauldron_RP/models/blocks/preserved_stonecutter.geo.json": "7e8e3aaf8cee0737cfb0e226ec8a144af0fbf6a7a6789d999346a900e0cb1efe",
+    "Jagsbys_Cauldron_RP/models/blocks/the_nitwit_noggin.geo.json": "4ecce7da2b12482fc1898846b811a357689a4f16ef7c8598e45a9130bca63e6b",
+    "Jagsbys_Cauldron_RP/models/blocks/wild_beet.geo.json": "6c705536ad1515a152d238eae04f1ac721270bdbcf0c0aa8bd7ce4de49dca4d5",
+    "Jagsbys_Cauldron_RP/models/blocks/wild_carrot.geo.json": "f60383c5084df2c79c20ae0a2ebc5fcd795306b56e744bc7d340435a09970f61",
+    "Jagsbys_Cauldron_RP/models/blocks/wild_potato.geo.json": "8354a1f6f40f8379e682aa98cd90af1c1ad08df2755d8aa6b2d5693e6cf2b6cb",
+    "Jagsbys_Cauldron_RP/models/entity/baby_villager.geo.json": "969125a2a757a08184e844a8226774cd498b324c4656bfb5ad893c9f90606701",
+    "Jagsbys_Cauldron_RP/models/entity/horse_v1.geo.json": "507644a10c968dfc9e47b290bb35de1386b7032d728b24626bd182bd8127b9f1",
+    "Jagsbys_Cauldron_RP/models/entity/horse_v2.geo.json": "a5b13121ae9934849b58f226858a5782fc90cc2ff491cb6c8d2bf17db5e9fa07",
+    "Jagsbys_Cauldron_RP/models/entity/horse_v3.geo.json": "5edca8f1b7ca3e76df3d2c75c876da58dd99e517bdc39c097e6314056fabf99e",
+    "Jagsbys_Cauldron_RP/render_controllers/horse_v1_and_v2.render_controllers.json": "6d7aded2977673569048eca73f16524b0ed86550ea47060480e82df2074d1fae",
+    "Jagsbys_Cauldron_RP/render_controllers/horse_v3.render_controllers.json": "edbcba183e868d4488305675e27b67b12655630fee0f89183dc771ed5e495c08",
+    "Jagsbys_Cauldron_RP/render_controllers/villager_haggle.render_controllers.json": "3255e22bc70921c88396ea76a785b87053e2db7f8ae556d340e12be0fac8dcd9",
+    "Jagsbys_Cauldron_RP/render_controllers/villager_v2.render_controllers.json": "25e447fe5f0a8cbc93899a65c1098b3763f466b86f0e85769d039a9dff7bdd0a",
+    "Jagsbys_Cauldron_RP/render_controllers/villager_v3.render_controllers.json": "56ed0945252869b2499203ebff54e04f7f25290f83292daf89417ef2400e4154",
+    "Jagsbys_Cauldron_RP/render_controllers/zombie_villager_v2.render_controllers.json": "339e4efb44bfa230906190843e6a6a35f39322d6dd7b02ccae9115a6b1240367",
+    "Jagsbys_Cauldron_RP/render_controllers/zombie_villager_v3.render_controllers.json": "bc9819634ada72b569fecaa86a2a581abff7df842f66bc73f078add7a5c5c023",
+    "Jagsbys_Cauldron_RP/sounds/mob/warrior/idle.ogg": "c05907ee8213bae6c1d7ad589c15b6ab1d4cbd36ea8b2e3fd2503979b1e1703f",
+    "Jagsbys_Cauldron_RP/sounds/music/midnight.ogg": "99db6f58b77ee9e24c18c089febeb6874237707ee660b5316616b524f51feaef",
+    "Jagsbys_Cauldron_RP/textures/blocks/deal_pottery_pattern.png": "790f73d1c684ca65a96656ca01d9f29fa3e8ff822251352e50926ed4f7fb9605",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_barrel.png": "a550afa83b3a82934589a9689bd0ddf5509abeac5bb24969808f4354170db9c2",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_blast_furnace.png": "06e2d0530bdb2c9929b15490d2bc2201a590ef36ca4dc2a5ac795f8af1f13b44",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_brewing_stand.png": "0cdc8986ef2022160bbe6247f2d29fe378e5d5c0f3c268574f1151221986740d",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_cartography_table.png": "e3562fff076726474385bc0f8abcdfe8961c152773e5ac7f93841b3fdce418ee",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_cauldron.png": "b81448419ba8884b293c4d66d0c6b3b1bf89668f886967c40dae36688853d5e0",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_composter.png": "ac881e35c18a12c9bd9e846424a9e29e6e24fe875b2d726e2ada65f935989ea9",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_fletching_table.png": "d05073728dd227e24e51536243f6eb48e660e5b02769963c4bc7f2ce77d4bd67",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_grindstone.png": "46620f01dd0fbb1d2571fbb6951330f799d64acd54a9c3b0f454a560581ff017",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_lectern.png": "3325f1738f34514b31cca48758c882df9f24fc1daccebd701c8a54faabb19478",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_loom.png": "cf49b83d01d175f0972fafdc0e7a5cb2b93bc2525332e4447747ab18fff134d9",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_smithing_table.png": "7600085698b65dedfe05aa2789f5be961064087b0c39dde34229df61c98551f6",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_smoker.png": "a183f042be345b3712e029f48806be5ca315ce77216ac34a296ed169740fd2eb",
+    "Jagsbys_Cauldron_RP/textures/blocks/preserved_job_blocks/preserved_stonecutter.png": "6a538ae5b39942869d6f1b7e152971159da8fc49a2176bed605b2bf55629aa93",
+    "Jagsbys_Cauldron_RP/textures/blocks/reactor_core_stage_0.png": "03e70d17949ffda6c4ef69eae6d0068ff130ed2c848a2395f32801fc92dc98b1",
+    "Jagsbys_Cauldron_RP/textures/blocks/testificate_pottery_pattern.png": "a16280811f41ab0afc4a89d1cd047f0e6e2c5460ac0d30ed65f7049d38024af8",
+    "Jagsbys_Cauldron_RP/textures/blocks/the_nitwit_noggin.png": "904f5eb2d5765c0a6713563960cce3972a6d56de9328cde9c903151de4ce3bba",
+    "Jagsbys_Cauldron_RP/textures/blocks/wild_beet.png": "8db5cfab1c1b9e120dcdf25727ee86b0ad86e728a4824695c92e2848990322c0",
+    "Jagsbys_Cauldron_RP/textures/blocks/wild_carrot.png": "2200f9f9ec30abfdcfa62f12ac304ac3dae6068f18e85be79a2c099456535393",
+    "Jagsbys_Cauldron_RP/textures/blocks/wild_potato.png": "7b6575940c424c6ccb995a1b793112d091593519c5512ed657ea3c8e29995813",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_badlands.png": "389a59ee9931051a8ef044458c9a0bfccf13131aa1931f8aacc22da6b1613404",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_bamboo.png": "bab13e6d54e526fce516240fbe5c946c9af1ff9512d1b99e60d6b83518add803",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_basalt_deltas.png": "93de499bc9a86ea597b63187c223a7b31e4cb1fd35e74ea843a76c1ce087f8c4",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_birch.png": "8e12bfb5e5cb67e9ea779a2b88a414f3a5e7e13810ced3892fa58cd8499be5c6",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_cherry.png": "4ed4966aec2365a7d73ab7e20b0d86d1126f1a0edaa56db574e42b381df5d8f4",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_coast.png": "2fdd0b7caea7fac9dbdf9849b9b4055435165ccc8b59e3a8a2c5ef80e32b75cc",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_crimson_forest.png": "b31322e98e53a5137042f8acc1eb262c5ba7a4d873d084949e802252add33e84",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_dappled.png": "e30473e1cc10358663a18b79591579a6fefcef5d4bec47b14bad40b263d03430",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_deep_dark.png": "f4802e6eb38edfd58844ce457ad06dc8e308ac87b1de19f3a0b8c3e479f9bc4c",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_deep_frozen_ocean.png": "de02f1078ec1ae68075074b998750eb0a41080aab2613212cf0889a0e65491aa",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_deep_lukewarm_ocean.png": "605043eeacbd2c0009fdf48a872a7c121893ac6db05b5e360076a5cd1b0f6b1e",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_deep_ocean.png": "289b491b893f6419bfc3bcf1f3b301a53c54eca7a1be333f02a0fb6ab3ad5665",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_desert.png": "fa6b47b40ea2d97a1d949c187597821018af7b1e95ee7093401c85821b68512d",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_dripstone_caves.png": "4085900f29a6ed3c716a2e6e3e6cc41d6bb5656e27c0c3afb0be7d7369002125",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_end.png": "bc1e30e1cbaa4628f48679fb79a8ad434bf14e5850c76b4df7d3e1ce5a849d41",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_flower.png": "6861ace47ecebff9a7ccf2cc525d3e65f44eed38a0b177dd248b41fce490a8ac",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_forest.png": "e7d889f1ad6361b9c4c18200204c5b8416c057b77a4ef968a72cf9851c9124d1",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_frozen_coast.png": "7939c6e70802e24c8c4d30191af1869cf2bfb9628f76d11cb559b16a5a70f5fe",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_frozen_peaks.png": "8db92f59654a1f8b86f6fd3e8ab45cd9d8ddc6163e27d5dedf50163ab02094b5",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_frozen_river.png": "0da0b50d8600b81bb2a4a93857b7c11e80170593afb84a89dc94beca1367d7d4",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_ice_spikes.png": "45b42aa6eab1906eace5abb7e4a615f7c6e1c542349e3ce80e3e0785e8e78f1a",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_jagged_peaks.png": "bf87fc753fc225c9b4a8035248725d770f5f7eda0bc7c2b1f85e87df0839ea3f",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_jungle.png": "1f21e2c513a9ef945685df1f1ff6c3adbfe4eace90ca6f0bf163c2fa39bba5da",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_lush_caves.png": "8c0042340fbfa7ed96446366cb98e53ecbcbe874818f90f9fd1bfa122a3ec1f8",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_mangrove.png": "9240d09299b35ee4a742fea0d8c4c271e3fb5a404c0976f3c2f3303c5ead69c1",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_meadow.png": "f1f441d59da92b5005fa9db91fef6f2ce0de69414b3440e312cadbef906dbad9",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_mountainside.png": "0c4dfc4fa51939325e02993d26f935525275f7b00900dac306bda272ed848cbc",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_mushroom.png": "2fd3f1f8d8586ef3abbe20d6d64d2cbb987e50c10c4c0e95492226ee1bbe7b0b",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_nether.png": "5cdc8e636780ecae142847cc4af196f2476ea03c00be251cb4e43b9eceee5243",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_old_growth.png": "3eeec24c4949a6fdfa70f8f7f8e029c696e819cd223634d66ab80f6d36fe64dc",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_pale.png": "33d9b67f1fa39c217a1261a7de71b6ddf1e3233a01cc77cfd6ed28dd60101c7f",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_plains.png": "992bdecb5d65ab35ae4066f3a6719d4cad82a6aeb1a31ef93e0052dad397b60a",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_river.png": "e6688521ef211872d783fb531b065c0fad18d1f02d94f7aabc90034c86c80c46",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_roofed_forest.png": "ae5702f339d808ca3b99e6b2aa19137c8bdbc1c2d6e902d90c3cfbb4250f8612",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_savanna.png": "654cc6880596cabedfab776e941dc1439259b80fc3c687281fedd4fa8b2d2264",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_snow.png": "bd49b6aa2dd2f72b760a248374f8985c37d9aabd0d53cb72768e982a70b54777",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_snowy_taiga.png": "d7b1aac9de86a9d4ef7e37d108f881c4eaef5d25325b9e5d7369a6c1d8be88df",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_soulsand_valley.png": "e6d5e24b1f597e027be8d4341fd54255b668896e4a5f7723781a09b0724558b9",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_sparse_jungle.png": "55d9311f8fb8e1a07b418db66d135506e7c5dc3a96582b86da1952a34e4757b4",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_stony_peaks.png": "0bfd445bbfa7db24047c4284ed0a3058adaad73445fedbb4cd0b35226adbf11c",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_sulfur.png": "46c50d799cb2126ba975eac6fc36fd6dfc528b29b347eb841e2a1dad1fcd376e",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_sunflower.png": "0b9bea6e056841f39bec08a6cc2cd7fc8b54d1884d91a0e87154a48d4783c4dc",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_swamp.png": "b915bfd0364804032909aa3ff6ae67db7151078878fcf79fb6dbe3a437d0b606",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_taiga.png": "4df4b9dff55fc7a0fe98309f9112f4886fef7176555e2a17e86bda26f4323360",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_warm_ocean.png": "5dae379aa39f405251703afbc098ac96dce6f18c3b0338c48c2176a663929e80",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_warped_forest.png": "416002448a77d63b2129d6d7dbfc1f7f3e614c42bb73735aa746e75bb217114a",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_windswept.png": "6dc3bb9ea40af98480576f380c985223a9761042288ae298c049c6592d53a90b",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/babybiomes/biome_wooded_badlands.png": "e4314060d05a7e314a46745931df10bb27295dade7d8c94ce3735f5b854bf719",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_badlands.png": "15be99ec1f6fa0941afebe17044c56ed7c653ca0b7f58ae65cd48fa6fc7042e7",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_bamboo.png": "d8f6a11f8b975549bc46e19084c90d85a5ed36c7924810e0dc697d6dd0ff0fe8",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_basalt_deltas.png": "e387bc62d00a25df42eaef21511aad25a6c70461acc23abdae943dbc1c466dee",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_birch.png": "293396ff3cbea7a930b9a41d2afbccd9427bb62efdb3be4598e5420609277d8e",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_cherry.png": "0356d79e5385d83f9572d19321c0f2c26952d6848d49e8137afffcbe861d9c32",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_coast.png": "d62b642f642929f3102c26312bf5082c404bc543d31f7bfa8a09b21a02de0008",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_crimson_forest.png": "893c6afff5d60b7f5901d8b0a2f04230f18610d093968b9831020e5cb24108d6",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_dappled.png": "f2f241ef2cd018fef20d78afeb5780128d5373250d3243a6952a80e2dfdeec2f",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_deep_dark.png": "4c493c5b40aeb042eba314ef862edf2ec7887b17c2d49a2136cee846f70ab9d7",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_deep_frozen_ocean.png": "5bbf6fd34436b7e0f947a06518b57147d89205fee139fec9ef47fce9c53cd168",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_deep_lukewarm_ocean.png": "76c79df4735fd1901e4771b15a1c6ace8725601f9cc4c88da4f54ad668bbf5dd",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_deep_ocean.png": "f002dd980d15c19cf0ab610d9347b0278fa531026002a8e136d90364dede7776",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_desert.png": "e975a0503eb14e4d2872d223ed584cc36f7fcb4564b431959364d7dadb5c58a3",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_dripstone_caves.png": "d7a1832698e15654ca68e2079731b3a69a5222cd94ff3b824bd030d1581bfb62",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_end.png": "23c25316da63680d4df8b59728dbfb050fafdc50e1ae6551a89eed36aa014008",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_flower.png": "f2f4606b155d3370b406d1cf585486e890c66a515d7f42e3bab3d6e129addeb4",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_forest.png": "310fe61d71bfe379d85411bfee5d3eb6064e9b09221b542baa839d63f9f5ec01",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_frozen_coast.png": "529678dce7052cf63be01590f90025ad07406981ce985096636b09c0675262c8",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_frozen_peaks.png": "c747e6573df5706f903823986be7c2e3272b443713d88425c3b520b23be103da",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_frozen_river.png": "4a8361be53cb8ca60193283528f97041594d7b24a14c9e14887382137ac495a0",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_ice_spikes.png": "3deea2154cc50b47fd1d4b7082fe931c20bd4832b03e726185c0bce14a9e3232",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_jagged_peaks.png": "0d6f71b1b649e1c713c5797edffdf1beb1d1cc63f3d2dc0a2937c06ee2d699db",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_jungle.png": "3f3c4de47e94c7f44b345cc206566a4f998d6632174cd49a87253afe1718e00b",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_lush_caves.png": "17573aa1bdf113734980bc4be45704187892d49670a79845a56b236b3fd98a8d",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_mangrove.png": "9b4a2b45cd2013b1a37f67511a5f94a66424f8ad93d27016ba9eaf41d93e15a8",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_meadow.png": "124d5650eee87202cd73bd037f35676c47ad8ae2f96d4ea60d8b6ad252911b64",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_mountainside.png": "53986f5c9aeaf7e3990346eb416a89f615049d9e362b75bd20c50883bb4558d3",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_mushroom.png": "02370274b130fbdf566e7f46eeceafdf20b6b4a693b35dd0351cc359804e224b",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_nether.png": "43db53665bd4ec218a36855e1bc632d9af8560fa699ab4dbf850554ab51acef5",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_old_growth.png": "3fa230e85e543266a0e1a3ff8d56caff70518f76416bc63a9b261aee981cdb5e",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_pale.png": "61d6ab55846d341f2d2e8a714124de1aac7e4234c626daef8d9ffe68d1dad814",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_plains.png": "19c0f1d9b48cf19237d764b0d04b371118b8711568f18f0667ce53a6cc7e8692",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_river.png": "9fb7c34ea7860a0e169f9e2690a3153368f0c9d393574814a8cc0557bf5c74e0",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_roofed_forest.png": "6133253b7dcb1747238d526462f81787af69c5dd64e52058a4bbf39f7bc6c6c1",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_savanna.png": "6f6e3d54064806050f8481d32c55c6a8158f04127fa348d509248790eed935aa",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_snow.png": "0580ae0e0d9b27689d1389fa904382acf63c2ba6499abe6f9d92b99ddec333bf",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_snowy_taiga.png": "ec99687d37ded03bc4251f634f122cbff2408d95c71b871262084f084f2f93c3",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_soulsand_valley.png": "15c48ef60edf62c2d108ef34a5d136c221a783e0921ee80dfd5912ee8ee9cba6",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_sparse_jungle.png": "82d2e66267573906d363b6f654d392a79305b652fbd0b16fdf1710f97b6598f8",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_stony_peaks.png": "8421c4e4be1ed77c215980e8426804c9635f25ecc3371a605a480f8a83389537",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_sulfur.png": "b48f7bd312edfbbfe3afa4e57f5ceab2d46c65401fefc214ea2c70309ac5382d",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_sunflower.png": "9f9e690c20351c5bf3e843a644d61389a601281e9487e30dac6487e05d54b55d",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_swamp.png": "6d70f18a57c6c982fdcb14958ecda8219b89236cbcfafe66ae51c6513e2c072e",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_taiga.png": "162d1290359c29bb9e741820ed0fce0d047b59c50065b548e25cb733fb31fd9d",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_warm_ocean.png": "c685eb2514de37801d29be74db741e1b2cb7e1cebe5d17e48d84382295d73265",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_warped_forest.png": "69d5028cedacd7272908d6130516afbba71d4ec3ccab855ad9cfadc3301cab86",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_windswept.png": "647c889f1b81a96482098f0ce655878b099a51845acfd7642f2d26bed24692ee",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/biomes/biome_wooded_badlands.png": "95ad84f954fbf4dffcc74a6a34b1b569e76555015768018b98b42748c834fcca",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/levels/level_diamond.png": "96523341ab674ce4b910b02808a2d204bc97a46fcd22b8996f8028ae09794de1",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/levels/level_emerald.png": "1c5e2becc8ecacbc45df2f251a04b9ab9427bde508e2eb6bd3a75d964bdd030a",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/levels/level_gold.png": "360a5b53df121b6815e45360fe291b54acd881eae481193ee0c14970be2502a5",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/levels/level_iron.png": "0dafa832ef992a282f5cf120f0cb24538eef8aa61526afd1b3e5735f01a1044f",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/levels/level_stone.png": "3d74f25a112baa39a423b86aed0bf43fdd0451082fa9b8c20b94597d649c5076",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/armorer.tga": "b38f609c327888f5f03c8cdcf9f3b889ade3f87120b868843584480367725151",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/butcher.tga": "561884b51f32c72426b74e8ae7027d17ca334d3dafeb98ffdd793832cb2ee369",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/cartographer.tga": "7fe2f782001911772aee945b504912775fa523f6f927a32280ce8514830adda1",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/cleric.tga": "d2ea8f6c2c2a81e0a85e9040a8941f9b944f23febfefc4832005b2ea6da59ecf",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/farmer.tga": "9ddc623a9265de5d7851c93fdad0dc7d2a21a81c66e4d2d4803762ba8a8b88a8",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/fisherman.tga": "7d888e5ee30b26a0c7ed640f048474dfd024911d1f3a9ed7c25a5e93ce93f5dc",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/fletcher.tga": "46066d5cbca35c747eab0a5473f002112acdb6e605a053fd0683b9fcd99e6d99",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/leatherworker.tga": "86239d983b75335581f028da16cf9540cfe7048c049a55fade6a49eb8541e877",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/librarian.tga": "a580ee3de650376b9efa7a90f0dc063b62c1c4e12c480280f5a3c76763dd6ede",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/nitwit.tga": "8ea427cd3d387897ad0eb8546bc93ee052b17973d3cf308080afb15456070bb3",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/shepherd.tga": "7a77ac22a38fb93d5550fc3d4a804dab748a85d11f897ab6c1479a62d7a043ec",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/stonemason.tga": "4d47e85c1b9ba3d744f35ed213fe4126580f9ec98d5ba2f9f024d3d0200631f4",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/toolsmith.tga": "0839f065cda14e8b779e6b4f1926a60d81a3cdc9a659c743f7a35f5819611597",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/unskilled.tga": "505947fb7e93b36504c869232c2d3044e74c2f7d772c74a591dbd9129a6746c1",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/professions/weaponsmith.tga": "35ef55570e282f865a26eff083a4cde26aed521310f7d608491d836c88f5a0e4",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/villager.png": "8e085403ad169cc63558201c8379f5bb5282aa79127375d5f9d8cf0059d7399b",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/villager.texture_set.json": "2d3871cc3b3056487498c68d9cfed776279f6eacbea7fcee61a4bd27621384d2",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/villager_baby.png": "ba8c7c1947703006768aa75149e86b8b5ba68c568d1e42feedf9d46b87bcc4cf",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/villager_baby.texture_set.json": "cdde3f00dc7c60ec8c5733356b15061c4bace1081652e5dcf59415db6f4c5c24",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/villager_baby_mers.tga": "d9a555e2e833c9d2df667e6a144d3c5365c4197a6ff24ff2ee8d48da6a5271df",
+    "Jagsbys_Cauldron_RP/textures/entity/villager2/villager_mers.tga": "7582148ce0e872d2bbaaf5328bc5f5f227c3e93a595f159dbb10c3b075f1ec38",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie/drowned.tga": "02d795060a8241373d5287345a5c935f411eb0c3838d9ebd1738df28680fc092",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie/husk.png": "461af7ce595331d0e5d4d1a60ba28eedcb222ee7e43c4a50cd4545653f6e9ba0",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie/zombie.png": "b172ff1b50c3ce0587cf82a2865bb05b9a22fc54a78d446b7bfcab13ffcea0ab",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_badlands.png": "a77e9414c4f68076562fecbb6014bb32c690210959391273634ec2b7ba1b8165",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_bamboo.png": "4187d6b2ac151dfed7c46aef4ba31f2bc3dc8929b863d21ddeb1020ba3491f35",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_basalt_deltas.png": "984614df7b464681f8f077659a84c73294d142b42417b26b779be707f954c39a",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_birch.png": "7e883659ee9a70a1114abdd5244fe97a0cb2531be2db45dc5a9a3fccfce9f82e",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_cherry.png": "b0c0e4b1294d83085deab5223fed1b1326fcf64e6f37e53120d95397e7cbeaf5",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_coast.png": "0042dbc5d7d0b8b01ac1813690c9a276a50464b3c18581ac78d04baab0aa9620",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_crimson_forest.png": "956e78912e299fded4d82d3eac5bb2d06ce3327ed29269c0936310c711a3f6ae",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_dappled.png": "c3d61879c16e1cd4b25861092f3dba7ebf52e1d84200a0450e79a34a1df69b47",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_deep_dark.png": "7db40cc20e06aea3e1a511692d633f32c09ef0c5804bc93eff308fce0b389f06",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_deep_frozen_ocean.png": "4962edffb1cc589411dd553ac959f2a3091f1af1dbf9572a51097c8b7149729a",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_deep_lukewarm_ocean.png": "bfd5e3be6002c60a848fb610c4e4f6099c26d3971f45b535117b79a2a2d6361e",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_deep_ocean.png": "a214407aa79bb3e49ebcec4a02a3cf4f1cb36d3468cfc60f5dcd9fac753569a8",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_desert.png": "0f6e7fa52f178221d9a2fd5a48947eb8aa45f9989e7ff5d45e12a01780027949",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_dripstone_caves.png": "bf74d6cd047f1a32abfae678cd7ffb1b82dae9840ecfd950bb0ca03482b47d3a",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_end.png": "940e15e45167ce8de891071bd866e15380110a5254213c4067ea7576005a59dd",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_flower.png": "78b717f46f34f8686991b20e59519876213efeeea833b9b2525073365357f31e",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_forest.png": "4ef37b04994f1019f733b2694bf1b7fbc34da72a886275b68a4b4277463c7eb0",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_frozen_coast.png": "113710c9e104d03972f0da1dad7dbcfeb23d9d011486e51d59eed5d3d04a137e",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_frozen_peaks.png": "7c175323a0c9225b8bf2405b73584b217195b4c447f7156d21d459b9ec2b2efc",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_frozen_river.png": "e03af22c96c9cedff562c955c765ea10bcf3123cb654b39881d68ee08d545fc1",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_ice_spikes.png": "01f54fb63e34730a7f52269a9336642f1229d47ce4a1c807d43e0c08251ab48f",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_jagged_peaks.png": "70ac02287b54fc07a55cb4b8e4a7801c1bc287850b431e77c5bcc95c8e376d41",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_jungle.png": "031c9aa9df16890bf8bbf941cd5effc8a6dfe8f94818fb60040bc9a352798ec6",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_lush_caves.png": "5450fb7b332e0ef981bc9389b10b194670d7b5bb8552a9d1b4b0dc4b0b657e61",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_mangrove.png": "74c045c4dd9d569c425609dd7b8c178f398daea3b7287be45fce77e0348b8860",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_meadow.png": "aea61298e71bc8c39afbc0adb279bfbdf173caead2315132ab33ff6734ba1cf7",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_mountainside.png": "d7b522bd672a1a3b43ccb524024079ff6490729d87843759b29ef282cb04900a",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_mushroom.png": "05b74c6fe1f769a49332006f61db5ff935406cf36e39be166bc64424fbe40be4",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_nether.png": "a68a65428d0047303e2910512a2edb44943e6a4df2ea9f1951d19e4f04fa78a3",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_old_growth.png": "7d8552dedf331f5f00ffaa48b459332d8299ff069db385a68aa51dc898cd7322",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_pale.png": "e050f9a5a9714fa7fc7a0c0b0417e594daced30b5bfff01ade45b98828dd2186",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_plains.png": "8bed4fa04e1f6218edf21b3a36c83bc0d95da782574570de5b5824ac3e8958f8",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_river.png": "dc0d9fa4cabea62fe447819357458308905ff412275025ad2ae4f649baefa296",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_roofed_forest.png": "e797d8744a819cfe28544182bbc824c9fe71993541f0113e87452e1d1ed3fa3a",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_savanna.png": "3fd7dfe9bc02e655e52198d1ccc5a6430330e4585b4dbf56a5e31fb8fa4031f8",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_snow.png": "4f129954a4abd9917266322ac4732927fb565ff4452377846a1b373e345d28c2",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_snowy_taiga.png": "2a29f47264d7f5935c192782cb8cf1296c0a4131d5f51a70deb0950bde89cca8",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_soulsand_valley.png": "5e0688a4bf6dbccfdc328c822875d355f6495e0913c99883490b0bd6577e9ae0",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_sparse_jungle.png": "a58ce70a53668deecd65d3e33150f810281a3bafe9b4a1f6f64f023e05aaec88",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_stony_peaks.png": "0bb4acdf7342fed5dce80f8ded69396cac17be965d3cbb4fd2ff763ed8923531",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_sulfur.png": "22a806fdcc85507cc17099c605a4c65378af8cbc8771ede6e4f0dcfd3f16899b",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_sunflower.png": "8f17ee4aaec53ea6fe9708112a030c03e7898dab10b32375c00303cc581a62e3",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_swamp.png": "5429c280930ef95fb39db31d9f4b95021dd14c07ee35c01b37ca5c79c25f0e54",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_taiga.png": "e920e4dcae96828b0635287dd970502fcdb9d06562fa8f0fc5ea3853c17eaee0",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_warm_ocean.png": "cf91703f8089a343c46b6f45b2ded46600a79da77b65f2f93617a560ca775b74",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_warped_forest.png": "dcdd5afe00e2353821132a4324c368f3c4af5aeab5c60988c8dae36d33c70892",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_windswept.png": "f4e36ca4bbd0fa4dcb97e642c85e254e0337267ab2bbc66a0a3bf366a02515a0",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/babybiomes/biome_wooded_badlands.png": "c9b4797d3bea4dfb7b1ea592aed02a7ed8ee3fbe01084556e757cdbed08d29df",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_badlands.png": "398aa555268038be05747d09af590c1c1d8d30b46bb2f748f92ccae1e1d61791",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_bamboo.png": "45439a50bd531bff4556387f39d506574e0f90a83dbbf0a5e69eb5672d16072f",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_basalt_deltas.png": "3e57d5eb488eb8216fc69666e7d6e0284910ca9abff8c04fe4b3db29fe344b8b",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_birch.png": "f8f7ad6fcf5db58cc5a121f8006d6db9d28317a0795807e87c4d9067cf263782",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_cherry.png": "f1b139be1f411059de1c1d9578013fe1baef3abf7801078c8acdaf4ef6b983ba",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_coast.png": "80278c874099fa83f3d8c1e2d5d57cad611202748073dff118ed8feb3fbd5cd9",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_crimson_forest.png": "6ad083682dd396b9005c2438f4a46a202a46213c0b62d48775666d88e62cdd4e",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_dappled.png": "65c687167bb1ba6bd046370486f2799dee5d0943b5f0677c137f323cd447837a",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_deep_dark.png": "8c726e3ab99c2dc9246cc29ea1538849a7dcfcae229aca47cbb6a0508aad8b16",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_deep_frozen_ocean.png": "c70e814a5d9c16bea89d3b6b646b6a589313cbfa99d707f02f5f433458c4088f",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_deep_lukewarm_ocean.png": "9cbeb3b634ace1ba1edd94c832c768adb31a7b6e8910e35395d6a2e3986af400",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_deep_ocean.png": "02cc3d1831823d34970f0c934c0343f7761dc5d130c9a60270488136fbb13537",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_desert.png": "90fe4beecb531d39d7e960c641b611029fa18e8c1796226804080f914e36f41f",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_dripstone_caves.png": "10a619e253ecdb476849e7281fea8616e86a113866da69fa26b9dad9b7aac9ec",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_end.png": "c858b79e649ff679011f2812ab685f4309d926371f9c401a69142f0dadce1a4c",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_flower.png": "97f742874667f8bc589fc417fd6f78053d5fe650fb14c18ecc04e3d0c4b0836c",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_forest.png": "ec416e4d020e17d71616f7b444259f3e636fa8f5cd1c256cb5dcc7c572dc0db7",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_frozen_coast.png": "5be28968f17b5e1ca32f9001bebc8bf290f174db3e3893e26034fa9712b54502",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_frozen_peaks.png": "ac1ec1b0dce1820a931b85c3d1bfcc62e48a63b03c0420dd359cc167a49451d1",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_frozen_river.png": "4438cb79423e7959331659b0717f7a7e5e97a3c050c94658084927521614477b",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_ice_spikes.png": "3ef5f83652b381d6685e7a6f1dd463925d1eedb83d5c5c7877abe5e00e36c1a1",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_jagged_peaks.png": "1caf822a5985dc86b53a6f25bead31c16b43b17d22def2cda039fbcc55dff2cb",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_jungle.png": "2375352b155ce3e164ce83dd9b9700e1837be90598349463df02f20bd431697c",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_lush_caves.png": "d981bdbf0f95ce865ac6479e97c922a86059823fbd71bf2903b2ec77137841cf",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_mangrove.png": "8951f134981a5a5a689c51b1df12043f9eb37d5dcca26ae58d903d24941fd1ec",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_meadow.png": "fe91b35751ff7944930d3e30b9d01f25a184b71634fa9fe13ca2220e239da4dc",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_mountainside.png": "2ce13298e462fbfcbb15593134e2c502f98361441bfd9a1520741957506bed99",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_mushroom.png": "2f84ff67e69d8f85eff1309dd81d87764ecce5e60c28aba48a4508030acbdf71",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_nether.png": "975f557e62351d5159acb896ba8af62270550a8ad23a592b9e6e7c938dbf272d",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_old_growth.png": "5b3f5cd641d49c72c83c724b4269948a672f302b04d93d8f79ab1ac1caec5c72",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_pale.png": "f84f56148f602764dfd2f40874d0a723b0e2f434d42fdab0e25d5e66256d44f9",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_plains.png": "fc195ed501f8901eeee2229ee026711b39244d76de1553eba9603eeface6ba78",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_river.png": "b784b475d9c82bc5b81644bce93f95ac3983b93a7fa59ec38127b9a69c79099c",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_roofed_forest.png": "1614b68dc37868cc029389f03336b9f55bc3d9a0ef4faee104a2f4675271dd6d",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_savanna.png": "9b4866c3621af4d3edfcbb2f3697a7ba03eaad00a44417bccaa83a6e05a8609b",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_snow.png": "8f59c3c716285871e9b87d6c0ad78cbfabb598d074291023e7e7cce66da4c76e",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_snowy_taiga.png": "938a68155e4ec1bb7890f8d6cf18f3d8ad8a44339bc4c322068c7af27ed18331",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_soulsand_valley.png": "87b1d85199a70dda61b93336784ae55e43116629df6e65b5b9b1128115597e27",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_sparse_jungle.png": "1532d09349f8692388a5e59813e960c663ea6cd1ba07be8d6c1f8379705199c4",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_stony_peaks.png": "e83b2d8558e6f0817ce7789d6e332ed201a3e9356f79b93fa123a5c38eed9492",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_sulfur.png": "4c7e14009f608fd53f7a6828c262b992c07612ddb146eea2a0a0e56be79c7455",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_sunflower.png": "1b5b7e2985c9a0c792c9cf012b2ece8815df2bea749cbb2bbaebe7f84cd88d20",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_swamp.png": "c4463ebc48d9a787691af15aaa226466e25548e2fec2eccc589e64b13775cb93",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_taiga.png": "b2a26833c0cc4c5c549d8fea38f51e926fa245cd23c8b0e374b7ea3f48fb57f0",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_warm_ocean.png": "89be11689b1a3042834007474908d33b8eb68fcb66904603aa8bf8b99eba5b8a",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_warped_forest.png": "c8f0edb8a8e8c377e56326565e1c7cb99a49cb49192004ba03c32b8ecdb80cb5",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_windswept.png": "b5fcf64fcfb8a893d5b6971bd49f6b90182d062e26750e42632e8508beb4d0af",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/biomes/biome_wooded_badlands.png": "d9d98226e767e733e4d307e2279d43979c583f2104737d84b917f9cec6760d91",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/zombie-villager.png": "a39a3107005d9ca071f2db033104b25e8f5ef95382a374546d340c14eaa145fc",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/zombie-villager.texture_set.json": "cd9b68e8cfc6826086e0468a5c88f51816737baf785a5afd2de49497ab372783",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/zombie-villager_baby.png": "7837681f37335f7610a0bbe533cabcd4738ddd6437809507f3a4c47287dd418e",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/zombie-villager_baby.texture_set.json": "6c754286c97da8f21ef605adcbc34945092ba6725a1a08882cf71a061cb3f262",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/zombie-villager_baby_mers.tga": "0f12084cd9c33f71359b53c3bf8dca46c0eee5e9841f78e139ae598952ba511c",
+    "Jagsbys_Cauldron_RP/textures/entity/zombie_villager2/zombie-villager_mers.tga": "4e73685bf5881a28a6f020237468c95d9bd0a7ec96855b9914f37ad9fbc58a5c",
+    "Jagsbys_Cauldron_RP/textures/flipbook_textures.json": "e8c3df884f9a1bdc1ac710041b7f341e535930d9611ff1926335046b9764eb60",
+    "Jagsbys_Cauldron_RP/textures/items/deal_pottery_sherd.png": "22d7e9eaeacd751111fe2a490ca3507633d24ff9bfe4c101aed9502698f39134",
+    "Jagsbys_Cauldron_RP/textures/items/map_locked.png": "3e7b79b357d3dacdb0ed89cbb0c48aafb1f93070850ae1558b96376c27e0ca80",
+    "Jagsbys_Cauldron_RP/textures/items/music_disc_midnight.png": "e8dff95bfd49f4becf12056fde42a7efbc76bfb8a403b59104ce750b2573c069",
+    "Jagsbys_Cauldron_RP/textures/items/preserved_brewing_stand.png": "82ea1e8e2ec3864e018758f7abf5e37487da3238a7d2490c6a021ea6f468589c",
+    "Jagsbys_Cauldron_RP/textures/items/testificate_pottery_sherd.png": "e6de30f834319fc1b5f9af8cf9579a6d5e53b3b82ca76df6aef635423ea351c0",
+    "Jagsbys_Cauldron_RP/textures/items/wild_beetroot.png": "8db5cfab1c1b9e120dcdf25727ee86b0ad86e728a4824695c92e2848990322c0",
+    "Jagsbys_Cauldron_RP/textures/items/wild_carrot.png": "2200f9f9ec30abfdcfa62f12ac304ac3dae6068f18e85be79a2c099456535393",
+    "Jagsbys_Cauldron_RP/textures/items/wild_potato.png": "7b6575940c424c6ccb995a1b793112d091593519c5512ed657ea3c8e29995813",
+    "Jagsbys_Cauldron_RP/textures/map/jungle_temple.png": "ad49a103772107baa18e7aaee973089be55b38237e8eb4c2dc10d383d7403068",
+    "Jagsbys_Cauldron_RP/textures/map/map_background.png": "14a3f8b71365de9459c332e29400b966b365ccc28517aae886f65b15b9f56955",
+    "Jagsbys_Cauldron_RP/textures/map/map_icons - Copy.png": "b8da223f789e5a693f66e12ad57399cb60d8e422d504e1e30f880c6cd5669ad5",
+    "Jagsbys_Cauldron_RP/textures/map/map_icons.png": "4e3f9e3161265d1dd7bb985bf8c8c08092fc051a697b9256076836825c7a3020",
+    "Jagsbys_Cauldron_RP/textures/map/player_icon_background.png": "67a26e56a108fc1e580d875fd49cc93546deca7276d04f004705284304ee8069",
+    "Jagsbys_Cauldron_RP/textures/map/swamp_hut.png": "30b2f4a13e85dc6946a50876e4e3cac0206cbb2d374285b194d1a650c8882c6d",
+    "Jagsbys_Cauldron_RP/textures/map/trail_ruins.png": "05d94e4332936a06ad28287ad92085187dea82b89b2027f6ef7d466c0bbf9829",
+    "Jagsbys_Cauldron_RP/textures/map/trial_chambers.png": "f26ce1bb670a022e9fe94d8c6217c385ddc5b01133dbf33497cb6295c5a45a30",
+    "Jagsbys_Cauldron_RP/textures/map/village_desert.png": "836e6d9f13e556013f90f2e321cfebf6ac0118dd22ac172ae74c90956d6e1a9c",
+    "Jagsbys_Cauldron_RP/textures/map/village_plains.png": "19d1fccd4f3d531341c4b849d9db6a30729733b00c5c51bc124150c78ec3622a",
+    "Jagsbys_Cauldron_RP/textures/map/village_savanna.png": "cbf39d40bbadbbe800516e8c444ad9bc680fd54f95b8665fc1ccca2fa88239f6",
+    "Jagsbys_Cauldron_RP/textures/map/village_snowy.png": "161d0452e7caba0d27bfe349daafa7df909614c284d87d17ba31e5a669a4520c",
+    "Jagsbys_Cauldron_RP/textures/map/village_taiga.png": "6bd91a1055686a4563b877ed70321140ace69dab17b74d31696497bb6e77871e",
+    "Jagsbys_Cauldron_RP/ui/trade_2_screen.json": "9d93566b8cefc7d9f5ea0bcb40a391fa4015f8cd44a7e67541f6b06683730040",
+    "Jagsbys_Cauldron_RP/ui/trade_2_screen_pocket.json": "3ba1f0e2b3871ea96d1f81ae593a2ee81743376a8a78a54d77e3c069cd2bde17"
+  },
+  "shared_json": {
+    "Jagsbys_Cauldron_RP/sounds/sound_definitions.json": {
+      "key": "sound_definitions",
+      "entries": {
+        "sparkler.use": {
+          "category": "record",
+          "sounds": [
+            {
+              "is3D": true,
+              "name": "sounds/music/midnight",
+              "volume": 1.0
+            }
+          ]
+        }
+      }
+    },
+    "Jagsbys_Cauldron_RP/textures/item_texture.json": {
+      "key": "texture_data",
+      "entries": {
+        "music_disc_midnight": {
+          "textures": "textures/items/music_disc_midnight.png"
+        },
+        "carrot_seeds": {
+          "textures": "textures/items/wheat_seeds.png"
+        },
+        "potato_sprout": {
+          "textures": "textures/items/beetroot_seeds.png"
+        },
+        "wild_carrot": {
+          "textures": "textures/items/wild_carrot.png"
+        },
+        "wild_potato": {
+          "textures": "textures/items/wild_potato.png"
+        },
+        "wild_beetroot": {
+          "textures": "textures/items/wild_beetroot.png"
+        },
+        "cooked_eggs": {
+          "textures": "textures/items/cooked_eggs.png"
+        },
+        "raw_eggs": {
+          "textures": "textures/items/raw_eggs.png"
+        },
+        "rush_pottery_sherd": {
+          "textures": "textures/items/rush_pottery_sherd.png"
+        },
+        "steel_compound": {
+          "textures": "textures/items/steel_compound.png"
+        },
+        "cooked_mackerel": {
+          "textures": "textures/items/cooked_mackerel.png"
+        },
+        "raw_mackerel": {
+          "textures": "textures/items/raw_mackerel.png"
+        },
+        "carving_of_unyielding": {
+          "textures": "textures/items/carving_of_unyielding.png"
+        },
+        "steel_boots": {
+          "textures": "textures/items/steel_boots.png"
+        },
+        "raw_steel": {
+          "textures": "textures/items/raw_steel.png"
+        },
+        "steel_hoe": {
+          "textures": "textures/items/steel_hoe.png"
+        },
+        "steel_shovel": {
+          "textures": "textures/items/steel_shovel.png"
+        },
+        "steel_axe": {
+          "textures": "textures/items/steel_axe.png"
+        },
+        "steel_pickaxe": {
+          "textures": "textures/items/steel_pickaxe.png"
+        },
+        "steel_sword": {
+          "textures": "textures/items/steel_sword.png"
+        },
+        "steel_leggings": {
+          "textures": "textures/items/steel_leggings.png"
+        },
+        "steel_chestplate": {
+          "textures": "textures/items/steel_chestplate.png"
+        },
+        "steel_helmet": {
+          "textures": "textures/items/steel_helmet.png"
+        },
+        "steel_ingot": {
+          "textures": "textures/items/steel_ingot.png"
+        },
+        "deal_pottery_sherd": {
+          "textures": "textures/items/deal_pottery_sherd"
+        },
+        "testificate_pottery_sherd": {
+          "textures": "textures/items/testificate_pottery_sherd"
+        }
+      }
+    },
+    "Jagsbys_Cauldron_RP/textures/terrain_texture.json": {
+      "key": "texture_data",
+      "entries": {
+        "amethyst_ore": {
+          "textures": "textures/blocks/amethyst_ore"
+        },
+        "ward_stone": {
+          "textures": "textures/blocks/ward_stone.png"
+        },
+        "the_nitwit_noggin": {
+          "textures": "textures/blocks/the_nitwit_noggin.png"
+        },
+        "steak_block": {
+          "textures": "textures/blocks/steak_block.png"
+        },
+        "preserved_fletching_table": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_fletching_table.png"
+        },
+        "silk_block": {
+          "textures": "textures/blocks/silk_block.png"
+        },
+        "animated_test": {
+          "textures": "textures/blocks/animated_test.png"
+        },
+        "settling_post": {
+          "textures": [
+            "textures/blocks/settling_post.png",
+            "textures/blocks/settling_campfire.png"
+          ]
+        },
+        "steel_bulb": {
+          "textures": "textures/blocks/steel_bulb.png"
+        },
+        "carpenter_table": {
+          "textures": "textures/blocks/carpenter_table.png"
+        },
+        "steel_plate": {
+          "textures": "textures/blocks/steel_plate.png"
+        },
+        "steel_grate": {
+          "textures": "textures/blocks/steel_grate.png"
+        },
+        "chiseled_steel": {
+          "textures": "textures/blocks/chiseled_steel.png"
+        },
+        "cut_steel": {
+          "textures": "textures/blocks/cut_steel.png"
+        },
+        "preserved_lectern": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_lectern.png"
+        },
+        "preserved_brewing_stand": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_brewing_stand.png"
+        },
+        "preserved_cauldron": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_cauldron.png"
+        },
+        "preserved_grindstone": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_grindstone.png"
+        },
+        "preserved_stonecutter": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_stonecutter.png"
+        },
+        "preserved_smoker": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_smoker.png"
+        },
+        "preserved_blast_furnace": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_blast_furnace.png"
+        },
+        "preserved_composter": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_composter.png"
+        },
+        "preserved_loom": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_loom.png"
+        },
+        "preserved_cartography_table": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_cartography_table.png"
+        },
+        "preserved_smithing_table": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_smithing_table.png"
+        },
+        "preserved_barrel": {
+          "textures": "textures/blocks/preserved_job_blocks/preserved_barrel.png"
+        },
+        "loam_soil": {
+          "textures": "textures/blocks/loam_soil.png"
+        },
+        "steel_block": {
+          "textures": "textures/blocks/steel_block.png"
+        },
+        "wild_beet": {
+          "textures": "textures/blocks/wild_beet.png"
+        },
+        "wild_potato": {
+          "textures": "textures/blocks/wild_potato.png"
+        },
+        "wild_carrot": {
+          "textures": "textures/blocks/wild_carrot.png"
+        }
+      }
+    }
+  },
+  "language": {
+    "Jagsbys_Cauldron_RP/texts/en_US.lang": {
+      "tile.concom:preserved_barrel.name": "Preserved Barrel",
+      "tile.concom:preserved_smithing_table.name": "Preserved Smithing Table",
+      "tile.concom:preserved_cartography_table.name": "Preserved Cartography Table",
+      "tile.concom:preserved_loom.name": "Preserved Loom",
+      "tile.concom:preserved_composter.name": "Preserved Composter",
+      "tile.concom:preserved_blast_furnace.name": "Preserved Blast Furnace",
+      "tile.concom:preserved_smoker.name": "Preserved Smoker",
+      "tile.concom:preserved_stonecutter.name": "Preserved Stonecutter",
+      "tile.concom:preserved_grindstone.name": "Preserved Grindstone",
+      "tile.concom:preserved_cauldron.name": "Preserved Cauldron",
+      "tile.concom:preserved_brewing_stand.name": "Preserved Brewing Stand",
+      "tile.concom:preserved_lectern.name": "Preserved Lectern",
+      "tile.concom:preserved_fletching_table.name": "Preserved Fletching Table",
+      "item.concom:wild_beetroot": "Wild Beetroot",
+      "item.concom:wild_potato": "Wild Potato",
+      "item.concom:wild_carrot": "Wild Carrot",
+      "entity.villager.nitwit": "Nitwit",
+      "tile.concom:the_nitwit_noggin.name": "§dNitwit Noggin",
+      "tile.glowingobsidian.name": "§4Glowing Obsidian",
+      "tile.netherreactor.name": "§bNether Reactor Core",
+      "tile.bubble_column.name": "Bubble Column",
+      "tile.lit_redstone_lamp.name": "Lit Redstone Lamp",
+      "trade.level.6": "§aExport",
+      "tile.lit_smoker.name": "Lit Smoker",
+      "tile.lit_blast_furnace.name": "Lit Blast Furnace",
+      "tile.lit_furnace.name": "Lit Furnaceee",
+      "tile.torchflower_crop.name": "Torchflower Crop",
+      "tile.wall_banner.name": "Wall Banner",
+      "item.concom:music_disc_midnight.name": "§eMusic Disc",
+      "item.record_use.desc": "gingrayl - midnight",
+      "item.concom:deal_pottery_sherd.name": "Deal Pottery Sherd",
+      "item.concom:testificate_pottery_sherd.name": "Testificate Pottery Sherd",
+      "item.concom:deal_pottery_sherd": "Deal Pottery Sherd",
+      "item.concom:testificate_pottery_sherd": "Testificate Pottery Sherd"
+    }
+  }
+}

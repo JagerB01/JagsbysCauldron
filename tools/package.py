@@ -1,6 +1,6 @@
 """Validate and build the Minecraft add-on using Python 3 and Node.js."""
 from pathlib import Path
-import hashlib,json,re,subprocess,zipfile
+import hashlib,json,re,subprocess,sys,zipfile
 ROOT=Path(__file__).resolve().parents[1]
 PACKS=['Jagsbys_Cauldron_BP','Jagsbys_Cauldron_RP']
 def parse_jsonc(text):
@@ -15,8 +15,9 @@ for pack in PACKS:
 bp=json.loads((ROOT/PACKS[0]/'manifest.json').read_text());rp=json.loads((ROOT/PACKS[1]/'manifest.json').read_text())
 assert any(d.get('uuid')==rp['header']['uuid'] and d['version']==rp['header']['version'] for d in bp['dependencies'])
 subprocess.run(['node',str(ROOT/'tests/modules.test.mjs')],check=True)
+subprocess.run([sys.executable,str(ROOT/'tests/conquest_commerce.test.py')],check=True)
 version='.'.join(map(str,bp['header']['version']))
-out=ROOT/'downloads'/f'Jagsbys_Cauldron_v{version}_CONQUEST_COMMERCE.mcaddon'
+out=ROOT/'downloads'/f'Jagsbys_Cauldron_v{version}.mcaddon'
 out.parent.mkdir(exist_ok=True)
 with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
  for pack in PACKS:

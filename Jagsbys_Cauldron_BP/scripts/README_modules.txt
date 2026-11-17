@@ -2,7 +2,6 @@ Jagsby's Cauldron script layout
 - main.js: startup coordinator
 - module_controller.js: settings; migrates legacy apiary toggle to croft
 - cauldron_menu.js: administrator-only toggles, applied on world restart
-- modules/diplomacy.js: Diplomacy
 - modules/mob_far_scaling.js: Mob Far Scaling
 - modules/croft.js: Croft feature registration entry point
 - modules/croft/apiary_cap.js: Apiary Cap automation

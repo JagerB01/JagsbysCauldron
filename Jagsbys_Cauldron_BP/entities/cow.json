@@ -9,13 +9,25 @@
       "properties": {
         "minecraft:climate_variant": {
           "type": "enum",
-          "values": [ "temperate", "warm", "cold" ],
+          "values": [
+            "temperate",
+            "warm",
+            "cold"
+          ],
           "default": "temperate",
+          "client_sync": true
+        },
+        "minecraft:sound_variant": {
+          "type": "enum",
+          "values": [
+            "default",
+            "moody"
+          ],
+          "default": "default",
           "client_sync": true
         }
       }
     },
-
     "component_groups": {
       "loot_warm": {
         "minecraft:loot": {
@@ -33,10 +45,9 @@
         }
       },
       "minecraft:cow_baby": {
-        "minecraft:is_baby": {
-        },
+        "minecraft:is_baby": {},
         "minecraft:scale": {
-          "value":0.5
+          "value": 0.5
         },
         "minecraft:ageable": {
           "duration": 1200,
@@ -81,8 +92,17 @@
               "on_interact": {
                 "filters": {
                   "all_of": [
-                    { "test": "is_family", "subject" : "other", "value" :  "player"},
-                    { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "bucket:0"}
+                    {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                    },
+                    {
+                      "test": "has_equipment",
+                      "domain": "hand",
+                      "subject": "other",
+                      "value": "bucket:0"
+                    }
                   ]
                 }
               },
@@ -95,12 +115,13 @@
         }
       }
     },
-
     "components": {
-      "minecraft:is_hidden_when_invisible": {
-      },
+      "minecraft:is_hidden_when_invisible": {},
       "minecraft:type_family": {
-        "family": [ "cow", "mob" ]
+        "family": [
+          "cow",
+          "mob"
+        ]
       },
       "minecraft:breathable": {
         "total_supply": 15,
@@ -111,18 +132,14 @@
         "avoid_water": true,
         "avoid_damage_blocks": true
       },
-      "minecraft:movement.basic": {
-      },
-      "minecraft:jump.static": {
-      },
-      "minecraft:can_climb": {
-      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
       "minecraft:collision_box": {
         "width": 0.9,
         "height": 1.3
       },
-      "minecraft:nameable": {
-      },
+      "minecraft:nameable": {},
       "minecraft:health": {
         "value": 10,
         "max": 10
@@ -192,27 +209,27 @@
         "hard_distance": 6.0,
         "max_distance": 10.0
       },
-      "minecraft:balloonable": {
-      },
+      "minecraft:balloonable": {},
       "minecraft:rideable": {
         "seat_count": 1,
         "family_types": [
           "zombie"
         ],
         "seats": {
-          "position": [ 0.0, 1.105, 0.0 ]
+          "position": [
+            0.0,
+            1.105,
+            0.0
+          ]
         }
       },
-      "minecraft:physics": {
-      },
+      "minecraft:physics": {},
       "minecraft:pushable": {
         "is_pushable": true,
         "is_pushable_by_piston": true
       },
-      "minecraft:conditional_bandwidth_optimization": {
-      }
+      "minecraft:conditional_bandwidth_optimization": {}
     },
-
     "events": {
       "minecraft:entity_spawned": {
         "sequence": [
@@ -268,7 +285,11 @@
                 }
               ]
             },
-            "add": { "component_groups": [ "loot_cold" ] }
+            "add": {
+              "component_groups": [
+                "loot_cold"
+              ]
+            }
           },
           {
             "filters": {
@@ -284,7 +305,11 @@
                 }
               ]
             },
-            "add": { "component_groups": [ "loot_warm" ] }
+            "add": {
+              "component_groups": [
+                "loot_warm"
+              ]
+            }
           },
           {
             "filters": {
@@ -305,11 +330,14 @@
                 }
               ]
             },
-            "add": { "component_groups": [ "loot_temperate" ] }
+            "add": {
+              "component_groups": [
+                "loot_temperate"
+              ]
+            }
           }
         ]
       },
-
       "minecraft:entity_born": {
         "add": {
           "component_groups": [
@@ -317,19 +345,16 @@
           ]
         }
       },
-
       "minecraft:entity_transformed": {
-        "remove": {
-        },
+        "remove": {},
         "add": {
           "component_groups": [
             "minecraft:cow_adult"
           ]
         }
       },
-
       "minecraft:ageable_grow_up": {
-          "sequence": [
+        "sequence": [
           {
             "filters": {
               "all_of": [
@@ -349,7 +374,12 @@
                 "minecraft:cow_baby"
               ]
             },
-            "add": { "component_groups": [ "loot_cold","minecraft:cow_adult" ] }
+            "add": {
+              "component_groups": [
+                "loot_cold",
+                "minecraft:cow_adult"
+              ]
+            }
           },
           {
             "filters": {
@@ -370,7 +400,12 @@
                 "minecraft:cow_baby"
               ]
             },
-            "add": { "component_groups": [ "loot_warm","minecraft:cow_adult" ] }
+            "add": {
+              "component_groups": [
+                "loot_warm",
+                "minecraft:cow_adult"
+              ]
+            }
           },
           {
             "filters": {
@@ -396,12 +431,15 @@
                 "minecraft:cow_baby"
               ]
             },
-            "add": { "component_groups": [ "loot_temperate","minecraft:cow_adult" ] }
+            "add": {
+              "component_groups": [
+                "loot_temperate",
+                "minecraft:cow_adult"
+              ]
+            }
           }
         ]
-        
       },
-
       "minecraft:spawn_adult": {
         "add": {
           "component_groups": [

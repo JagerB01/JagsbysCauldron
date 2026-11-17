@@ -23,7 +23,7 @@ function tryOpenFromCauldron(player, itemStack) {
 async function showMenu(player) {
   const settings = getModuleSettings();
   const op = player.isOp();
-  const names = { diplomacy: 'Diplomacy', croft: 'Croft', mfs: 'Mob Far Scaling', conquest_commerce: 'Conquest & Commerce (scripts)' };
+  const names = { croft: 'Croft', mfs: 'Mob Far Scaling', conquest_commerce: 'Conquest & Commerce (scripts)' };
   const status = Object.entries(settings)
     .map(([key, value]) => `${value ? '§aEnabled' : '§cDisabled'}§r  §f${names[key] ?? key}§r`)
     .join('\n');
@@ -50,7 +50,6 @@ async function showSettings(player) {
   const s = getModuleSettings();
   const form = new ModalFormData()
     .title("Jagsby's Cauldron Modules")
-    .toggle('Diplomacy', { defaultValue: s.diplomacy })
     .toggle('Croft', { defaultValue: s.croft })
     .toggle('Mob Far Scaling', { defaultValue: s.mfs })
     .toggle('Conquest & Commerce (scripted haggling)', { defaultValue: s.conquest_commerce })
@@ -60,10 +59,9 @@ async function showSettings(player) {
   if (res.canceled || !res.formValues || !player.isOp()) return;
 
   saveModuleSettings({
-    diplomacy: res.formValues[0] === true,
-    croft: res.formValues[1] === true,
-    mfs: res.formValues[2] === true,
-    conquest_commerce: res.formValues[3] === true
+    croft: res.formValues[0] === true,
+    mfs: res.formValues[1] === true,
+    conquest_commerce: res.formValues[2] === true
   });
 
   player.sendMessage("§a[Jagsby\'s Cauldron] Module settings saved. Restart the world to apply changes.");
