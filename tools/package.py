@@ -15,6 +15,7 @@ for pack in PACKS:
 bp=json.loads((ROOT/PACKS[0]/'manifest.json').read_text());rp=json.loads((ROOT/PACKS[1]/'manifest.json').read_text())
 assert any(d.get('uuid')==rp['header']['uuid'] and d['version']==rp['header']['version'] for d in bp['dependencies'])
 subprocess.run(['node',str(ROOT/'tests/modules.test.mjs')],check=True)
+subprocess.run(['node',str(ROOT/'tests/mob_far_scaling.test.mjs')],check=True)
 subprocess.run([sys.executable,str(ROOT/'tests/conquest_commerce.test.py')],check=True)
 version='.'.join(map(str,bp['header']['version']))
 out=ROOT/'downloads'/f'Jagsbys_Cauldron_v{version}.mcaddon'

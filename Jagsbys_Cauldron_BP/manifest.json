@@ -1,13 +1,13 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Jagsby's Cauldron v0.0.15",
+    "name": "Jagsby's Cauldron v0.0.16",
     "description": "Croft, Mob Far Scaling, and Conquest & Commerce in one shared add-on.",
     "uuid": "1d8f989a-d378-4d22-a589-7f0b9c02fd95",
     "version": [
       0,
       0,
-      15
+      16
     ],
     "min_engine_version": [
       1,
@@ -22,7 +22,7 @@
       "version": [
         0,
         0,
-        15
+        16
       ]
     },
     {
@@ -32,7 +32,7 @@
       "version": [
         0,
         0,
-        15
+        16
       ],
       "entry": "scripts/main.js"
     }
@@ -51,7 +51,7 @@
       "version": [
         0,
         0,
-        15
+        16
       ]
     }
   ],

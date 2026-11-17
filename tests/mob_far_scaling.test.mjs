@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+const source=fs.readFileSync(new URL('../Jagsbys_Cauldron_BP/scripts/modules/mob_far_scaling.js',import.meta.url),'utf8');
+let stored,writes=0,scan,players=[];
+const event={subscribe(){}};
+const world={getDynamicProperty:()=>stored,setDynamicProperty:(_,value)=>{stored=value;writes++;},getAllPlayers:()=>players,beforeEvents:{entityHurt:event},afterEvents:{entityDie:event,playerJoin:event}};
+const system={runInterval:cb=>{scan=cb;},runTimeout(){},beforeEvents:{startup:event}};
+const context={world,system,console:{log(){},warn(){},error(){}},isCauldronModuleActive:()=>true};
+vm.runInNewContext(source.replace(/^import .*;\n/gm,'')+'\nglobalThis.api={get config(){return config;},shouldScale,loadGlobalConfig,saveGlobalConfig,isBoss,isEnderDragon};',context);
+const api=context.api;
+const entity=(id,families=[])=>({typeId:'minecraft:'+id,getComponent:name=>name==='minecraft:type_family'?{getTypeFamilies:()=>families}:undefined});
+const passive=['sheep','cow','pig','chicken','rabbit','cod','salmon','tropicalfish','squid','glow_squid','horse','donkey','mule','cat','ocelot','fox','turtle','frog','tadpole','parrot','strider','camel','sniffer','armadillo','villager_v2','wandering_trader','allay','copper_golem'];
+for(const id of passive)assert.equal(api.shouldScale(entity(id,['animal','villager','wandering_trader'])),false,id);
+const fighters=['iron_golem','snow_golem','wolf','polar_bear','bee','enderman','piglin','zombie_pigman','llama','trader_llama','panda','dolphin','pufferfish','axolotl'];
+for(const id of fighters)assert.equal(api.shouldScale(entity(id,['animal'])),true,id);
+for(const id of ['zombie','skeleton','creeper','spider','witch','guardian','breeze','creaking'])assert.equal(api.shouldScale(entity(id,['monster'])),true,id);
+assert.equal(api.isBoss(entity('wither')),true);assert.equal(api.isBoss(entity('warden')),true);assert.equal(api.isEnderDragon(entity('ender_dragon')),true);
+// Existing worlds migrate once without resetting unrelated configuration.
+stored=JSON.stringify({animalEnabled:true,distanceStep:800,monsterEnabled:false,creatureEnabled:true});
+api.loadGlobalConfig();assert.equal(api.config.animalEnabled,false);assert.equal(api.config.distanceStep,800);assert.equal(api.config.monsterEnabled,false);assert.equal(writes,1);
+assert.equal(JSON.parse(stored).scalingPolicyVersion,1);
+api.config.animalEnabled=true;api.saveGlobalConfig();const before=writes;api.loadGlobalConfig();assert.equal(api.config.animalEnabled,true);assert.equal(writes,before);
+assert.equal(api.shouldScale(entity('sheep',['animal'])),true);
+api.config.animalEnabled=false;api.config.monsterEnabled=true;
+// Exercise repeated scan passes: one query per dimension and one buff application.
+let queries=0,locationReads=0,effects=[];const tags=new Set();
+const wolf={...entity('wolf',['animal']),id:'wolf1',hasTag:t=>tags.has(t),addTag:t=>tags.add(t),get location(){locationReads++;return {x:800,y:64,z:0};},addEffect:(...args)=>effects.push(args)};
+const getComponent=wolf.getComponent;wolf.getComponent=name=>name==='minecraft:health'?{effectiveMax:20,currentValue:20}:getComponent(name);
+const dimension={id:'overworld',getEntities:()=>{queries++;return [wolf];}};
+players=[{dimension},{dimension}];scan();assert.equal(queries,1);assert.equal(effects.filter(e=>e[0]==='health_boost').length,1);const firstReads=locationReads,firstEffects=effects.length;
+scan();assert.equal(queries,2);assert.equal(locationReads,firstReads);assert.equal(effects.length,firstEffects);
+console.log('PASS: passive defaults, combat eligibility, one-time migration, explicit opt-in, boss classification, one-time buffs and dimension scan deduplication.');

@@ -3,7 +3,7 @@
 Minecraft Bedrock add-on combining Croft (Apiary Cap and Hen House),
 Mob Far Scaling, and Conquest & Commerce.
 
-[Download v0.0.15 (.mcaddon)](https://github.com/JagerB01/JagsbysCauldron/raw/refs/heads/main/downloads/Jagsbys_Cauldron_v0.0.15.mcaddon)
+[Download v0.0.16 (.mcaddon)](https://github.com/JagerB01/JagsbysCauldron/raw/refs/heads/main/downloads/Jagsbys_Cauldron_v0.0.16.mcaddon)
 
 The `downloads` directory contains the installable add-on and SHA-256 checksum.
 Source for both packs is included, so the add-on can be rebuilt independently.
@@ -26,6 +26,24 @@ See [integration notes](docs/conquest_commerce/README.md).
 Mob Far Scaling retains Cauldron's 400-block default per scaling level.
 Pack identifiers retain the original Cauldron UUIDs; do not activate
 standalone copies of the integrated add-ons alongside Cauldron.
+
+## Mob Far Scaling eligibility
+
+Passive-animal scaling is off by default, including in migrated existing worlds.
+Hostiles and combat-capable neutral mobs/defenders remain eligible: iron and snow
+golems, wolves (including tamed wolves), polar bears, bees, endermen, piglins,
+zombified piglins, llamas, trader llamas, pandas, dolphins, pufferfish and axolotls.
+Villagers, wandering traders, allays and copper golems are excluded by default.
+Boss handling is unchanged. Existing scaling effects are not removed.
+Buffs are applied once and marked with persistent entity tags. Each occupied
+dimension is scanned once per second, and tagged mobs skip level calculations
+and effect application.
+
+Operators can explicitly opt passive animals back in with
+`/mobfarscaling:animal enable`. `/mobfarscaling:creature disable` disables the
+neutral/defender group; monster-family mobs also follow the monster switch.
+Existing custom lists remain available as operator overrides. The one-time
+migration preserves other settings and subsequent explicit animal opt-ins.
 
 ## Vibrant Visuals
 

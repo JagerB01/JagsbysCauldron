@@ -52,8 +52,8 @@ const texts = {
         and: "and",
         error: "Error",
         monsterExamples: "§7Examples: Zombie, Skeleton, Creeper, Spider, Enderman, Witch, Pillager, Vindicator, Ravager",
-        animalExamples: "§7Examples: Cow, Pig, Sheep, Chicken, Rabbit",
-        creatureExamples: "§7Examples: Iron Golem, Snow Golem, Allay, Wandering Trader (detected by family)",
+        animalExamples: "§7Optional passive scaling (off by default): Cow, Pig, Sheep, Chicken, Rabbit",
+        creatureExamples: "§7Combat mobs: Golems, Wolves, Polar Bears, Bees, Llamas, Pandas, Dolphins, Pufferfish, Axolotls, Piglins, Endermen",
         bossExamples: "§7Examples: Wither, Warden (Ender Dragon has special config)",
         levelInfo: "§7Current mob scaling level in this area: §e",
         adminOnly: "§c(Admin only)",
@@ -93,7 +93,7 @@ const texts = {
         invalidId: "Invalid mob ID. Must contain a colon ':' (e.g., minecraft:zombie)",
         monsterInfo: "§7Includes: monster/hoglin/infected families (includes illager/witch/ravager)",
         animalInfo: "§7Includes: animals (by 'animal' family type or specific ID)",
-        creatureInfo: "§7Includes: villagers, wandering traders (by family type) and golems, allays, etc.",
+        creatureInfo: "§7Combat-capable neutral mobs and defenders; excludes villagers, traders, allays and copper golems.",
         bossInfo: "§7Includes: Wither, Warden and custom bosses (Ender Dragon has special config)",
         animalListInfo: "§7Custom animal IDs (these will be treated as animals)",
         creatureListInfo: "§7Custom creature IDs (these will be treated as creatures)",
@@ -240,7 +240,7 @@ let config = {
     speedPerLevel: 1,
     xpOrbsPerLevel: 1,
     monsterEnabled: true,
-    animalEnabled: true,
+    animalEnabled: false,
     creatureEnabled: true,
     bossEnabled: true,
     maxHealthBoost: 251,
@@ -404,7 +404,11 @@ function getAnimalTypesGrouped() {
 
 // ==================== LISTA DE CRIATURAS ====================
 const VANILLA_CREATURE_IDS = [
-    "minecraft:iron_golem", "minecraft:snow_golem", "minecraft:copper_golem", "minecraft:allay"
+    "minecraft:iron_golem", "minecraft:snow_golem",
+    "minecraft:wolf", "minecraft:polar_bear", "minecraft:bee",
+    "minecraft:enderman", "minecraft:piglin", "minecraft:zombie_pigman",
+    "minecraft:llama", "minecraft:trader_llama", "minecraft:panda",
+    "minecraft:dolphin", "minecraft:pufferfish", "minecraft:axolotl"
 ];
 
 const ADDON_CREATURE_IDS = [
@@ -598,6 +602,7 @@ function getRandomOreCount(isBoss) {
 function saveGlobalConfig() {
     try {
         const globalConfig = {
+            scalingPolicyVersion: 1,
             enabled: config.enabled,
             distanceStep: config.distanceStep,
             yBaseHeight: config.yBaseHeight,
@@ -640,7 +645,7 @@ function loadGlobalConfig() {
             config.speedPerLevel = loadedConfig.speedPerLevel !== undefined ? loadedConfig.speedPerLevel : 1;
             config.xpOrbsPerLevel = loadedConfig.xpOrbsPerLevel !== undefined ? loadedConfig.xpOrbsPerLevel : 1;
             config.monsterEnabled = loadedConfig.monsterEnabled !== undefined ? loadedConfig.monsterEnabled : true;
-            config.animalEnabled = loadedConfig.animalEnabled !== undefined ? loadedConfig.animalEnabled : true;
+            config.animalEnabled = loadedConfig.scalingPolicyVersion === 1 && loadedConfig.animalEnabled === true;
             config.creatureEnabled = loadedConfig.creatureEnabled !== undefined ? loadedConfig.creatureEnabled : true;
             config.bossEnabled = loadedConfig.bossEnabled !== undefined ? loadedConfig.bossEnabled : true;
             config.maxHealthBoost = loadedConfig.maxHealthBoost !== undefined ? loadedConfig.maxHealthBoost : 251;
@@ -651,6 +656,9 @@ function loadGlobalConfig() {
             config.maxOreChance = loadedConfig.maxOreChance !== undefined ? loadedConfig.maxOreChance : 50;
             config.maxBossOreChance = loadedConfig.maxBossOreChance !== undefined ? loadedConfig.maxBossOreChance : 100;
             config.enderDragonResistance = loadedConfig.enderDragonResistance !== undefined ? loadedConfig.enderDragonResistance : 75;
+            // One-time migration: old worlds opted every animal into scaling.
+            // Preserve other settings and any later explicit animal opt-in.
+            if (loadedConfig.scalingPolicyVersion !== 1) saveGlobalConfig();
             console.log(`[MobFarScaling] Global config loaded`);
         } else {
             console.log(`[MobFarScaling] No saved global config found, using defaults`);
@@ -734,7 +742,6 @@ function saveBossList() {
 // ==================== DEFINICIÓN DE MOBS POR TIPO ====================
 const monsterFamilies = ["monster", "hoglin", "infected"];
 const animalFamilies = ["animal"];
-const creatureFamilies = ["villager", "pigman", "piglan", "wandering_trader"];
 
 // ==================== FUNCIONES DE VERIFICACIÓN ====================
 function isBlacklisted(entity) {
@@ -806,16 +813,8 @@ function isCreature(entity) {
     if (!config.creatureEnabled) return false;
 
     try {
-        const families = entity.getComponent("minecraft:type_family");
-        if (families) {
-            const familyTypes = families.getTypeFamilies();
-            for (const creatureFamily of creatureFamilies) {
-                if (familyTypes.includes(creatureFamily)) {
-                    return true;
-                }
-            }
-        }
-
+        // Combat-capable neutral mobs and defenders use an explicit list.
+        // Villager/trader families also contain passive mobs and are not eligible.
         const typeId = entity.typeId;
         return getCreatureTypes().includes(typeId);
     } catch (e) {
@@ -1229,11 +1228,17 @@ system.runInterval(() => {
     if (!isCauldronModuleActive("mfs")) return;
     if (!config.enabled) return;
 
+    const checkedDimensions = new Set();
     for (const player of world.getAllPlayers()) {
         const dimension = player.dimension;
+        if (checkedDimensions.has(dimension.id)) continue;
+        checkedDimensions.add(dimension.id);
         const allEntities = dimension.getEntities();
 
         for (const entity of allEntities) {
+            // Buffs are one-time adjustments. Skip marked mobs before reading
+            // location, calculating levels, or looking up type/family components.
+            if (entity.hasTag(SCALED_TAG) || entity.hasTag(BOSS_SCALED_TAG) || entity.hasTag(ENDER_DRAGON_TAG)) continue;
             const location = entity.location;
             const level = calculateMobLevel(location.x, location.y, location.z);
 
@@ -2419,7 +2424,7 @@ system.beforeEvents.startup.subscribe(({ customCommandRegistry }) => {
                 speedPerLevel: 1,
                 xpOrbsPerLevel: 1,
                 monsterEnabled: true,
-                animalEnabled: true,
+                animalEnabled: false,
                 creatureEnabled: true,
                 bossEnabled: true,
                 maxHealthBoost: 251,
