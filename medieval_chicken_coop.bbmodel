@@ -1,0 +1,2731 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "bedrock",
+    "box_uv": false
+  },
+  "name": "Medieval Chicken Coop",
+  "model_identifier": "jagsby_hen_house_front",
+  "resolution": {
+    "width": 64,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "Stone footing",
+      "type": "cube",
+      "uuid": "203df3d2-07b4-4dfa-b8e9-1d95c4a20482",
+      "from": [
+        -6.5,
+        0,
+        -5.5
+      ],
+      "to": [
+        -4.5,
+        1.25,
+        -3.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Stone footing",
+      "type": "cube",
+      "uuid": "8f341a17-b880-4329-b9b4-48d23eb8be31",
+      "from": [
+        -6.5,
+        0,
+        4.5
+      ],
+      "to": [
+        -4.5,
+        1.25,
+        6.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Stone footing",
+      "type": "cube",
+      "uuid": "6b523541-97ff-4fb1-8037-9c8c1da89118",
+      "from": [
+        4.5,
+        0,
+        -5.5
+      ],
+      "to": [
+        6.5,
+        1.25,
+        -3.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Stone footing",
+      "type": "cube",
+      "uuid": "9d944d93-603a-42c3-b6b2-e6e4ec77d82a",
+      "from": [
+        4.5,
+        0,
+        4.5
+      ],
+      "to": [
+        6.5,
+        1.25,
+        6.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            16,
+            16,
+            32
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Floor deck",
+      "type": "cube",
+      "uuid": "131bfeaf-5a9b-4d05-98d2-5580589161e3",
+      "from": [
+        -6.5,
+        1.25,
+        -6
+      ],
+      "to": [
+        6.5,
+        2.5,
+        6
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Corner timber",
+      "type": "cube",
+      "uuid": "d1ef084f-1738-48df-a514-790d5f404eca",
+      "from": [
+        -6.5,
+        2.5,
+        -6
+      ],
+      "to": [
+        -5.25,
+        10.75,
+        -4.75
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Corner timber",
+      "type": "cube",
+      "uuid": "7dbed103-9ffd-44bc-8ff9-b95d447b4666",
+      "from": [
+        -6.5,
+        2.5,
+        4.75
+      ],
+      "to": [
+        -5.25,
+        10.75,
+        6.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Corner timber",
+      "type": "cube",
+      "uuid": "ef6a7da8-20af-4a6f-98c8-a2e1409841ba",
+      "from": [
+        5.25,
+        2.5,
+        -6
+      ],
+      "to": [
+        6.5,
+        10.75,
+        -4.75
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Corner timber",
+      "type": "cube",
+      "uuid": "ecb2059c-d061-41f3-bfa5-53310d2f9559",
+      "from": [
+        5.25,
+        2.5,
+        4.75
+      ],
+      "to": [
+        6.5,
+        10.75,
+        6.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Side infill",
+      "type": "cube",
+      "uuid": "f4f6d978-f138-48c6-a028-ca737a6db314",
+      "from": [
+        -6,
+        2.5,
+        -4.7
+      ],
+      "to": [
+        -5.25,
+        9.75,
+        4.7
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Side sill",
+      "type": "cube",
+      "uuid": "27554247-af7a-4c16-9131-9413884a800e",
+      "from": [
+        -6.15,
+        2.5,
+        -4.7
+      ],
+      "to": [
+        -5.1,
+        3.75,
+        4.7
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Side rail",
+      "type": "cube",
+      "uuid": "3b210fdc-fabd-4ccf-889a-9963304c049b",
+      "from": [
+        -6.15,
+        8.75,
+        -4.7
+      ],
+      "to": [
+        -5.1,
+        10,
+        4.7
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Side mullion",
+      "type": "cube",
+      "uuid": "0b4ace40-105d-4480-b98b-3b8d7708598f",
+      "from": [
+        -6.15,
+        3.75,
+        -0.6
+      ],
+      "to": [
+        -5.1,
+        8.75,
+        0.6
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Side infill",
+      "type": "cube",
+      "uuid": "fbed55d8-5e9e-4684-922d-dbabe9b40252",
+      "from": [
+        5.25,
+        2.5,
+        -4.7
+      ],
+      "to": [
+        6.0,
+        9.75,
+        4.7
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            32,
+            0,
+            48,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Side sill",
+      "type": "cube",
+      "uuid": "4974dc41-0517-4539-947e-1d619087ed4c",
+      "from": [
+        5.1,
+        2.5,
+        -4.7
+      ],
+      "to": [
+        6.15,
+        3.75,
+        4.7
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Side rail",
+      "type": "cube",
+      "uuid": "80f6c463-6181-4579-b2b5-94cb610b7e1b",
+      "from": [
+        5.1,
+        8.75,
+        -4.7
+      ],
+      "to": [
+        6.15,
+        10,
+        4.7
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Side mullion",
+      "type": "cube",
+      "uuid": "71284fc8-11f3-4c25-a067-ae5abebffa37",
+      "from": [
+        5.1,
+        3.75,
+        -0.6
+      ],
+      "to": [
+        6.15,
+        8.75,
+        0.6
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Rear boards",
+      "type": "cube",
+      "uuid": "4f55766c-2e10-4320-8edc-1dd823bbe912",
+      "from": [
+        -5.25,
+        2.5,
+        5
+      ],
+      "to": [
+        5.25,
+        10,
+        6
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Lintel",
+      "type": "cube",
+      "uuid": "758bfa16-2d03-46c5-82a9-6ad0d83f52ef",
+      "from": [
+        -6.5,
+        8.5,
+        -6
+      ],
+      "to": [
+        6.5,
+        10.75,
+        -4.75
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Left hatch wall",
+      "type": "cube",
+      "uuid": "2a6771ee-19a3-45c6-976d-ddeec0d2c2f1",
+      "from": [
+        -5.25,
+        2.5,
+        -6
+      ],
+      "to": [
+        -2.4,
+        8.5,
+        -4.75
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Right hatch wall",
+      "type": "cube",
+      "uuid": "72b05cd7-0fa3-4844-a951-da89bc9ebe45",
+      "from": [
+        2.4,
+        2.5,
+        -6
+      ],
+      "to": [
+        5.25,
+        8.5,
+        -4.75
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Hatch threshold",
+      "type": "cube",
+      "uuid": "94c14cce-dc89-498a-8702-fdf3dfc4a83f",
+      "from": [
+        -2.4,
+        2.5,
+        -6
+      ],
+      "to": [
+        2.4,
+        3,
+        -4.65
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Hatch header",
+      "type": "cube",
+      "uuid": "e54369bf-04b7-4c1d-9ea9-bd0cda83f7e6",
+      "from": [
+        -2.4,
+        7.25,
+        -6
+      ],
+      "to": [
+        2.4,
+        8.5,
+        -4.75
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Iron hinge",
+      "type": "cube",
+      "uuid": "1fc1a5ce-aaf8-4983-a130-ade003f4e93b",
+      "from": [
+        -4.65,
+        4,
+        -6.25
+      ],
+      "to": [
+        -3.65,
+        6.25,
+        -6
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            16,
+            64,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            16,
+            64,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            16,
+            64,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            16,
+            64,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            16,
+            64,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            48,
+            16,
+            64,
+            32
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Bottom step",
+      "type": "cube",
+      "uuid": "d113918a-88cc-4b10-bb1f-5eb11216d5b2",
+      "from": [
+        -2.5,
+        0,
+        -8
+      ],
+      "to": [
+        2.5,
+        1.25,
+        -6
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Upper step",
+      "type": "cube",
+      "uuid": "69ac8bbf-db4a-48d5-8b56-48ae35efb4ad",
+      "from": [
+        -2.5,
+        1.25,
+        -7.1
+      ],
+      "to": [
+        2.5,
+        2.5,
+        -5.95
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Straw bedding",
+      "type": "cube",
+      "uuid": "06a0dfbf-60f0-41e7-94f1-86a635443245",
+      "from": [
+        -2.75,
+        2.5,
+        -3.75
+      ],
+      "to": [
+        2.75,
+        3.25,
+        2.25
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            16,
+            32,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            16,
+            32,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            16,
+            32,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            16,
+            32,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            16,
+            32,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            16,
+            32,
+            32
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "First egg",
+      "type": "cube",
+      "uuid": "2e781d6e-547b-423f-b433-460f0388f5ef",
+      "from": [
+        -1.6,
+        3.25,
+        -2.4
+      ],
+      "to": [
+        -0.5,
+        4.15,
+        -1
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Second egg",
+      "type": "cube",
+      "uuid": "1f455d9a-d82e-4fe2-a39b-619e184277fc",
+      "from": [
+        0.15,
+        3.25,
+        -1.6
+      ],
+      "to": [
+        1.25,
+        4.25,
+        -0.15
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            32,
+            16,
+            48,
+            32
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Shingle course 1",
+      "type": "cube",
+      "uuid": "a93dda1e-a0c6-4a29-8c3d-3f0639eaf5b1",
+      "from": [
+        -8.0,
+        10.25,
+        -7.25
+      ],
+      "to": [
+        8.0,
+        11.5,
+        7.25
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Shingle course 2",
+      "type": "cube",
+      "uuid": "55aa5e66-5b6e-40de-b14c-f0208c587d48",
+      "from": [
+        -6.5,
+        11.5,
+        -7.25
+      ],
+      "to": [
+        6.5,
+        12.75,
+        7.25
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Shingle course 3",
+      "type": "cube",
+      "uuid": "9ade6a6a-d769-4a40-acdb-12e84473a920",
+      "from": [
+        -5.0,
+        12.75,
+        -7.25
+      ],
+      "to": [
+        5.0,
+        14.0,
+        7.25
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Shingle course 4",
+      "type": "cube",
+      "uuid": "b5c5a250-c9fa-43b2-a1a9-be2c86b28009",
+      "from": [
+        -3.5,
+        14,
+        -7.25
+      ],
+      "to": [
+        3.5,
+        15.25,
+        7.25
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Shingle course 5",
+      "type": "cube",
+      "uuid": "5eedfc5d-a904-40a6-9ccc-63f03d9ce8fe",
+      "from": [
+        -1.75,
+        15.25,
+        -7.25
+      ],
+      "to": [
+        1.75,
+        16.0,
+        7.25
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            48,
+            0,
+            64,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            32,
+            16
+          ],
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "foundation",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "uuid": "82bf98f6-60ad-49ef-84ab-eee36817bef8",
+      "children": [
+        "203df3d2-07b4-4dfa-b8e9-1d95c4a20482",
+        "8f341a17-b880-4329-b9b4-48d23eb8be31",
+        "6b523541-97ff-4fb1-8037-9c8c1da89118",
+        "9d944d93-603a-42c3-b6b2-e6e4ec77d82a",
+        "131bfeaf-5a9b-4d05-98d2-5580589161e3"
+      ],
+      "isOpen": true
+    },
+    {
+      "name": "timber_frame",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "uuid": "c2ec3c13-e2a4-490d-b8bd-c4438af40b5f",
+      "children": [
+        "d1ef084f-1738-48df-a514-790d5f404eca",
+        "7dbed103-9ffd-44bc-8ff9-b95d447b4666",
+        "ef6a7da8-20af-4a6f-98c8-a2e1409841ba",
+        "ecb2059c-d061-41f3-bfa5-53310d2f9559",
+        "f4f6d978-f138-48c6-a028-ca737a6db314",
+        "27554247-af7a-4c16-9131-9413884a800e",
+        "3b210fdc-fabd-4ccf-889a-9963304c049b",
+        "0b4ace40-105d-4480-b98b-3b8d7708598f",
+        "fbed55d8-5e9e-4684-922d-dbabe9b40252",
+        "4974dc41-0517-4539-947e-1d619087ed4c",
+        "80f6c463-6181-4579-b2b5-94cb610b7e1b",
+        "71284fc8-11f3-4c25-a067-ae5abebffa37",
+        "4f55766c-2e10-4320-8edc-1dd823bbe912",
+        "758bfa16-2d03-46c5-82a9-6ad0d83f52ef"
+      ],
+      "isOpen": true
+    },
+    {
+      "name": "hatch_and_nest",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "uuid": "cc75dbae-90f9-4493-8958-c66c58eab3c3",
+      "children": [
+        "2a6771ee-19a3-45c6-976d-ddeec0d2c2f1",
+        "72b05cd7-0fa3-4844-a951-da89bc9ebe45",
+        "94c14cce-dc89-498a-8702-fdf3dfc4a83f",
+        "e54369bf-04b7-4c1d-9ea9-bd0cda83f7e6",
+        "1fc1a5ce-aaf8-4983-a130-ade003f4e93b",
+        "d113918a-88cc-4b10-bb1f-5eb11216d5b2",
+        "69ac8bbf-db4a-48d5-8b56-48ae35efb4ad",
+        "06a0dfbf-60f0-41e7-94f1-86a635443245",
+        "2e781d6e-547b-423f-b433-460f0388f5ef",
+        "1f455d9a-d82e-4fe2-a39b-619e184277fc"
+      ],
+      "isOpen": true
+    },
+    {
+      "name": "gable_roof",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "uuid": "3e48f3d5-e1e6-41c0-8095-8cf75709d8d4",
+      "children": [
+        "a93dda1e-a0c6-4a29-8c3d-3f0639eaf5b1",
+        "55aa5e66-5b6e-40de-b14c-f0208c587d48",
+        "9ade6a6a-d769-4a40-acdb-12e84473a920",
+        "b5c5a250-c9fa-43b2-a1a9-be2c86b28009",
+        "5eedfc5d-a904-40a6-9ccc-63f03d9ce8fe"
+      ],
+      "isOpen": true
+    }
+  ],
+  "textures": [
+    {
+      "name": "medieval_chicken_coop.png",
+      "id": "0",
+      "uuid": "f1069aeb-6be9-4c04-b767-982485962f3f",
+      "mode": "bitmap",
+      "saved": true,
+      "width": 64,
+      "height": 32,
+      "uv_width": 64,
+      "uv_height": 32,
+      "source": "data:image/png;base64,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"
+    }
+  ]
+}
