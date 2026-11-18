@@ -114,7 +114,8 @@
               "min_wait_time": 300,
               "max_wait_time": 600,
               "spawn_sound": "plop",
-              "spawn_item": "egg",
+              "spawn_entity": "jagsby:laid_egg",
+              "spawn_event": "jagsby:lay_egg",
               "filters": [
                 {
                   "test": "rider_count",
@@ -134,7 +135,8 @@
               "min_wait_time": 300,
               "max_wait_time": 600,
               "spawn_sound": "plop",
-              "spawn_item": "brown_egg",
+              "spawn_entity": "jagsby:laid_egg",
+              "spawn_event": "jagsby:lay_brown_egg",
               "filters": [
                 {
                   "test": "rider_count",
@@ -154,7 +156,8 @@
               "min_wait_time": 300,
               "max_wait_time": 600,
               "spawn_sound": "plop",
-              "spawn_item": "blue_egg",
+              "spawn_entity": "jagsby:laid_egg",
+              "spawn_event": "jagsby:lay_blue_egg",
               "filters": [
                 {
                   "test": "rider_count",

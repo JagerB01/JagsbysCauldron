@@ -8,6 +8,9 @@
     "jagsby_hen_house": {
       "textures": "textures/blocks/hen_house"
     },
+    "jagsby_medieval_chicken_coop": {
+      "textures": "textures/blocks/medieval_chicken_coop"
+    },
     "amethyst_ore": {
       "textures": "textures/blocks/amethyst_ore"
     },

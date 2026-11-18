@@ -3,7 +3,7 @@
 Minecraft Bedrock add-on combining Croft (Apiary Cap and Hen House),
 Mob Far Scaling, and Conquest & Commerce.
 
-[Download v0.0.16 (.mcaddon)](https://github.com/JagerB01/JagsbysCauldron/raw/refs/heads/main/downloads/Jagsbys_Cauldron_v0.0.16.mcaddon)
+[Download v0.0.18 (.mcaddon)](https://github.com/JagerB01/JagsbysCauldron/blob/download/cauldron-v0.0.18/downloads/Jagsbys_Cauldron_v0.0.18.mcaddon)
 
 The `downloads` directory contains the installable add-on and SHA-256 checksum.
 Source for both packs is included, so the add-on can be rebuilt independently.
@@ -16,7 +16,15 @@ Script API server 2.9.0 / server-ui 2.1.0.
 
 Use the Jagsby's Cauldron item for settings. Only operators can change toggles;
 changes apply on world restart. Existing Apiary settings migrate to Croft.
-Hen House currently provides placement and breaking behaviour, not egg farming.
+New Hen Houses occupy one block and face whoever places them. With Croft enabled,
+the nearest Hen House with room collects chicken eggs laid within 16 blocks of
+its center. It holds up to 64 eggs in total, including regular, brown, and blue
+eggs. Interact with the coop to move eggs into your inventory, or break it to drop
+its contents. The coop does not change how often chickens lay eggs.
+
+For other add-ons, Croft attempts to collect freshly spawned duck and turkey egg
+items near a matching bird when the item and bird identifiers identify the species.
+The external pack must spawn a loose egg item for this check to work.
 
 The Conquest & Commerce switch controls scripted haggling only. Its data-driven
 trades, entities (including vanilla replacements), recipes, world generation,

@@ -6,7 +6,8 @@
       "states": {
         "jagsby:half": [
           "front",
-          "back"
+          "back",
+          "single"
         ],
         "jagsby:facing": [
           "north",
@@ -55,9 +56,46 @@
         "explosion_resistance": 3
       },
       "minecraft:map_color": "#B58A52",
-      "minecraft:loot": "loot_tables/blocks/hen_house.json"
+      "minecraft:loot": "loot_tables/blocks/hen_house.json",
+      "jagsby:hen_house_storage": {}
     },
     "permutations": [
+      {
+        "condition": "query.block_state('jagsby:half') == 'single'",
+        "components": {
+          "minecraft:geometry": "geometry.jagsby_medieval_chicken_coop",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "jagsby_medieval_chicken_coop",
+              "render_method": "opaque"
+            }
+          },
+          "minecraft:collision_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              16,
+              16
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              16,
+              16
+            ]
+          }
+        }
+      },
       {
         "condition": "query.block_state('jagsby:half') == 'back'",
         "components": {

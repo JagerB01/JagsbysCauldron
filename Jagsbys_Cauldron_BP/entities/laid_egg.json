@@ -1,0 +1,49 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "jagsby:laid_egg",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": 5,
+        "time_down_event": {
+          "event": "jagsby:expire",
+          "target": "self"
+        }
+      }
+    },
+    "component_groups": {
+      "jagsby:expire": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "events": {
+      "jagsby:lay_egg": {},
+      "jagsby:lay_brown_egg": {},
+      "jagsby:lay_blue_egg": {},
+      "jagsby:expire": {
+        "add": {
+          "component_groups": [
+            "jagsby:expire"
+          ]
+        }
+      }
+    }
+  }
+}
