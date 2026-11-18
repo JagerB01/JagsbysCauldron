@@ -1,13 +1,13 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Jagsby's Cauldron v0.0.16",
+    "name": "Jagsby's Cauldron v0.0.17 (Realm Test)",
     "description": "Croft, Mob Far Scaling, and Conquest & Commerce in one shared add-on.",
-    "uuid": "cc27cb5a-d47d-49af-b636-23cbc939a681",
+    "uuid": "fb4ed4b4-73e2-46c5-87f9-38ba3a7c47c8",
     "version": [
       0,
       0,
-      16
+      17
     ],
     "min_engine_version": [
       1,
@@ -18,11 +18,11 @@
   "modules": [
     {
       "type": "resources",
-      "uuid": "f59e6218-9327-4761-8c58-7e37822fffd0",
+      "uuid": "ace62df9-18f0-4f82-9ba4-9951b9cc2e70",
       "version": [
         0,
         0,
-        16
+        17
       ]
     }
   ],
