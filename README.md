@@ -3,7 +3,7 @@
 Minecraft Bedrock add-on combining Croft (Apiary Cap and Hen House),
 Mob Far Scaling, and Conquest & Commerce.
 
-[Download v0.0.18 (.mcaddon)](https://github.com/JagerB01/JagsbysCauldron/blob/download/cauldron-v0.0.18/downloads/Jagsbys_Cauldron_v0.0.18.mcaddon)
+[Download v0.0.19 (.mcaddon)](https://github.com/JagerB01/JagsbysCauldron/blob/main/downloads/Jagsbys_Cauldron_v0.0.19.mcaddon)
 
 The `downloads` directory contains the installable add-on and SHA-256 checksum.
 Source for both packs is included, so the add-on can be rebuilt independently.
@@ -30,6 +30,12 @@ The Conquest & Commerce switch controls scripted haggling only. Its data-driven
 trades, entities (including vanilla replacements), recipes, world generation,
 and resource/UI changes remain loaded when the script switch is disabled.
 See [integration notes](docs/conquest_commerce/README.md).
+
+With Jagsby's Frontier installed, keep Cauldron above Frontier in the behavior
+pack load order. Cauldron's villager definition answers Frontier's survey requests
+with the villager's current trade tier. The hook uses Frontier's survey events
+and properties and works independently of the haggling toggle. Cauldron can
+also run standalone and has no Frontier pack dependency.
 
 Mob Far Scaling retains Cauldron's 400-block default per scaling level.
 Pack identifiers retain the original Cauldron UUIDs; do not activate

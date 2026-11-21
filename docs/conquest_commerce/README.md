@@ -6,7 +6,8 @@ by Kaleo5. The upload identifies its behavior pack as 1.1.3 and resource pack as
 upload SHA-256, exact content hashes, and shared registry/translation entries.
 
 Conquest & Commerce gameplay definitions, textures, models, UI, audio assets,
-recipes, loot, trades and world generation match this upload. This includes
+recipes, loot, trades and world generation match this upload apart from the
+additive Frontier survey hooks on `minecraft:villager_v2`. This includes
 animal sound-variant properties and cartographer exploration-map functions.
 The sound fix removes the old bulk vanilla sound overrides: only upstream's
 `sparkler.use` and Croft's `apiary.honey_collect` remain in sound definitions.
@@ -33,6 +34,14 @@ Settings apply on world restart; old worlds default this module to enabled.
 Data-driven entities (including vanilla overrides), trades, recipes, loot,
 world generation and resource/UI changes remain loaded while disabled.
 A script toggle cannot unload those definitions.
+
+Cauldron's villager exposes the `jagsby_frontier:request` and
+`jagsby_frontier:reset` events and reports `ready` and `raw_rank` properties in
+the same namespace. The behavior animation controller responds on demand using
+Bedrock's trade-tier queries. It returns tiers 0–4 for ranked villagers and
+leaves the result unset when no trade tier is available. There is no Frontier
+UUID or version dependency. Frontier builds using this survey protocol can read
+the result with Cauldron above Frontier in the behavior pack order.
 
 `python3 tools/package.py` runs source-content parity checks, JSON/JSONC and
 JavaScript validation, mocked settings/haggling/performance tests, and builds
